@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/effexorxruser/open-it-learning/blob/main/catalog/schema/course.schema.json",
-  "title": "Open IT Learning verified certificate course (draft)",
-  "description": "Validates the structure of a publicly reviewed free IT course with an officially documented obtainable certificate. Human review of evidence remains mandatory.",
+  "title": "Open IT Learning — reviewed free course with an official outcome",
+  "description": "Draft structure for a free IT course with source-backed official achievements or benefits (certificates, badges, diplomas, awards, records, vouchers and other issuer-documented perks). JSON validation does not replace semantic review.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -11,7 +11,7 @@
     "provider",
     "official_url",
     "learning",
-    "certificate",
+    "outcomes",
     "evidence",
     "review"
   ],
@@ -40,8 +40,7 @@
         "type": "string",
         "minLength": 1
       },
-      "uniqueItems": true,
-      "default": []
+      "uniqueItems": true
     },
     "level": {
       "type": [
@@ -54,8 +53,7 @@
       "items": {
         "type": "string"
       },
-      "uniqueItems": true,
-      "default": []
+      "uniqueItems": true
     },
     "duration_hours": {
       "type": [
@@ -79,7 +77,7 @@
         },
         "conditions": {
           "type": "string",
-          "minLength": 2
+          "minLength": 5
         },
         "cost": {
           "const": 0
@@ -90,90 +88,18 @@
         }
       }
     },
-    "certificate": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": [
-        "available",
-        "type",
-        "requirements",
-        "cost",
-        "currency",
-        "official_evidence_url"
-      ],
-      "properties": {
-        "available": {
-          "const": true
-        },
-        "type": {
-          "enum": [
-            "completion_certificate",
-            "professional_certification",
-            "other_certificate"
-          ]
-        },
-        "requirements": {
-          "type": "string",
-          "minLength": 5
-        },
-        "cost": {
-          "type": "number",
-          "minimum": 0
-        },
-        "currency": {
-          "type": "string",
-          "pattern": "^[A-Z]{3}$"
-        },
-        "official_evidence_url": {
-          "type": "string",
-          "format": "uri",
-          "pattern": "^https://"
-        }
-      }
-    },
-    "badges": {
+    "outcomes": {
       "type": "array",
+      "minItems": 1,
       "items": {
-        "type": "string"
-      },
-      "default": []
+        "$ref": "#/$defs/outcome"
+      }
     },
     "evidence": {
       "type": "array",
       "minItems": 3,
       "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "claim",
-          "source_url",
-          "short_quote",
-          "checked_at",
-          "review_note"
-        ],
-        "properties": {
-          "claim": {
-            "type": "string",
-            "minLength": 2
-          },
-          "source_url": {
-            "type": "string",
-            "format": "uri",
-            "pattern": "^https://"
-          },
-          "short_quote": {
-            "type": "string",
-            "minLength": 2
-          },
-          "checked_at": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "review_note": {
-            "type": "string",
-            "minLength": 5
-          }
-        }
+        "$ref": "#/$defs/evidence"
       }
     },
     "review": {
@@ -186,8 +112,8 @@
       "properties": {
         "status": {
           "enum": [
-            "verified_free_certificate",
-            "verified_paid_certificate"
+            "verified_free_outcome",
+            "verified_paid_outcome"
           ]
         },
         "reviewed_at": {
@@ -204,6 +130,147 @@
       }
     }
   },
+  "$defs": {
+    "outcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "type",
+        "name",
+        "issuer",
+        "obtainable",
+        "requirements",
+        "cost_to_obtain",
+        "currency",
+        "official_evidence_url",
+        "individual_verification_url"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "recognition",
+            "benefit"
+          ]
+        },
+        "type": {
+          "enum": [
+            "completion_certificate",
+            "professional_certificate",
+            "digital_badge",
+            "diploma",
+            "award",
+            "participation_record",
+            "exam_voucher",
+            "training_credit",
+            "other_official_recognition",
+            "other_official_benefit"
+          ]
+        },
+        "name": {
+          "type": "string",
+          "minLength": 3
+        },
+        "issuer": {
+          "type": "string",
+          "minLength": 2
+        },
+        "obtainable": {
+          "const": true
+        },
+        "requirements": {
+          "type": "string",
+          "minLength": 8
+        },
+        "cost_to_obtain": {
+          "type": "number",
+          "minimum": 0
+        },
+        "currency": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$"
+        },
+        "official_evidence_url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "individual_verification_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "enum": [
+                  "exam_voucher",
+                  "training_credit",
+                  "other_official_benefit"
+                ]
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "kind": {
+                "const": "benefit"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "kind": {
+                "const": "recognition"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "claim",
+        "source_url",
+        "short_quote",
+        "checked_at",
+        "review_note"
+      ],
+      "properties": {
+        "claim": {
+          "type": "string",
+          "minLength": 2
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "short_quote": {
+          "type": "string",
+          "minLength": 2
+        },
+        "checked_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "review_note": {
+          "type": "string",
+          "minLength": 8
+        }
+      }
+    }
+  },
   "allOf": [
     {
       "if": {
@@ -211,20 +278,27 @@
           "review": {
             "properties": {
               "status": {
-                "const": "verified_free_certificate"
+                "const": "verified_free_outcome"
               }
             }
           }
-        }
+        },
+        "required": [
+          "review"
+        ]
       },
       "then": {
         "properties": {
-          "certificate": {
-            "properties": {
-              "cost": {
-                "const": 0
+          "outcomes": {
+            "contains": {
+              "type": "object",
+              "properties": {
+                "cost_to_obtain": {
+                  "const": 0
+                }
               }
-            }
+            },
+            "minContains": 1
           }
         }
       }
@@ -235,18 +309,23 @@
           "review": {
             "properties": {
               "status": {
-                "const": "verified_paid_certificate"
+                "const": "verified_paid_outcome"
               }
             }
           }
-        }
+        },
+        "required": [
+          "review"
+        ]
       },
       "then": {
         "properties": {
-          "certificate": {
-            "properties": {
-              "cost": {
-                "exclusiveMinimum": 0
+          "outcomes": {
+            "items": {
+              "properties": {
+                "cost_to_obtain": {
+                  "exclusiveMinimum": 0
+                }
               }
             }
           }
