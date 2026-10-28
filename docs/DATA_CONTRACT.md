@@ -1,80 +1,94 @@
 # Course record format
 
-[← Home](../README.md) · [Catalog policy](CATALOG_POLICY.md) · [Catalog](../catalog/README.md)
+[← Home](../README.md) · [Catalog policy](CATALOG_POLICY.md) · [Course catalog](../catalog/README.md)
 
-> Draft contract for **public verified course records**. The first release of the catalog is not yet populated.
+> **Draft** public catalog record. Schema: [course.schema.json](../catalog/schema/course.schema.json). This structure describes free IT courses and their **official outcomes**, not just certificates.
 
-## What a record must prove
+## Model
 
-A verified record establishes that (1) the course itself is real and has a direct official link, (2) learning content is free under stated conditions, and (3) **this course offers an obtainable certificate**, with documented requirements and price.
+One course can offer multiple different outcomes: a completion certificate, a badge, a provider-issued diploma, an award, a participation record or an exam voucher.
 
-A digital badge alone is insufficient for certificate verification.
-
-## Proposed structure
+Do **not** merge them into an ambiguous `certificate` field. Each official outcome has its **own type, issuer, requirements, price and evidence**.
 
 ```json
 {
-  "id": "provider-course-slug",
-  "title": "Official course title",
-  "provider": "Official provider name",
-  "official_url": "https://provider.example/course",
-  "category": ["cybersecurity"],
-  "level": null,
-  "languages": [],
+  "id": "illustrative-provider-course",
+  "title": "Illustrative IT course",
+  "provider": "Example Provider",
+  "official_url": "https://example.org/courses/example",
+  "category": ["networking"],
+  "level": "beginner",
+  "languages": ["en"],
   "duration_hours": null,
   "learning": {
     "free": true,
-    "conditions": "Confirmed free enrollment or access conditions",
+    "conditions": "Free learning access; subject to registration",
     "cost": 0,
     "currency": "USD"
   },
-  "certificate": {
-    "available": true,
-    "type": "completion_certificate",
-    "requirements": "Officially documented completion/assessment conditions",
-    "cost": 0,
-    "currency": "USD",
-    "official_evidence_url": "https://provider.example/certificate-policy"
-  },
-  "badges": [],
+  "outcomes": [
+    {
+      "kind": "recognition",
+      "type": "digital_badge",
+      "name": "Illustrative course badge",
+      "issuer": "Example Provider",
+      "obtainable": true,
+      "requirements": "Complete every course module and required assessment",
+      "cost_to_obtain": 0,
+      "currency": "USD",
+      "official_evidence_url": "https://example.org/courses/example/badges",
+      "individual_verification_url": null
+    }
+  ],
   "evidence": [
     {
-      "claim": "certificate.available",
-      "source_url": "https://provider.example/certificate-policy",
-      "short_quote": "Short excerpt from the official source",
+      "claim": "learning.free",
+      "source_url": "https://example.org/courses/example",
+      "short_quote": "Example text from an official course page",
       "checked_at": "2026-10-28T00:00:00Z",
-      "review_note": "How the excerpt establishes the claim"
+      "review_note": "Supports free access under the stated conditions"
+    },
+    {
+      "claim": "outcomes[0].obtainable",
+      "source_url": "https://example.org/courses/example/badges",
+      "short_quote": "Example text confirming badge availability",
+      "checked_at": "2026-10-28T00:00:00Z",
+      "review_note": "Explains how the specific badge is earned"
+    },
+    {
+      "claim": "outcomes[0].cost_to_obtain",
+      "source_url": "https://example.org/courses/example/badges",
+      "short_quote": "Example wording for no badge issuance fee",
+      "checked_at": "2026-10-28T00:00:00Z",
+      "review_note": "Supports the recorded free badge issuance cost"
     }
   ],
   "review": {
-    "status": "verified_free_certificate",
+    "status": "verified_free_outcome",
     "reviewed_at": "2026-10-28T00:00:00Z",
     "recheck_after": null
   }
 }
 ```
 
-**All values and links above are illustrative placeholders.** This is not a real verified course. Never copy a fabricated example into `catalog/verified` as data.
+**Every example name, URL and evidence excerpt above is fictional and must never be imported into the catalog.**
 
-## Required evidence
+## Key fields
 
-A record must cite official sources for:
-- Course identity and free learning access.
-- Certificate issuance, specific eligibility requirements and price.
-- Any claimed expiry dates, regional restrictions and credential validity.
+- `learning.free`: required and true for the verified catalog.
+- `outcomes`: one or more confirmed outcomes, each typed as **recognition** or **benefit**.
+- `outcomes[].type`: exact category such as `digital_badge`, `diploma`, `award`, `exam_voucher`.
+- `outcomes[].cost_to_obtain`: a numeric amount **only when official evidence supports it**; unknown costs prevent verification.
+- `outcomes[].individual_verification_url`: optional online credential lookup or verification link; null if not offered. Do not equate this with official issuance proof.
+- `evidence`: dated official sources supporting specific material fields, including outcome requirements and costs.
+- `review.status`: `verified_free_outcome` or `verified_paid_outcome` in published records. Candidates with missing information stay outside `catalog/verified/`.
 
-Additional claims such as duration, badge, level, languages and prerequisites should also cite primary sources when filled. Keep evidence excerpts short and preserve dates.
+## Admission and semantic checks
 
-## Allowed review statuses
+Schema validation ensures structural consistency; it does not establish whether sources are trustworthy or claims are true. A human or independent review must confirm that cited evidence means what the record says.
 
-- `verified_free_certificate`: free course and free obtainable certificate verified.
-- `verified_paid_certificate`: free course and paid obtainable certificate verified, fee disclosed.
-- `under_review`: proof incomplete; not allowed in the verified directory.
-- `recheck_required`: published claim needs fresh verification; do not assert current status until reviewed.
-- `rejected`: outside the catalog's inclusion rules.
+For credits, diplomas, exam discounts and access perks, describe exactly what the issuer promises. **No implication of academic accreditation, professional licensure or exam passing** without explicit supporting evidence.
 
-## Quality rules
+## Versioning
 
-The stored review decision is not an AI-model confidence score. Quote matching and URL reachability alone are not enough; a human or independent review must validate the claim's meaning. The exact JSON Schema will be versioned and checked before bulk records are accepted.
-
-No tracking cookies, credentials, personal records or large copyrighted source dumps should appear in public records.
+The current schema is preliminary and may change before the first verified catalog release. Do not include credentials, cookies, secret tokens or copyrighted course dumps in public records.
