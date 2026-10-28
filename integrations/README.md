@@ -1,27 +1,27 @@
-# Integrations — proposals, not shipped software
+# Integrations — future proposals
 
-[← Home](../README.md)
+[← Home](../README.md) · [Catalog](../catalog/README.md)
 
-The public course library should remain useful as plain files and GitHub pages. Integrations are **optional** convenience layers, not dependencies on any maintainer's private development setup.
+The core public product is a **browseable collection of free IT courses and their issuer-confirmed outcomes**, plus prompts and skills. Integrations should be optional and should use the **published catalog**, not require the maintainer's private infrastructure.
 
 ## Potential MCP interface
 
-A future read-only Model Context Protocol integration could expose verified catalog data to compatible assistants:
+A future read-only Model Context Protocol tool might expose:
 
 | Proposed tool | Purpose |
 | --- | --- |
-| `search_courses` | Search published, reviewed course records by skill, provider, region and credential type |
-| `get_course` | Read a course, its credential details and source references |
-| `find_learning_path` | Find candidate sequences based on prerequisites, without inventing missing edges |
-| `check_evidence` | Retrieve the documented source evidence and review timestamp for a claim |
+| `search_courses` | Search reviewed free courses by skill, provider, language, or result type: badge, certificate, diploma, award, voucher and more |
+| `get_course` | Retrieve the course and separately typed official results and benefit details |
+| `get_outcome_evidence` | Retrieve dated official-source evidence for a particular reward or eligibility claim |
+| `find_learning_path` | Suggest a sequence of published courses by goal and prerequisites, without inventing missing rewards |
 
-**No MCP server is implemented in this repository.** Tool names and contracts may change. When implemented, it should be read-only by default, versioned, rate-limited, and source-aware.
+**No MCP server is implemented here yet.** These names are interface ideas, not commands users can execute today.
 
-## Other possible interfaces
+## Other possible features
 
-- Downloadable JSON / CSV catalog exports.
-- A static website for filtering verified courses.
-- Editor plugins or chat-assistant skills using public records.
-- Community-submitted corrections through GitHub Issues.
+- JSON and CSV exports of reviewed records.
+- Static browsing and filtering by skill and outcome type.
+- Editor integrations and portable assistant skills.
+- Github Issues-based suggestions and corrections.
 
-The goal is to make the **course database and learning materials easy to use**, not to publish or require the internal scraping and agent-development stack.
+The catalog must remain readable without installing a server or logging into a paid model provider.
