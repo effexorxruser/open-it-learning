@@ -1,41 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="520" viewBox="0 0 1440 520" role="img" aria-labelledby="title desc">
-<title id="title">Open IT Learning — the evidence-first learning graph</title>
-<desc id="desc">Dark editorial banner with connected learning nodes, a glowing turquoise and violet graph, and Open IT Learning wordmark.</desc>
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#09121B"/><stop offset=".55" stop-color="#0C1622"/><stop offset="1" stop-color="#101527"/></linearGradient>
-  <linearGradient id="signal" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#33E1C2"/><stop offset=".55" stop-color="#61BDFF"/><stop offset="1" stop-color="#A89AFF"/></linearGradient>
-  <radialGradient id="glow"><stop stop-color="#44DDCB" stop-opacity=".19"/><stop offset="1" stop-color="#44DDCB" stop-opacity="0"/></radialGradient>
-  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#D4E3F5" stroke-opacity=".045"/></pattern>
-  <filter id="soft"><feGaussianBlur stdDeviation="28"/></filter>
-</defs>
-<rect width="1440" height="520" rx="26" fill="url(#bg)"/>
-<rect width="1440" height="520" rx="26" fill="url(#grid)"/>
-<circle cx="1120" cy="250" r="340" fill="url(#glow)"/>
-<path d="M72 58H1368" stroke="#B2CEDB" stroke-opacity=".14"/>
-<circle cx="85" cy="33" r="5" fill="#3CE0C5"/><circle cx="107" cy="33" r="5" fill="#B0BCDB" fill-opacity=".25"/><circle cx="129" cy="33" r="5" fill="#B0BCDB" fill-opacity=".25"/>
-<text x="157" y="39" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="3" fill="#A9BDD3">OPEN / INTELLIGENT LEARNING SYSTEMS</text>
-<g transform="translate(70 112)">
-  <rect x="0" y="0" width="202" height="33" rx="16.5" fill="#173A3B" stroke="#3CE0C5" stroke-opacity=".42"/>
-  <circle cx="17" cy="16" r="4" fill="#3CE0C5"/>
-  <text x="32" y="21" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2" fill="#8FEFE0">RESEARCH PREVIEW</text>
-  <text x="0" y="123" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="700" letter-spacing="-5" fill="#F1F7FF">Open IT</text>
-  <text x="0" y="215" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="700" letter-spacing="-5" fill="url(#signal)">Learning.</text>
-  <text x="4" y="277" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#A8B8CC" letter-spacing=".2">An evidence-first atlas of free technology education.</text>
-  <path d="M4 313H555" stroke="#A9C2DA" stroke-opacity=".2"/>
-  <text x="5" y="348" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2" fill="#78A7B8">DISCOVER  /  VERIFY  /  CONNECT  /  LEARN</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="500" viewBox="0 0 1440 500" role="img" aria-labelledby="t d">
+<title id="t">Open IT Learning — free courses, verifiable credentials</title>
+<desc id="d">Editorial dark banner with warm ivory typography, a restrained terracotta accent, and a clean repository file index.</desc>
+<rect width="1440" height="500" fill="#171716"/>
+<path d="M62 65H1378M62 435H1378" stroke="#65615C" stroke-width="1" opacity=".52"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="65" y="46" fill="#E8E3DA" font-size="15" letter-spacing="4" font-weight="700">O / ITL</text>
+<text x="276" y="46" fill="#9D9992" font-size="12" letter-spacing="2.2">OPEN COURSE LIBRARY</text>
+<text x="1376" y="46" text-anchor="end" fill="#9D9992" font-size="12" letter-spacing="1.7">CURATED KNOWLEDGE  ·  EST. 2026</text>
+<text x="63" y="187" fill="#F1EBE2" font-size="87" font-weight="700" letter-spacing="-4">Open IT</text>
+<text x="63" y="287" fill="#C97255" font-size="87" font-weight="700" letter-spacing="-4">Learning</text>
+<text x="67" y="353" fill="#D1C9BE" font-size="25" letter-spacing="-.35">Free courses. Verifiable credentials.</text>
+<text x="67" y="398" fill="#8F8A84" font-size="15" letter-spacing=".6">OFFICIAL SOURCES  /  LEARNING PATHS  /  REUSABLE TOOLS</text>
 </g>
-<g fill="none" stroke="url(#signal)" stroke-width="2">
-<path d="M880 112L1047 82L1184 167L1331 107M880 112L938 246L1109 266L1184 167L1288 337L1331 107M938 246L829 363L998 419L1109 266L1288 337L1361 431M1047 82L1109 266M998 419L1288 337" opacity=".45"/>
-<path d="M880 112L938 246L1109 266L1184 167L1288 337" stroke-width="3" opacity=".85"/>
+<path d="M779 96V404" stroke="#4F4A46" stroke-width="1"/>
+<rect x="820" y="108" width="521" height="291" rx="12" fill="#201F1D" stroke="#5A554F" stroke-width="1"/>
+<rect x="820" y="108" width="521" height="47" rx="12" fill="#292723"/>
+<path d="M820 143H1341" stroke="#5A554F"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<circle cx="844" cy="132" r="4" fill="#C97255"/>
+<circle cx="861" cy="132" r="4" fill="#6E6760"/>
+<circle cx="878" cy="132" r="4" fill="#6E6760"/>
+<text x="901" y="136" fill="#BBB3A8" font-size="14" letter-spacing="1">open-it-learning /</text>
+<text x="1320" y="136" fill="#8F8A84" text-anchor="end" font-size="12">INDEX</text>
 </g>
-<g fill="#0D1D29" stroke="#6CE4DA" stroke-width="2.4">
-<circle cx="880" cy="112" r="12"/><circle cx="1047" cy="82" r="9"/><circle cx="1184" cy="167" r="17"/><circle cx="1331" cy="107" r="9"/><circle cx="938" cy="246" r="15"/><circle cx="1109" cy="266" r="23"/><circle cx="1288" cy="337" r="15"/><circle cx="829" cy="363" r="8"/><circle cx="998" cy="419" r="11"/><circle cx="1361" cy="431" r="7"/>
+<g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="21">
+<text x="856" y="203" fill="#C97255">01</text><text x="911" y="203" fill="#EEE8DF">catalog/</text><text x="1308" y="203" fill="#8E887F" text-anchor="end" font-size="13">COURSES</text>
+<text x="856" y="258" fill="#8D857C">02</text><text x="911" y="258" fill="#EEE8DF">prompts/</text><text x="1308" y="258" fill="#8E887F" text-anchor="end" font-size="13">RESEARCH</text>
+<text x="856" y="313" fill="#8D857C">03</text><text x="911" y="313" fill="#EEE8DF">skills/</text><text x="1308" y="313" fill="#8E887F" text-anchor="end" font-size="13">WORKFLOWS</text>
+<text x="856" y="368" fill="#8D857C">04</text><text x="911" y="368" fill="#EEE8DF">journal/</text><text x="1308" y="368" fill="#8E887F" text-anchor="end" font-size="13">FIELD NOTES</text>
 </g>
-<circle cx="1109" cy="266" r="8" fill="#68F1DF"/><circle cx="1184" cy="167" r="6" fill="#8CACFF"/><circle cx="938" cy="246" r="5" fill="#68F1DF"/>
-<g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.3" fill="#A6C0D7">
-<text x="1000" y="51">COURSES</text><text x="1206" y="155">SKILLS</text><text x="1144" y="291">EVIDENCE</text><text x="1208" y="376">PATHWAYS</text><text x="795" y="395">PROVIDERS</text>
+<g stroke="#403C37" stroke-width="1"><path d="M850 221H1310M850 276H1310M850 331H1310"/></g>
+<g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12" letter-spacing="1.3">
+<text x="65" y="467" fill="#9D9992">A SMALLER, BETTER-VERIFIED INTERNET OF LEARNING.</text>
+<text x="1377" y="467" text-anchor="end" fill="#C97255">OPEN IT LEARNING / 00</text>
 </g>
-<path d="M70 478H1370" stroke="#B2CEDB" stroke-opacity=".14"/>
-<text x="72" y="502" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2" fill="#72899D">OPEN KNOWLEDGE / TRACEABLE SOURCES / HUMAN-VERIFIABLE CLAIMS</text>
-<text x="1369" y="502" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#72899D">V. 0 / RESEARCH</text>
 </svg>
