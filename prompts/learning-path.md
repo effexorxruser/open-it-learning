@@ -1,36 +1,44 @@
-# Prompt: Design a verified-credential learning path
+# Prompt: Build a learning path with official achievements
 
-Use with an assistant that can browse current course and credential sources.
+This prompt helps plan learning around **free IT courses** and tangible, documented outcomes — not just certificate-focused course listings.
+
+Copy into a browsing-capable assistant:
 
 ```text
-Design an achievable IT learning path using official courses.
+Build an achievable IT learning pathway from primary-source courses.
 
-GOAL: <target role or skill>
-CURRENT EXPERIENCE: <beginner/intermediate/etc.>
+GOAL / TARGET ROLE: <goal>
+CURRENT SKILLS: <skills and experience>
 HOURS PER WEEK: <number>
 TIME HORIZON: <weeks or months>
-LANGUAGE / REGION: <preferences>
-CREDENTIAL BUDGET: <amount and currency, or zero>
+REGION / LANGUAGE: <preferences>
+TOTAL OUTCOME / EXAM BUDGET: <amount and currency>
 
-Prioritize courses whose learning content is free and whose certificate
-availability, exact conditions and price are supported by official sources.
+Prefer free-to-learn courses with independently documented official
+achievements or benefits: completion certificates, badges, diplomas,
+participation records, exam vouchers and provider-issued awards.
 
 For every recommended course:
-- Give the direct canonical official URL.
-- Explain what prerequisite it covers and why it is in this sequence.
-- Separate learning cost from certificate/exam cost.
-- Classify the credential (completion certificate, digital badge,
-  professional certification, or none).
-- Link official evidence for obtainable certificates.
-- State if the credential is unverified; don't present it as confirmed.
-- Include realistic duration and any course availability caveats.
+- Official course title, provider and direct canonical URL.
+- Why it fits the learner's goal and prerequisite sequence.
+- Learning cost and any separate certificate, exam, badge or
+  reward issuance costs.
+- Exact official outcome type(s). Never label badges as professional
+  certifications, or diploma-like documents as accredited degrees
+  without official support.
+- Official evidence URLs and short supporting excerpts for
+  eligibility, issue/redemption requirements, dates and fees.
+- A clear distinction between verified outcomes and anything
+  the available sources leave uncertain.
+- Realistic duration and applicable geographic/language restrictions.
 
-Return a phased path with estimated study hours, milestones, verified
-credential checkpoints, total disclosed cost, uncertain costs and source
-check dates. Do not fabricate completion guarantees or job placement.
+Give a phased plan with time estimates, skill milestones,
+official outcomes, total disclosed cost, and separate uncertainties.
+Do not promise employment, passing exams or guaranteed issuance.
+If browsing fails, do not invent current facts.
 
-Use the Open IT Learning catalog if it has relevant verified records;
-otherwise clearly label externally researched recommendations separately.
+An outcome or course recommendation not yet independently reviewed
+must be labeled a research candidate, not a verified catalog entry.
 ```
 
-Related: [course verification prompt](verify-course.md).
+You can first [verify courses](verify-course.md) using the dedicated evidence prompt.
