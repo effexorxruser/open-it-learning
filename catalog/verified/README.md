@@ -1,9 +1,11 @@
-# Verified records
+# Verified course records
 
-This directory will contain courses that passed the [certificate verification policy](../../docs/CATALOG_POLICY.md).
+[← Catalog](../README.md) · [Admission policy](../../docs/CATALOG_POLICY.md)
 
-**There are no approved records yet.**
+**No records have been approved for the verified index yet.**
 
-A record's filename should be a stable, descriptive identifier; all substantive claims must be source-backed, with documented credential availability, conditions and costs.
+This directory will contain free IT courses with an explicitly documented official result: **certificates, digital badges, diplomas, awards, records of achievement, or other course-linked benefits** such as vouchers or credits.
 
-Please submit suggested courses through [GitHub Issues](https://github.com/effexorxruser/open-it-learning/issues/new/choose), not by inventing verified entries.
+Every outcome must be described under its actual type, with official source, conditions, price, review date and evidence. We do not label a badge as a certificate, or a provider-issued diploma as an accredited degree without proof.
+
+[Suggest a course for review](https://github.com/effexorxruser/open-it-learning/issues/new/choose).
