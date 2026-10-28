@@ -1,166 +1,94 @@
 <div align="center">
-  <img src="assets/hero.svg" alt="Open IT Learning — an evidence-first atlas of free technology education" width="100%" />
 
-  <br />
+<img src="assets/hero.svg" width="100%" alt="Open IT Learning — free courses, verifiable credentials" />
 
-  **Find the learning opportunity. Follow the evidence. Build your own path.**
+<br />
 
-  An open research initiative to discover, verify, and connect free IT learning opportunities.
+**A curated, source-checked collection of free IT courses with documented certificates and credentials.**
 
-  <br />
+[**Browse courses**](catalog/README.md) · [**Use prompts**](prompts/README.md) · [**Explore skills**](skills/README.md) · [**Contribute**](CONTRIBUTING.md)
 
-  [**Vision**](#the-idea) · [**How it works**](#how-it-works) · [**Data principles**](#evidence-before-claims) · [**Architecture**](docs/ARCHITECTURE.md) · [**Roadmap**](docs/ROADMAP.md) · [**Contribute**](CONTRIBUTING.md)
+[English](README.md) · [Русский](docs/README.ru.md)
 
-  [English](README.md) · [Русский](docs/README.ru.md)
-
-  <br />
-
-  ![Stage: research preview](https://img.shields.io/badge/stage-research%20preview-24bda8?style=flat-square)
-  ![Approach: evidence-first](https://img.shields.io/badge/approach-evidence--first-637bda?style=flat-square)
-  ![Focus: open education](https://img.shields.io/badge/focus-open%20education-34435c?style=flat-square)
 </div>
 
 ---
 
-> [!IMPORTANT]
-> **Research preview, not a released platform.** This is the public home for Open IT Learning. The research-agent prototype and Harness² experiments are being developed separately. No production catalog, public API, continuously verified course dataset, or downloadable application is published in this repository yet. The architecture below describes the intended system.
+## Learn something. Have something to show for it.
 
-## The idea
+Finding free IT education is easy. Finding a course that actually leads to a **documented, obtainable credential** is harder.
 
-There are thousands of ways to learn technology online. The difficult part isn't finding another course listing. It's answering the questions that actually matter:
+**Open IT Learning** is being built as a practical, curated repository that answers three questions before recommending a course:
 
-- Is the course **really free**, or is only the introduction free?
-- Does it award a **certificate, a digital badge, or neither**? Are assessments or credentials paid?
-- Is the link **official, working, and current**?
-- Which **skills** does it teach, and where can those skills take you next?
-- Can every important claim be **traced to a source**?
+**01 — Can I learn for free?** We distinguish free enrollment and course access from trials, subscriptions and paid exams.
 
-**Open IT Learning** aims to turn scattered learning opportunities into a connected, verifiable map of courses, skills, providers, credentials, and pathways.
+**02 — What can I earn?** We document the actual certificate or digital credential, how to obtain it, and whether any fee applies.
 
-## From links to a learning graph
+**03 — Where is the proof?** We link to the provider's official pages and record when the information was checked.
 
-<div align="center">
+No invented course links. No equating a badge with a professional certification. No claiming that a certificate exists simply because a course is free.
 
-```mermaid
-flowchart LR
-    A["Official sources"] --> B["Research agent"]
-    B --> C["Evidence & verification"]
-    C --> D[("Learning graph")]
-    D --> E["Skills & pathways"]
-    D --> F["Course discovery"]
-    G["Evaluation & Harness² experiments"] -. "improve research quality" .-> B
-```
+## What you'll find here
 
-</div>
-
-| Layer | Responsibility |
+| Directory | What it contains |
 | :--- | :--- |
-| **Discover** | Find course candidates and their official, canonical pages. |
-| **Read** | Use web requests and browser automation when a page requires JavaScript. |
-| **Verify** | Separate source-backed facts from claims that remain uncertain. |
-| **Connect** | Model relationships between courses, skills, providers, badges, and credentials. |
-| **Improve** | Evaluate research traces and test changes to the agent's instructions and tools. |
+| **[catalog/](catalog/README.md)** | Courses admitted only after official evidence confirms the learning opportunity **and** obtainable credential. |
+| **[prompts/](prompts/README.md)** | Copy-ready prompts for course discovery, verification and personalized learning paths. |
+| **[skills/](skills/README.md)** | Reusable, transparent agent workflows for checking course pages and evidence. |
+| **[integrations/](integrations/README.md)** | Ideas and interface contracts for later tools such as an MCP server; not a live integration yet. |
+| **[journal/](journal/README.md)** | Optional field notes on course research, curation and agent-assisted parsing — not the internal development environment. |
+| **[docs/](docs/CATALOG_POLICY.md)** | Verification rules, proposed record format and contribution guidance. |
 
-The goal is not to collect the most links. It's to collect **claims you can inspect**.
+## Course catalog
 
-## Evidence before claims
+> **Catalog status:** no certificate-verified records have been published yet. We prefer an honest empty index over a directory of uncertain claims.
 
-Every verified fact should have a source and a verification date. A course can be free while its certificate is paid; a badge is not automatically a professional certification.
+The intended catalog is structured for real decisions, not marketing claims:
 
-| Question | What we store |
+| Data | Required proof |
 | :--- | :--- |
-| **Where is it?** | Canonical course URL, publisher, redirects and source location. |
-| **What does it cost?** | Learning price separately from assessment and credential costs. |
-| **What do you earn?** | Certificate, badge, or other credential — with conditions and evidence. |
-| **What do you learn?** | Skills, prerequisites, language, level and estimated duration, where supported. |
-| **Can we trust it?** | Supporting excerpts, source URLs, verification date and confidence/status. |
+| Provider and course | Official page and canonical link |
+| Course access | Official evidence that the learning content is available free of charge |
+| Credential | Official evidence that a certificate or qualifying digital credential **can be earned** |
+| Conditions | Completion, assessment and eligibility requirements, or a clearly documented unresolved limitation |
+| Cost | Course fees and credential/exam fees shown separately |
+| Last reviewed | Date and source excerpts or references |
 
-Unverifiable is not the same as false. The intended workflow preserves `unverified`, `stale`, and `unavailable` states rather than guessing.
+A free course with **unverified certificate availability** does **not** qualify for the verified index. A paid exam is not described as a free certificate.
 
-See the proposed [data contract](docs/DATA_CONTRACT.md) for details.
+Read the [catalog acceptance policy](docs/CATALOG_POLICY.md) and the [course record format](docs/DATA_CONTRACT.md).
 
-## How it works
+## Ready-to-use resources
 
-The research workflow is being developed around a **tool-using agent** and a reproducible evaluation loop:
+**Research prompt** — [Verify a course and its credential](prompts/verify-course.md). A structured, source-first prompt for a browsing-capable assistant.
 
-```text
-Research question
-    |
-    v
-Discover official course page
-    |
-    v
-Read HTML / render with Playwright
-    |
-    v
-Extract claims + evidence
-    |
-    v
-Validate links, quotes and semantics
-    |
-    v
-Stage structured candidates
-    |
-    v
-Human review / quality gates
-    |
-    v
-Learning graph
-```
+**Planning prompt** — [Build a certificate-aware learning path](prompts/learning-path.md). Choose courses by goals, prerequisites, time and credential cost.
 
-We are also investigating **Harness²** by Google Research for systematic improvement of research-agent behavior: instructions, tool use, failure recovery and evaluation. This is about optimizing the **agent harness**, not training model weights.
+**Agent skill** — [Course Verifier](skills/course-verifier/SKILL.md). A reviewable workflow with explicit admission criteria and evidence checks.
 
-**Current development separation:** Codex is used for engineering and orchestration; an experimental research solver uses a separately routed model provider. Model availability, reliable billing, judge independence, and production readiness are all subject to verification.
+These are **templates and workflow instructions**, not claims that an agent or MCP server is hosted by this repository.
 
-Read [architecture and boundaries](docs/ARCHITECTURE.md).
+## A small example of why verification matters
 
-## Project status
+A research snapshot of Cisco's *Introduction to Cybersecurity* showed an official page describing free access, approximately six hours of learning, and badges. However, the same research did **not** establish the availability and conditions of a course certificate.
 
-| Area | Status |
-| :--- | :--- |
-| Public project identity and specifications | **Available here** |
-| Local research-solver prototype | **Experimental, maintained separately** |
-| Playwright / dynamic-page investigation | **Prototype testing** |
-| Harness² research benchmark | **Experimental, not published here** |
-| Public verified course catalog | **Not released** |
-| Public graph, website, and API | **Planned** |
+**Result: not eligible for the verified catalog yet.** The distinction between “badges shown” and “certificate independently confirmed” is exactly why this project exists. See the [research note](journal/2026-10-28-cisco-introduction-to-cybersecurity.md).
 
-This table intentionally avoids implying that work happening in a local research lab is already available in this GitHub repository.
+## Built for useful contributions
 
-## What comes next
+If you know a free IT course with a documented certificate, [suggest it](../../issues/new/choose) with its official source. If a published record becomes inaccurate, [flag it](../../issues/new/choose). Contributions are reviewed against the same evidence policy.
 
-**01 / Foundations** — publish a data schema, contribution rules and a small evidence-backed sample.
+We are also collecting reusable prompt patterns and workflow ideas — each should solve a concrete learning or verification problem.
 
-**02 / Research quality** — establish reproducible test cases, source verification and an auditable baseline.
+## Roadmap
 
-**03 / Learning graph** — connect verified learning opportunities to skills and structured pathways.
+1. **Verified foundation:** publish the first genuinely confirmed records and a versioned data contract.
+2. **Practical tooling:** expand prompts, skills and quality checks around the catalog.
+3. **Learning routes:** group courses by skills, prerequisite chains and goals.
+4. **Integrations:** explore exports, search tools and a potential MCP interface without requiring anyone to run the maintainer's research infrastructure.
 
-**04 / Community platform** — enable discovery, submissions, corrections and ongoing re-verification.
-
-Track the full [roadmap](docs/ROADMAP.md).
-
-## Contributing
-
-The project is early, and thoughtful contributions are welcome: primary-source course suggestions, evidence-model feedback, data-quality cases, accessibility ideas, and research evaluation proposals.
-
-Start with [CONTRIBUTING.md](CONTRIBUTING.md). Please do **not** submit unverified course lists as verified data.
-
-## Principles
-
-**Open by design.** Educational opportunities should be accessible and understandable.
-
-**Evidence over volume.** Ten supported facts beat a thousand unverified links.
-
-**Honest uncertainty.** Missing proof stays missing proof.
-
-**Reproducible research.** Decisions, sources and evaluation criteria should be inspectable.
-
-**Humans remain in control.** Research automation proposes; verification gates decide what is published.
+See [ROADMAP](docs/ROADMAP.md).
 
 ---
 
-<div align="center">
-  <sub>OPEN IT LEARNING · An open map of opportunities, built on verifiable knowledge.</sub>
-  <br />
-  <sub>Early-stage research initiative · Not affiliated with or endorsed by any course provider or Google Research.</sub>
-</div>
+<sub>Open IT Learning is an independent, early-stage community resource. Provider names are used for reference; no affiliation or endorsement is implied. The private tooling used to research and maintain the catalog is separate from this public repository.</sub>
