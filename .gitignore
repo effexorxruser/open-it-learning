@@ -1,0 +1,37 @@
+# Environments & credentials
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Local agent experiments: raw traces and provider-sensitive data
+lab-runs/
+runs/
+reports/
+browser-diagnostics/
+.playwright/
+playwright-report/
+test-results/
+*.log
+
+# Editors & OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
