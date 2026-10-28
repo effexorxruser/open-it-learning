@@ -1,52 +1,66 @@
-name: "Course suggestion"
-description: "Suggest a learning opportunity with an official source and evidence."
+name: "Suggest a verified course"
+description: "Propose a free IT course with official evidence of an obtainable certificate."
 title: "[Course] "
-labels: ["course-candidate"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for contributing. Suggestions are **unverified candidates**, not published catalog entries.
-        Please use official sources and do not include account details.
+        Open IT Learning publishes only **free IT courses with officially confirmed certificates**.
+        A badge or an unverified certificate claim is not enough. Missing evidence means the suggestion remains under review.
   - type: input
     id: provider
     attributes:
-      label: Provider
-      placeholder: "e.g., a university or an official learning platform"
+      label: Official course provider
+      placeholder: "Provider name"
     validations:
       required: true
   - type: input
-    id: title
+    id: course
     attributes:
-      label: Course title
+      label: Exact course title
     validations:
       required: true
   - type: input
-    id: official_url
+    id: course_url
     attributes:
-      label: Official course URL
+      label: Direct official course URL
       placeholder: "https://..."
     validations:
       required: true
   - type: textarea
-    id: evidence
+    id: free_evidence
     attributes:
-      label: Evidence for the claims
-      description: "Include short source excerpts, additional official URLs and the date checked."
-      placeholder: "Free enrollment: ... (source, date). Certificate conditions: unverified."
+      label: Evidence that learning is free
+      description: "Official link and short quote confirming full course access, not a trial."
+    validations:
+      required: true
+  - type: input
+    id: credential_url
+    attributes:
+      label: Official URL proving a certificate is obtainable for this course
+      placeholder: "https://..."
     validations:
       required: true
   - type: textarea
-    id: uncertain
+    id: credential_requirements
     attributes:
-      label: Unknowns and caveats
-      description: "What could not be verified?"
+      label: Certificate requirements and fees
+      description: "Quote the official conditions. Separate course price, certificate price and any exam fee."
+    validations:
+      required: true
+  - type: textarea
+    id: caveats
+    attributes:
+      label: Region, language and unresolved questions
+      description: "What is uncertain? Include the date you checked the official pages."
+    validations:
+      required: true
   - type: checkboxes
-    id: acknowledgment
+    id: confirm
     attributes:
       label: Submission checks
       options:
-        - label: "I am submitting a candidate, not asserting that every detail is verified."
+        - label: "All cited URLs are official; this is a candidate for review, not a pre-approved catalog record."
           required: true
-        - label: "I have not included credentials, private account data or copyrighted course materials."
+        - label: "I have not included credentials, private data or copyrighted course content."
           required: true
