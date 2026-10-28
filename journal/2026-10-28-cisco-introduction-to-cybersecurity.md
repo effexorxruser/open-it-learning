@@ -1,41 +1,44 @@
 # Field note: Cisco Introduction to Cybersecurity
 
 **Research date:** 2026-10-28 (UTC)  
-**Status:** evidence review in progress — **not admitted to the verified certificate catalog**.
+**Status:** **under review — not admitted to the verified achievements catalog**
 
-This note demonstrates why verifying an accessible course page is not the same as verifying certificate eligibility.
+This note illustrates why finding a provider's achievement section does not necessarily establish that a specific reward can be earned under documented conditions.
 
-## Sources inspected
+## Sources examined in the research run
 
 - [Cisco Networking Academy official overview](https://www.cisco.com/site/us/en/learn/training-certifications/training/netacad/index.html), inspected 2026-10-28.
-- [Cisco Networking Academy · Introduction to Cybersecurity](https://www.netacad.com/courses/introduction-to-cybersecurity?courseLang=en-US), page snapshot recorded 2026-10-28.
+- [Cisco Networking Academy · Introduction to Cybersecurity](https://www.netacad.com/courses/introduction-to-cybersecurity?courseLang=en-US), captured 2026-10-28.
 
-The working report was a **Codex-assisted analysis of a Playwright capture**, not independent certification review. Quote matches had not yet been semantically audited.
+The underlying report was a **Codex-assisted analysis of a Playwright snapshot**. Source excerpts were collected, but independent semantic review had not been completed.
 
-## What the source snapshot indicates
+## What the source snapshot supports
 
-| Field | Source-supported observation | Verification caution |
+| Topic | Observation from official page | Remaining limitation |
 | --- | --- | --- |
-| Course | “Introduction to Cybersecurity” is displayed on the official course page | Course identity should be reviewed in context |
-| Cost of learning | The page showed “FREE” | Certificate price is a separate question |
-| Estimated duration | The page showed “6 HOURS” | Estimated, not a promise of completion time |
-| Level | The page showed “BEGINNER” | Provider's own descriptor |
-| Labs | The page showed “7 LABS” | Provider's own descriptor |
-| Languages | The page displayed an available-languages list | Available translations may vary |
-| Badge | The page mentioned “Badges you can earn in this course” | Badge availability is not confirmation of a certificate |
+| Course title | “Introduction to Cybersecurity” | Confirmed from the captured provider page |
+| Learning cost | “FREE” | Issuance and exam costs are different claims |
+| Estimated duration | “6 HOURS” | Provider's estimate; not guaranteed completion time |
+| Level | “BEGINNER” | Provider's own designation |
+| Labs | “7 LABS” | Count shown in snapshot |
+| Languages | Page displayed a list of available languages | Availability may change |
+| Official badge | “Badges you can earn in this course” | The exact award name, issuer-backed eligibility and issuance conditions remain unresolved |
 
-## Missing proof
+## What still needs proof
 
-The captured evidence did **not** independently establish:
+The captured evidence did not fully establish:
 
-- Whether a completion certificate is issued for this specific course.
-- What steps are necessary to receive a certificate.
-- Whether such a certificate would be free or paid.
+- The **exact digital badge** or badges awarded for this course.
+- Conditions for obtaining, claiming or verifying those badges.
+- Any fee, eligibility or regional restrictions connected with issuance.
+- Whether any **certificate** is additionally issued and, if so, under what conditions.
 
-**Catalog decision: under review / not eligible** until the certificate claim, eligibility conditions and price are supported by official evidence and checked independently.
+**Decision: under review.** The catalog now accepts official badges, diplomas, awards and other documented benefits as well as certificates. However, **the mere presence of generic badge text is insufficient**: the source must tie an identifiable outcome to the course and document how a learner obtains it.
 
-## Method note
+See the [catalog inclusion policy](../docs/CATALOG_POLICY.md).
 
-The source required JavaScript rendering. A browser capture yielded visible course text and links, but a browser's success alone did not prove every downstream claim. This is why catalog review separates source retrieval, excerpt matching and independent interpretation.
+## Research-method note
 
-This journal entry deliberately contains no private development-environment details or paid-model accounting.
+The source was a dynamic website rendered with a browser. Extracting visible text and links succeeded, but technical access alone is not verification of credential issuance. Official evidence and independent semantic checks remain essential.
+
+This public note intentionally excludes private research-agent configuration and paid-provider usage.
