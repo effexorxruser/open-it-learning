@@ -17,7 +17,6 @@ open-it-learning/
 ├── integrations/          Future public interfaces (MCP proposal, exports)
 ├── journal/               Optional research and curation field notes
 ├── docs/                  Editorial policy and user documentation
-├── assets/                Visual identity
 └── .github/               Contribution templates
 ```
 
