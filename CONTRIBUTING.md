@@ -38,7 +38,7 @@ If a certificate is no longer available, a page changes, or a previously free ex
 
 ## Project boundaries
 
-The public repository does **not** contain or require the maintainer's Harness² setup, model routing, test environments or paid API accounts. A journal may discuss general research methods without exposing that infrastructure.
+The public repository does **not** contain or require the maintainer's internal research tools, automation environments or paid API accounts. A journal may discuss general research methods without exposing that infrastructure.
 
 ## Licensing
 
