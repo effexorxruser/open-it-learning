@@ -1,0 +1,77 @@
+name: Publish GitHub Wiki
+
+# Wiki is a separate Git repository. Create its first Home page on GitHub
+# before running this workflow for the first time.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: open-it-learning-wiki-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: Synchronize reviewed Wiki pages
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out public documentation sources
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Check required files
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f wiki-source/Home.md
+          test -f wiki-source/_Sidebar.md
+          test -f wiki-source/_Footer.md
+          echo "Wiki source pages exist."
+
+      - name: Publish selected pages to GitHub Wiki
+        shell: bash
+        env:
+          WIKI_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+
+          # Authentication is provided only for this job. The token is not
+          # inserted into git remote URLs, committed files or command logs.
+          cat > "$RUNNER_TEMP/wiki-askpass" <<'ASKPASS'
+          #!/bin/sh
+          case "$1" in
+            *Username*) printf 'x-access-token\n' ;;
+            *Password*) printf '%s\n' "$WIKI_TOKEN" ;;
+          esac
+          ASKPASS
+          chmod 700 "$RUNNER_TEMP/wiki-askpass"
+          export GIT_ASKPASS="$RUNNER_TEMP/wiki-askpass"
+          export GIT_TERMINAL_PROMPT=0
+
+          if ! git clone --quiet "https://github.com/${GITHUB_REPOSITORY}.wiki.git" wiki-checkout; then
+            echo "::error::Wiki clone failed. Open the repository Wiki tab and create its first Home page before running this workflow."
+            exit 1
+          fi
+
+          # Only update our own Markdown page filenames. Do not delete any
+          # other pages, attachments or manual wiki files.
+          for page in wiki-source/*.md; do
+            cp "$page" "wiki-checkout/$(basename "$page")"
+          done
+
+          git -C wiki-checkout config user.name "github-actions[bot]"
+          git -C wiki-checkout config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git -C wiki-checkout add -- '*.md'
+
+          if git -C wiki-checkout diff --cached --quiet; then
+            echo "Wiki already matches the reviewed documentation sources."
+            exit 0
+          fi
+
+          git -C wiki-checkout commit -m "docs: publish Open IT Learning Wiki pages"
+          git -C wiki-checkout push origin HEAD
+          echo "Wiki published."
