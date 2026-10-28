@@ -1,15 +1,15 @@
-# Agent skills
+# Portable agent skills
 
 [← Home](../README.md) · [Prompts](../prompts/README.md)
 
-Small, readable workflow instructions that can be adapted for assistants supporting reusable skills.
+Reusable workflows for identifying **free courses and documented official achievements** — certificates, badges, diplomas, awards, participation records and other provider-issued benefits.
 
 | Skill | Purpose |
 | --- | --- |
-| [Course Verifier](course-verifier/SKILL.md) | Examine official sources, check certificate conditions and return a structured admission decision. |
+| [Course Verifier](course-verifier/SKILL.md) | Find and categorize issuer-backed outcomes, prove eligibility and costs, and create a review-ready candidate. |
 
-These files are platform-agnostic and do not require a particular model or provider. They describe **what an agent should verify**, not credentials or infrastructure to run.
+The skill is a standalone, reviewable text file. It does not require a proprietary model or the maintainer's internal research environment.
 
-Adapt the skill to your tool permissions; browser access is needed for fresh verification. No network access means **no new verified claim**. Always review generated results before publishing.
+Current source checking needs a browsing-capable assistant. Without fresh access, mark findings `under_review`, not `verified`.
 
-Submit proposed skills using the [contribution guidelines](../CONTRIBUTING.md).
+See [contribution guidelines](../CONTRIBUTING.md).
