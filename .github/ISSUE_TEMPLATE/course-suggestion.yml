@@ -1,21 +1,21 @@
-name: "Suggest a verified course"
-description: "Propose a free IT course with official evidence of an obtainable certificate."
+name: "Suggest a free course with an official outcome"
+description: "Propose a free IT course with an officially documented badge, certificate, diploma, award or other benefit."
 title: "[Course] "
 body:
   - type: markdown
     attributes:
       value: |
-        Open IT Learning publishes only **free IT courses with officially confirmed certificates**.
-        A badge or an unverified certificate claim is not enough. Missing evidence means the suggestion remains under review.
+        Open IT Learning accepts **free IT courses with documented, obtainable official outcomes** — including badges, certificates, diplomas, awards, records and course-linked benefits.
+
+        A generic "Achievements" section is not sufficient on its own; please share the issuer's actual conditions.
   - type: input
     id: provider
     attributes:
-      label: Official course provider
-      placeholder: "Provider name"
+      label: Course provider / issuer
     validations:
       required: true
   - type: input
-    id: course
+    id: title
     attributes:
       label: Exact course title
     validations:
@@ -30,37 +30,53 @@ body:
   - type: textarea
     id: free_evidence
     attributes:
-      label: Evidence that learning is free
-      description: "Official link and short quote confirming full course access, not a trial."
+      label: Proof that training content is free
+      description: "Provide the provider's official page and a short relevant excerpt."
+    validations:
+      required: true
+  - type: dropdown
+    id: outcome_type
+    attributes:
+      label: What official result can be obtained?
+      options:
+        - Completion certificate
+        - Professional certificate or credential
+        - Digital badge
+        - Diploma
+        - Award / commendation / certificate of merit
+        - Official participation or completion record
+        - Exam voucher or discount
+        - Learning credit / lab access
+        - Other provider-issued recognition or benefit
     validations:
       required: true
   - type: input
-    id: credential_url
+    id: outcome_source
     attributes:
-      label: Official URL proving a certificate is obtainable for this course
+      label: Official source confirming the specific outcome
       placeholder: "https://..."
     validations:
       required: true
   - type: textarea
-    id: credential_requirements
+    id: eligibility
     attributes:
-      label: Certificate requirements and fees
-      description: "Quote the official conditions. Separate course price, certificate price and any exam fee."
+      label: How to obtain it and what does it cost?
+      description: "Quote the official conditions, including region, eligibility and any separate issuance/exam fee."
     validations:
       required: true
   - type: textarea
     id: caveats
     attributes:
-      label: Region, language and unresolved questions
-      description: "What is uncertain? Include the date you checked the official pages."
+      label: Unknowns and date checked (UTC)
+      description: "What is still ambiguous or unconfirmed?"
     validations:
       required: true
   - type: checkboxes
-    id: confirm
+    id: acknowledgment
     attributes:
-      label: Submission checks
+      label: Checklist
       options:
-        - label: "All cited URLs are official; this is a candidate for review, not a pre-approved catalog record."
+        - label: "I understand this is a candidate awaiting review, not an automatically verified catalog entry."
           required: true
-        - label: "I have not included credentials, private data or copyrighted course content."
+        - label: "I have not included credentials, private user data or substantial copyrighted course material."
           required: true
