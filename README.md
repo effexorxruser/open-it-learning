@@ -76,7 +76,7 @@ A research snapshot of Cisco's *Introduction to Cybersecurity* showed an officia
 
 ## Built for useful contributions
 
-If you know a free IT course with a documented certificate, [suggest it](../../issues/new/choose) with its official source. If a published record becomes inaccurate, [flag it](../../issues/new/choose). Contributions are reviewed against the same evidence policy.
+If you know a free IT course with a documented certificate, [suggest it](https://github.com/effexorxruser/open-it-learning/issues/new/choose) with its official source. If a published record becomes inaccurate, [flag it](https://github.com/effexorxruser/open-it-learning/issues/new/choose). Contributions are reviewed against the same evidence policy.
 
 We are also collecting reusable prompt patterns and workflow ideas — each should solve a concrete learning or verification problem.
 
