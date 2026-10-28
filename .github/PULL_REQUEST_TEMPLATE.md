@@ -1,16 +1,18 @@
 ## Change
 
-What course record, prompt, skill, or documentation does this improve?
+What does this improve in the catalog, prompts, skills or documentation?
 
-## Verification
+## Evidence
 
-For course records, cite the official course URL **and** the source confirming an obtainable certificate and its conditions. Distinguish learning cost from credential or exam fees.
+For a course record, link to the official **course page** and official proof of each **obtainable outcome** (certificate, digital badge, diploma, award, participation record, voucher or other benefit).
 
-## Checklist
+Describe conditions and costs of course access and reward/exam issuance separately.
 
-- [ ] No unverified certificate is presented as confirmed
-- [ ] Badge and certificate are classified separately
-- [ ] Primary-source citations, short quotes and UTC dates are included where needed
-- [ ] No private developer tooling, credentials or sensitive research logs
-- [ ] Documentation links and examples are checked
-- [ ] No bulk copyrighted course content
+## Checks
+
+- [ ] All official outcomes are correctly typed; badges, certificates, diplomas and exam vouchers are not conflated
+- [ ] Issuer and course-specific award conditions are documented
+- [ ] Costs, restrictions, links and last checked dates are explicit
+- [ ] Missing evidence is not presented as verified
+- [ ] No secrets, cookies, private dev tooling or copyrighted course content dumps
+- [ ] Markdown links, examples and schema compatibility were checked
