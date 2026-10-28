@@ -2,40 +2,40 @@
 
 [← Home](../README.md) · [Catalog](../catalog/README.md)
 
-This is a roadmap for the **public learning library**, not a plan to distribute the maintainer's internal agent lab.
+This roadmap covers the **public course library**, ready-to-use learning materials and optional public integrations. Private development tooling is out of scope.
 
 ## 01 · Verified foundation
 
-- [x] Public repository and project identity.
-- [x] Evidence-based inclusion policy.
-- [x] Initial prompts and a reusable course verification skill.
-- [ ] Publish the first independently reviewed certificate-eligible course.
-- [ ] Version the JSON Schema and validate all published records.
-- [ ] Choose a software and content licensing policy.
+- [x] Establish a public repository and editorial identity.
+- [x] Define inclusion rules for issuer-backed badges, certificates, diplomas, awards and course-linked benefits.
+- [x] Publish initial prompts and reusable course verification skill.
+- [x] Draft the JSON Schema for free courses with **one or more typed outcomes**.
+- [ ] Verify and publish the first course with a fully documented official result and conditions.
+- [ ] Select an explicit license for software and editorial content.
 
-## 02 · Useful course discovery
+## 02 · Useful discovery
 
-- [ ] Build curated indexes by topic: networking, cybersecurity, programming, cloud and data.
-- [ ] Distinguish free certificates from paid credential exams.
-- [ ] Add verified details about duration, prerequisites, languages and accessibility.
-- [ ] Recheck stale links and evolving certificate policies.
-- [ ] Offer an easy correction workflow.
+- [ ] Browse courses by skills: cybersecurity, networking, software, cloud, data and more.
+- [ ] Filter by official outcome type: certificate, badge, diploma, award, record, voucher or other benefit.
+- [ ] Show the distinct costs of training, award issuance and exams.
+- [ ] Track official evidence links, countries, languages and prerequisites.
+- [ ] Recheck availability, expired promotions and withdrawn awards.
 
-## 03 · Learning paths and reusable tools
+## 03 · Learning paths and resources
 
-- [ ] Assemble source-backed learning paths for concrete skills and entry-level roles.
-- [ ] Expand copy-ready prompts and portable skills.
-- [ ] Make the catalog downloadable as structured data.
-- [ ] Add review-friendly tooling without requiring a proprietary model or service.
+- [ ] Publish source-backed routes by skill, role and starting level.
+- [ ] Expand prompts for research, study planning and validation.
+- [ ] Add more portable skills with practical instructions.
+- [ ] Provide a versioned machine-readable catalog export.
 
-## 04 · Optional integrations
+## 04 · Optional interfaces
 
-- [ ] Evaluate a small, read-only MCP interface over published records.
-- [ ] Explore static search pages or an accessible website.
-- [ ] Document third-party usage and versioning rules.
+- [ ] Explore a read-only MCP interface over confirmed published records.
+- [ ] Create accessible browsing and search tools if demand warrants.
+- [ ] Document API and contribution policies.
 
-## Optional · Research journal
+## Research journal (optional)
 
-Share concise notes about how courses were investigated and why individual claims were accepted or rejected. This may cover general agent-assisted parsing techniques, but **does not require publishing the internal research stack**.
+Publish concise, dated notes about how providers' course conditions were interpreted, including agent-assisted browsing where relevant. Do not publish the private development environment, model routing or secret traces.
 
-Items are complete only when the actual artifact is public and usable. No fabricated metrics, launch dates or certificates.
+Milestones count as complete only when the corresponding artifacts are accessible and documented. No invented releases or catalog statistics.
