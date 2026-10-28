@@ -1,39 +1,39 @@
-name: "Fix a catalog claim"
-description: "Report an unsupported certificate claim, fee, requirement, or stale official link."
+name: "Correct an official course claim"
+description: "Report changed course access, reward conditions, expired vouchers, or unsupported catalog claims."
 title: "[Correction] "
 body:
   - type: input
     id: record
     attributes:
-      label: Affected course or repository file
-      description: "Link directly to the affected page or record."
+      label: Affected course, issue or repository file
+      description: "Link to the specific record or official course."
     validations:
       required: true
   - type: dropdown
     id: problem
     attributes:
-      label: Issue type
+      label: What changed?
       options:
-        - Certificate unavailable or conditions changed
-        - Certificate fee or exam fee changed
-        - Course content no longer free
-        - Badge incorrectly described as certificate
-        - Official course URL stale or broken
-        - Unsupported claim or conflicting official sources
+        - Certificate or professional credential conditions changed
+        - Digital badge no longer available or misclassified
+        - Diploma / award / participation recognition incorrectly described
+        - Exam voucher, credits or lab bonus unavailable or expired
+        - Course content is no longer free
+        - Separate outcome or exam fee changed
+        - Official URL stale / broken
+        - Unsupported statement or contradictory official sources
         - Other
     validations:
       required: true
   - type: textarea
     id: evidence
     attributes:
-      label: Official evidence and date checked
-      description: "Include short quoted text and exact links."
+      label: Official evidence, short quote and UTC check date
     validations:
       required: true
   - type: textarea
-    id: proposal
+    id: proposed
     attributes:
-      label: Proposed correction
-      description: "Explain what should change and what remains uncertain."
+      label: Suggested correction and remaining uncertainty
     validations:
       required: true
