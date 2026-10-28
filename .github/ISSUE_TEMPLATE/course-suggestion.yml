@@ -1,0 +1,52 @@
+name: "Course suggestion"
+description: "Suggest a learning opportunity with an official source and evidence."
+title: "[Course] "
+labels: ["course-candidate"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing. Suggestions are **unverified candidates**, not published catalog entries.
+        Please use official sources and do not include account details.
+  - type: input
+    id: provider
+    attributes:
+      label: Provider
+      placeholder: "e.g., a university or an official learning platform"
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Course title
+    validations:
+      required: true
+  - type: input
+    id: official_url
+    attributes:
+      label: Official course URL
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence for the claims
+      description: "Include short source excerpts, additional official URLs and the date checked."
+      placeholder: "Free enrollment: ... (source, date). Certificate conditions: unverified."
+    validations:
+      required: true
+  - type: textarea
+    id: uncertain
+    attributes:
+      label: Unknowns and caveats
+      description: "What could not be verified?"
+  - type: checkboxes
+    id: acknowledgment
+    attributes:
+      label: Submission checks
+      options:
+        - label: "I am submitting a candidate, not asserting that every detail is verified."
+          required: true
+        - label: "I have not included credentials, private account data or copyrighted course materials."
+          required: true
