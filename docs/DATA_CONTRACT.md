@@ -1,107 +1,80 @@
-# Course data contract
+# Course record format
 
-> **Draft schema / proposal.** No production dataset is published yet.
+[← Home](../README.md) · [Catalog policy](CATALOG_POLICY.md) · [Catalog](../catalog/README.md)
 
-[← Overview](../README.md) · [Architecture](ARCHITECTURE.md)
+> Draft contract for **public verified course records**. The first release of the catalog is not yet populated.
 
-## Design requirements
+## What a record must prove
 
-A course is not the same as an assertion about a course. Each substantive claim has a value, an evidence set and a verification state. A valid URL is necessary but does not prove that a certificate is free.
+A verified record establishes that (1) the course itself is real and has a direct official link, (2) learning content is free under stated conditions, and (3) **this course offers an obtainable certificate**, with documented requirements and price.
 
-A minimal conceptual record:
+A digital badge alone is insufficient for certificate verification.
+
+## Proposed structure
 
 ```json
 {
-  "id": null,
-  "provider": {
-    "name": null,
-    "official_url": null
+  "id": "provider-course-slug",
+  "title": "Official course title",
+  "provider": "Official provider name",
+  "official_url": "https://provider.example/course",
+  "category": ["cybersecurity"],
+  "level": null,
+  "languages": [],
+  "duration_hours": null,
+  "learning": {
+    "free": true,
+    "conditions": "Confirmed free enrollment or access conditions",
+    "cost": 0,
+    "currency": "USD"
   },
-  "course": {
-    "title": null,
-    "canonical_url": null,
-    "language_codes": [],
-    "duration_hours": null,
-    "level": null
+  "certificate": {
+    "available": true,
+    "type": "completion_certificate",
+    "requirements": "Officially documented completion/assessment conditions",
+    "cost": 0,
+    "currency": "USD",
+    "official_evidence_url": "https://provider.example/certificate-policy"
   },
-  "access": {
-    "learning_price": null,
-    "currency": null,
-    "conditions": null
-  },
-  "credentials": {
-    "type": null,
-    "available": null,
-    "price": null,
-    "requirements": null
-  },
-  "skills": [],
-  "claims": [],
-  "verification": {
-    "status": "unverified",
-    "checked_at": null
+  "badges": [],
+  "evidence": [
+    {
+      "claim": "certificate.available",
+      "source_url": "https://provider.example/certificate-policy",
+      "short_quote": "Short excerpt from the official source",
+      "checked_at": "2026-10-28T00:00:00Z",
+      "review_note": "How the excerpt establishes the claim"
+    }
+  ],
+  "review": {
+    "status": "verified_free_certificate",
+    "reviewed_at": "2026-10-28T00:00:00Z",
+    "recheck_after": null
   }
 }
 ```
 
-This is a **field example**, not a completed course record or a versioned JSON Schema.
+**All values and links above are illustrative placeholders.** This is not a real verified course. Never copy a fabricated example into `catalog/verified` as data.
 
-## Claim-level evidence
+## Required evidence
 
-```json
-{
-  "field": "access.learning_price",
-  "value": null,
-  "status": "unverified",
-  "evidence": [
-    {
-      "source_url": null,
-      "retrieved_at": null,
-      "excerpt": null,
-      "location": null
-    }
-  ],
-  "review_note": null
-}
-```
+A record must cite official sources for:
+- Course identity and free learning access.
+- Certificate issuance, specific eligibility requirements and price.
+- Any claimed expiry dates, regional restrictions and credential validity.
 
-A quote match verifies that a quoted string appeared in a captured source; it does **not** by itself establish that the quote semantically supports the claim.
+Additional claims such as duration, badge, level, languages and prerequisites should also cite primary sources when filled. Keep evidence excerpts short and preserve dates.
 
-## Verification states
+## Allowed review statuses
 
-| State | Meaning | Publication behavior |
-| --- | --- | --- |
-| `verified` | Source and claim have passed the required checks | Eligible for catalog publication |
-| `unverified` | Insufficient or incomplete supporting evidence | Staging only |
-| `conflicting` | Official sources or statements materially disagree | Staging and manual review |
-| `stale` | Evidence is older than the applicable freshness policy | Recheck before asserting current status |
-| `unavailable` | Source cannot currently be inspected | Preserve history, do not infer current facts |
+- `verified_free_certificate`: free course and free obtainable certificate verified.
+- `verified_paid_certificate`: free course and paid obtainable certificate verified, fee disclosed.
+- `under_review`: proof incomplete; not allowed in the verified directory.
+- `recheck_required`: published claim needs fresh verification; do not assert current status until reviewed.
+- `rejected`: outside the catalog's inclusion rules.
 
-Status is **per claim** where possible. A course record may contain verified title and URL while credential price remains unverified.
+## Quality rules
 
-## Credential vocabulary
+The stored review decision is not an AI-model confidence score. Quote matching and URL reachability alone are not enough; a human or independent review must validate the claim's meaning. The exact JSON Schema will be versioned and checked before bulk records are accepted.
 
-Do not collapse these categories:
-- **Course completion**: completion or participation, possibly without a credential.
-- **Digital badge**: a badge awarded under stated conditions.
-- **Course certificate**: a certificate granted for a course or assessment.
-- **Professional certification**: a separate credential, often exam-based, with its own pricing and validity.
-
-`learning_price`, `exam_price` and `credential_price` must be independent fields in the eventually implemented schema.
-
-## Identity and provenance
-
-Canonical identifiers, redirect resolution, provider mergers, renamed programs and duplicate courses need explicit policies. Evidence should retain the source URL, retrieval time, and, where permitted, a bounded source excerpt or content fingerprint.
-
-Keep raw captures, intermediate candidate records, and published records separate. Never silently upgrade an unverified candidate to a verified catalog entry.
-
-## What needs validation before implementation
-
-- Stable identifiers and deduplication policy.
-- Skill taxonomy and relationship semantics.
-- Localization, currencies and partial discounts.
-- Claim freshness thresholds and recheck schedules.
-- Source quoting limits and retention policy.
-- JSON Schema versioning and migration rules.
-
-Feedback is welcome via [contributions](../CONTRIBUTING.md).
+No tracking cookies, credentials, personal records or large copyrighted source dumps should appear in public records.
