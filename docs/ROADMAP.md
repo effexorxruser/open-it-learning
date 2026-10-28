@@ -1,51 +1,41 @@
 # Roadmap
 
-[← Overview](../README.md) · [Architecture](ARCHITECTURE.md)
+[← Home](../README.md) · [Catalog](../catalog/README.md)
 
-> Roadmap items are goals, not release announcements. Dates and implementation commitments are intentionally omitted until validated.
+This is a roadmap for the **public learning library**, not a plan to distribute the maintainer's internal agent lab.
 
-## 00 — Establish trust
+## 01 · Verified foundation
 
-- [x] Establish the public project repository and initial documentation.
-- [ ] Publish an initial versioned course schema.
-- [ ] Define evidence citation and review policy.
-- [ ] Create a small manually reviewed sample dataset.
-- [ ] Choose a clear open-source license and data licensing terms.
+- [x] Public repository and project identity.
+- [x] Evidence-based inclusion policy.
+- [x] Initial prompts and a reusable course verification skill.
+- [ ] Publish the first independently reviewed certificate-eligible course.
+- [ ] Version the JSON Schema and validate all published records.
+- [ ] Choose a software and content licensing policy.
 
-## 01 — Research that can be reproduced
+## 02 · Useful course discovery
 
-- [ ] Publish a reproducible research-agent prototype or reference implementation.
-- [ ] Support canonical URLs, JavaScript pages and bounded browser sessions.
-- [ ] Preserve sources and failure traces without exposing secrets.
-- [ ] Define a benchmark with development, validation and holdout tasks.
-- [ ] Publish a real, labeled baseline (model, harness, date, evidence and costs).
+- [ ] Build curated indexes by topic: networking, cybersecurity, programming, cloud and data.
+- [ ] Distinguish free certificates from paid credential exams.
+- [ ] Add verified details about duration, prerequisites, languages and accessibility.
+- [ ] Recheck stale links and evolving certificate policies.
+- [ ] Offer an easy correction workflow.
 
-## 02 — Better agent, better evidence
+## 03 · Learning paths and reusable tools
 
-- [ ] Integrate a confirmed Harness² optimization workflow.
-- [ ] Route Solver, Improver and Judge through independently validated providers.
-- [ ] Evaluate the same held-out tasks before and after harness changes.
-- [ ] Add semantic evidence checks and failure analysis.
-- [ ] Define an auditable promotion process for improved harness versions.
+- [ ] Assemble source-backed learning paths for concrete skills and entry-level roles.
+- [ ] Expand copy-ready prompts and portable skills.
+- [ ] Make the catalog downloadable as structured data.
+- [ ] Add review-friendly tooling without requiring a proprietary model or service.
 
-## 03 — Build the graph
+## 04 · Optional integrations
 
-- [ ] Ingest reviewed candidates into a versioned graph schema.
-- [ ] Deduplicate programs and reconcile provider URLs.
-- [ ] Connect courses → skills → pathways → credentials.
-- [ ] Track price changes, withdrawn courses and stale evidence.
-- [ ] Offer reproducible dataset exports.
+- [ ] Evaluate a small, read-only MCP interface over published records.
+- [ ] Explore static search pages or an accessible website.
+- [ ] Document third-party usage and versioning rules.
 
-## 04 — Open discovery
+## Optional · Research journal
 
-- [ ] Design an accessible discovery interface.
-- [ ] Support skill-driven and goal-driven learning pathways.
-- [ ] Accept corrections and source-backed community submissions.
-- [ ] Publish a public API with provenance and freshness information.
-- [ ] Establish transparent governance and maintenance policies.
+Share concise notes about how courses were investigated and why individual claims were accepted or rejected. This may cover general agent-assisted parsing techniques, but **does not require publishing the internal research stack**.
 
-## Release gate
-
-A milestone is complete only when its artifact is **publicly accessible, reproducible, and documented**. A successful local experiment is evidence of progress, not a shipped product.
-
-See [Contributing](../CONTRIBUTING.md) for ways to help shape the roadmap.
+Items are complete only when the actual artifact is public and usable. No fabricated metrics, launch dates or certificates.
