@@ -1,51 +1,65 @@
 # Catalog inclusion policy
 
-[← Home](../README.md) · [Course index](../catalog/README.md) · [Record schema](DATA_CONTRACT.md)
+[← Home / Главная](../README.md) · [Catalog / Каталог](../catalog/README.md) · [Record format](DATA_CONTRACT.md)
 
-## What belongs in the verified index
+## The point of Open IT Learning
 
-**The core catalog is a collection of free IT courses for which an obtainable certificate is confirmed by official sources.**
+The verified index is for **free IT courses that offer at least one officially documented, obtainable outcome or benefit**.
 
-Every published record must pass these checks:
+The outcome may be a certificate, a digital badge, a diploma, a commendation, an official completion record, an exam voucher, a training credit, or another named, provider-issued recognition or perk. The catalog is **not restricted to certificates**.
 
-1. **Official course identity:** the provider, course title and direct canonical URL resolve to the real course.
-2. **Free learning access:** the course content is offered free of charge under the stated conditions. A trial, scholarship, paid plan, or time-limited promotion is not automatically "free."
-3. **Certificate exists:** an official source explicitly confirms a certificate of completion or another *clearly identified certificate* obtainable for this course.
-4. **Conditions are documented:** required coursework, assessment, eligibility and region restrictions are described, or any remaining ambiguity is clearly stated. A material unknown affecting eligibility blocks verified status.
-5. **Credential price is known:** record free certificate, paid certificate/exam, or formally specified conditions. Never infer that credentials are free from free course access.
-6. **Evidence is reviewable:** each material claim points to official sources, short excerpts or documented source locations, and a review date.
-7. **Independent review:** automated excerpt matching is not enough. Reviewers verify that the source actually supports the meaning of the claim.
+It must be tied to the **specific course**. A provider's generic claims about awards are not sufficient.
 
-A digital badge is tracked **separately** and does not automatically qualify as a certificate. A professional certification is distinct from completing a beginner course.
+## Accepted outcome types
 
-## Publication decisions
+| Type | Meaning | Important distinction |
+| :--- | :--- | :--- |
+| `completion_certificate` | Provider-issued course completion certificate | Not automatically a professional qualification |
+| `professional_certificate` | Named industry or professional credential | Check exams, issuer and fees separately |
+| `digital_badge` | Issuer-awarded digital badge or achievement | Does not automatically count as a certificate |
+| `diploma` | Named diploma or formal document of completion | Do not imply accredited academic degree status |
+| `award` | Official award, commendation, competition prize or certificate of merit | State eligibility and what was actually awarded |
+| `participation_record` | Official participation letter, transcript or completion statement | Not automatically a graded qualification |
+| `exam_voucher` | Official exam voucher or exam discount tied to course completion | Not an earned exam pass or credential |
+| `training_credit` | Provider-issued learning credits, credits toward a program or lab access | Do not infer formal academic credit or unlimited access |
+| `other_official_benefit` | Another specifically documented, course-linked benefit | Must be identified, not described vaguely as “perks” |
 
-| Decision | Conditions |
-| --- | --- |
-| **Verified · free certificate** | Free learning and obtainable **free certificate**, including stated conditions, are confirmed. |
-| **Verified · paid certificate** | Free learning and obtainable certificate confirmed; certificate or exam carries a clearly disclosed fee. |
-| **Under review** | One or more required claims are missing or ambiguous. **Not in the verified index.** |
-| **Recheck required** | Old evidence, broken URL, provider policy change, or conflicting information. Temporarily withhold current claims until reviewed. |
-| **Rejected** | Not free learning, no certificate, unofficial/imitation provider, or unverifiable course identity. |
+**Evidence must describe the particular outcome**, its issuer, how to earn it, and its cost. Individual credential verification may be available but is **not** assumed; note the method or `null` if unavailable.
 
-## Evidence standards
+## Admission checks
 
-- Prefer the **course's own official page**, then its provider's official credential policy.
-- Store the *final* URL after redirects when relevant, with a stable course identifier.
-- Record the retrieval date in UTC and the exact claim each source supports.
-- Do not use a search engine snippet as the sole proof.
-- Treat pricing as jurisdiction- and date-dependent where applicable.
-- Distinguish a certificate of course completion, a verified credential and an industry certification exam.
-- Do not paste lengthy copyrighted course materials into repository records.
+A verified course must pass **all** checks:
 
-## When the certificate is unknown
+1. **Authentic course.** A live, canonical official URL; matching title and issuer.
+2. **Free learning.** The actual training content is available without a required payment. Free samples, limited trials and promotional discounts do not qualify without clearly supported free access conditions.
+3. **Official outcome.** An issuer's official page confirms an identifiable reward, record or benefit can be obtained **for this course**. A menu item labeled “Achievements” or generic promise does not establish this.
+4. **Earnability.** Required modules, assessments, enrollment, geography, eligibility, expiry and redemption steps are sufficiently documented. Material unknowns block a verified label.
+5. **Transparent costs.** Separate learning fees from outcome/issuance fees and exam fees. Outcomes may be paid; the fee must be disclosed and known, not guessed. An exam voucher may reduce an exam fee without certifying exam completion.
+6. **Traceable source.** Claim-level official URLs, short excerpts, evidence dates and review notes are stored.
+7. **Review completed.** A reviewer checks meaning, not only string matches, and records when the claim was verified.
 
-Do not add the course to `catalog/verified/`. You may document a short, dated research note under `journal/` if it teaches something about evidence quality. A note is **not a catalog listing**.
+## Record status
 
-## Re-verification
+| Status | Meaning |
+| :--- | :--- |
+| `verified_free_outcome` | Free learning and at least one documented **free** obtainable official outcome |
+| `verified_paid_outcome` | Free learning and documented obtainable official outcome with known issuance or exam cost |
+| `under_review` | Source proof, conditions, costs or semantics are incomplete — **not published** in the verified index |
+| `recheck_required` | Previously confirmed claim may be stale, broken or conflicting; no current verified claim until rechecked |
+| `rejected` | Not a qualifying free course or no documented official outcome is obtainable |
 
-Records must carry `reviewed_at` and may carry `recheck_after`. If a required claim becomes unavailable or contradictory, flag the record for review and avoid asserting it as current. A fixed global freshness period has not yet been chosen.
+An outcome record must always disclose its **type**; the status alone never implies “certificate”. A free digital badge is welcome if the issuer and conditions are confirmed; a paid certificate is allowed if clearly labeled and course access is free.
 
-## Scope and independence
+## Example: Cisco research
 
-The public catalog can be maintained with manual verification, any browsing-capable assistant or other tools. Internal developer infrastructure, model providers and Harness² experiments are **not part of the reader's experience** and are not requirements for contributing.
+A dated snapshot of [Cisco Introduction to Cybersecurity](../journal/2026-10-28-cisco-introduction-to-cybersecurity.md) showed free course access, “6 HOURS”, and the phrase “Badges you can earn in this course”.
+
+This is evidence that the course page **advertises badges**. It does not independently establish the particular badge, issuer's issuance conditions or whether the user earns it without additional cost. Therefore **under review** until checked.
+
+## Handling later changes
+
+Keep the original issuer source and review timestamp. Track course closures, renamed credentials, discontinued badges, changed fees and expired vouchers. If an outcome becomes unavailable, re-evaluate status rather than silently leaving a stale verified listing online.
+
+## Public scope
+
+Catalog editors may use manual research or automation, but **the public repository is only the collection, prompts, skills, editorial guidance and optional high-level research notes**. Private agent-development infrastructure is not a product requirement.
