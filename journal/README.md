@@ -2,11 +2,11 @@
 
 [← Home](../README.md)
 
-Short, dated notes about curating free IT courses, checking certificates, finding broken sources, and using agent-assisted browsing responsibly.
+Short, dated notes about curating free IT courses, verifying badges, certificates, diplomas, awards and official bonuses, and using agent-assisted browsing responsibly.
 
 **This is not the codebase or operation manual for the maintainer's private research environment.** Notes may discuss methods at a high level, but no internal configurations, provider keys, paid API routes or private harness logs belong here.
 
-A research note can mention a course whose certificate has **not** been confirmed. Such a note is not a listing in the verified catalog.
+A research note can describe a course whose **specific award or bonus and its conditions** have not yet been confirmed. Such a note is not an approved catalog record.
 
 ## Notes
 
