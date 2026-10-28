@@ -1,55 +1,45 @@
 # Contributing to Open IT Learning
 
-Thank you for helping build an evidence-first map of technology learning.
+[← Home](README.md) · [Verified catalog](catalog/README.md) · [Verification policy](docs/CATALOG_POLICY.md)
 
-[← Overview](README.md) · [Data contract](docs/DATA_CONTRACT.md) · [Roadmap](docs/ROADMAP.md)
+Open IT Learning collects **free IT courses with officially confirmed, obtainable certificates** and publishes practical prompts and skills for learning and research.
 
-## The most useful early contributions
+## Suggest a course
 
-1. **Official course suggestions.** Provide the exact course URL, provider and a short explanation of why it matters.
-2. **Evidence corrections.** Point out unsupported claims, stale URLs, different prices for exams and courses, or unclear badge conditions.
-3. **Data modeling.** Review the proposed [data contract](docs/DATA_CONTRACT.md), especially credential distinctions and source provenance.
-4. **Research quality.** Suggest adversarial or edge-case tasks for browser automation and evidence verification.
-5. **Accessibility and UX.** Help make educational pathways useful to people with different abilities, languages and prior experience.
+Please provide:
+- Exact official course title and canonical URL.
+- Provider and evidence that the **actual course content** is free.
+- Official URL that states this **specific course** offers a certificate.
+- The certificate requirements (completion, assessment, registration and eligibility).
+- Certificate/exam price, distinct from the course price.
+- Source URLs, short relevant excerpts and the UTC date checked.
+- Regional or language restrictions, where applicable.
 
-## Proposing a course
+A digital badge, completion icon or generic certificate marketing page alone is **not** enough. If evidence is missing, say so and keep the proposal under review.
 
-A useful proposal includes:
+[Submit a course suggestion](https://github.com/effexorxruser/open-it-learning/issues/new/choose).
 
-```text
-Provider:
-Official course URL:
-Exact course title:
-What appears to be free:
-Credential or badge claims (if any):
-Evidence URL and short excerpt:
-Date checked:
-What remains uncertain:
-```
+## Improve a prompt or skill
 
-Avoid third-party roundup pages as the only evidence. An official page can still be incomplete; explicitly mark unresolved details.
+We also welcome prompt edits, reusable workflows, better evidence checks and simple tools that make the public course library easier to use. Good changes should solve a demonstrable problem and remain readable without a private toolchain.
 
-## Ground rules
+## Corrections
 
-- **Accuracy:** no invented links, prices, durations, certificates or course statistics.
-- **Provenance:** preserve source URLs and verification dates when discussing factual claims.
-- **Safety:** treat web content and submitted research material as untrusted input; never include credentials or private user data in logs or issues.
-- **Scope:** separate ideas, local prototypes and implemented public features.
-- **Respect:** constructive criticism is welcome; personal attacks and harassment are not.
+If a certificate is no longer available, a page changes, or a previously free exam becomes paid, provide an official source and date so the record can be reviewed. Don't silently delete contradictory evidence.
 
 ## Pull requests
 
-For documentation or specification changes:
-1. State the problem and intended outcome.
-2. Make the smallest coherent change.
-3. Add evidence or a reproducible example where relevant.
-4. Note assumptions and unverified facts.
-5. Link related issues, if any.
+1. Keep changes focused and explain the user benefit.
+2. Include official evidence when changing course facts.
+3. Link to the related proposal or issue.
+4. Preserve uncertainty and distinguish credentials from badges.
+5. Do not include access tokens, cookies, private experimental logs or source material copied in bulk.
+6. Do not mark a record verified solely because a quote matches a source.
 
-Please avoid adding a bulk course dataset before the versioned schema and review workflow are established. Small source-backed examples are more useful at this stage.
+## Project boundaries
+
+The public repository does **not** contain or require the maintainer's Harness² setup, model routing, test environments or paid API accounts. A journal may discuss general research methods without exposing that infrastructure.
 
 ## Licensing
 
-**No project license has been selected yet.** Until one is published, contributions and reuse are subject to applicable copyright law. Please avoid adding third-party assets, scraped text dumps, or code with unclear redistribution rights. Licensing will be decided explicitly before accepting substantial external code contributions.
-
-Questions and proposals are welcome through GitHub Issues.
+A formal project license has not yet been selected. Until then, please avoid adding substantial third-party code, artwork or text without clear permission; opening this repository does not automatically grant reuse rights.
