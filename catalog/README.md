@@ -1,21 +1,28 @@
-# Verified course catalog
+# Verified free IT courses & official achievements
 
-[← Home](../README.md) · [Inclusion policy](../docs/CATALOG_POLICY.md) · [Propose a course](../CONTRIBUTING.md)
+[← Home / Главная](../README.md) · [Admission rules](../docs/CATALOG_POLICY.md) · [Record format](../docs/DATA_CONTRACT.md)
 
-> **No certificate-verified entries have been published yet.** This is deliberate: free access, badge availability and a course title are not enough to establish certificate eligibility.
+> **No fully reviewed entries have been published yet.** We do not count marketing language or generic “achievements” sections as confirmation of an obtainable award.
 
-## What will appear here
+## What qualifies
 
-Only free IT courses with **officially documented, obtainable certificates**. For each entry we will publish the canonical course URL, provider, level, duration, required completion conditions, certificate type, separately disclosed course and credential cost, official sources and last review date.
+We accept **free IT courses** with at least one officially documented, obtainable outcome:
 
-| Section | Content |
-| --- | --- |
-| [Verified records](verified/README.md) | Reviewed entries that pass the policy |
-| [Record format](../docs/DATA_CONTRACT.md) | Field definitions and evidence requirements |
-| [Verification rules](../docs/CATALOG_POLICY.md) | What counts as a confirmed certificate |
+- Certificates of completion and identified professional credentials.
+- Official digital badges and achievement icons.
+- Provider-issued diplomas, awards, commendations and participation records.
+- Course-linked official benefits such as exam vouchers, credits or special lab access.
 
-## How to suggest a course
+Each must have a specific issuer, eligibility steps, source evidence and transparent cost. An ordinary badge does not automatically count as a certificate; a diploma from a training platform is not necessarily an accredited academic degree.
 
-Open a [course suggestion](https://github.com/effexorxruser/open-it-learning/issues/new/choose) with the official course and certificate information, not just a summary or a search-result link.
+## Verified records
 
-**No course with an unconfirmed certificate will be silently promoted to this catalog.**
+[Browse the verified index](verified/README.md) · [Editorial policy](../docs/CATALOG_POLICY.md) · [Schema](schema/course.schema.json)
+
+Records will be grouped by learning area and searchable by reward/benefit type as the catalog grows.
+
+## Suggest a course
+
+Use the [course suggestion form](https://github.com/effexorxruser/open-it-learning/issues/new/choose). Include both the official course URL **and the provider's description of the actual obtainable outcome and conditions**.
+
+**Our priority is trustworthy entries, not a large unreviewed link collection.**
