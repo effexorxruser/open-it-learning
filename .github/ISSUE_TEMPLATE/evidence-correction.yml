@@ -1,0 +1,43 @@
+name: "Evidence or data correction"
+description: "Report an unsupported claim, stale link or conflicting source."
+title: "[Evidence] "
+labels: ["evidence-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Evidence is the foundation of this project. Clearly distinguish what is documented from what you infer.
+  - type: input
+    id: record
+    attributes:
+      label: Affected record or page
+      description: "Link to the exact issue, record, documentation page or course URL."
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: Problem
+      options:
+        - Incorrect or unsupported claim
+        - Stale or broken URL
+        - Conflicting official sources
+        - Misstated course or credential price
+        - Credential / badge classification
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should change?
+      description: "Explain the correction and what remains uncertain."
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Official evidence
+      description: "Link to supporting sources and include the date checked."
+    validations:
+      required: true
