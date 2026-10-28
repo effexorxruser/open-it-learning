@@ -1,43 +1,39 @@
-name: "Evidence or data correction"
-description: "Report an unsupported claim, stale link or conflicting source."
-title: "[Evidence] "
-labels: ["evidence-review"]
+name: "Fix a catalog claim"
+description: "Report an unsupported certificate claim, fee, requirement, or stale official link."
+title: "[Correction] "
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Evidence is the foundation of this project. Clearly distinguish what is documented from what you infer.
   - type: input
     id: record
     attributes:
-      label: Affected record or page
-      description: "Link to the exact issue, record, documentation page or course URL."
+      label: Affected course or repository file
+      description: "Link directly to the affected page or record."
     validations:
       required: true
   - type: dropdown
     id: problem
     attributes:
-      label: Problem
+      label: Issue type
       options:
-        - Incorrect or unsupported claim
-        - Stale or broken URL
-        - Conflicting official sources
-        - Misstated course or credential price
-        - Credential / badge classification
+        - Certificate unavailable or conditions changed
+        - Certificate fee or exam fee changed
+        - Course content no longer free
+        - Badge incorrectly described as certificate
+        - Official course URL stale or broken
+        - Unsupported claim or conflicting official sources
         - Other
     validations:
       required: true
   - type: textarea
-    id: expected
+    id: evidence
     attributes:
-      label: What should change?
-      description: "Explain the correction and what remains uncertain."
+      label: Official evidence and date checked
+      description: "Include short quoted text and exact links."
     validations:
       required: true
   - type: textarea
-    id: sources
+    id: proposal
     attributes:
-      label: Official evidence
-      description: "Link to supporting sources and include the date checked."
+      label: Proposed correction
+      description: "Explain what should change and what remains uncertain."
     validations:
       required: true
