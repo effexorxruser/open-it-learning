@@ -2,7 +2,7 @@
 
 [← Home](../README.md) · [Catalog policy](CATALOG_POLICY.md) · [Roadmap](ROADMAP.md)
 
-This repository is **a course library and a collection of reusable learning resources**. It is **not** a deployment of the maintainer's research agent, Harness², model routers, browsers, or internal experiment infrastructure.
+This repository is **a course library and a collection of reusable learning resources**. It is **not** a deployment of the maintainer's private research or automation infrastructure.
 
 ## Directory map
 
