@@ -1,94 +1,144 @@
 <div align="center">
 
-<img src="assets/hero.svg" width="100%" alt="Open IT Learning — free courses, verifiable credentials" />
+<img src="assets/hero.svg" width="100%" alt="Open IT Learning — бесплатные IT-курсы с официальными наградами и бонусами" />
 
 <br />
 
-**A curated, source-checked collection of free IT courses with documented certificates and credentials.**
+**Free IT courses. Official achievements. Useful learning tools.**
 
-[**Browse courses**](catalog/README.md) · [**Use prompts**](prompts/README.md) · [**Explore skills**](skills/README.md) · [**Contribute**](CONTRIBUTING.md)
+*Бесплатные IT-курсы · официальные награды · готовые материалы для обучения*
 
-[English](README.md) · [Русский](docs/README.ru.md)
+[**Catalog / Каталог**](catalog/README.md) · [**Prompts / Промпты**](prompts/README.md) · [**Skills / Скиллы**](skills/README.md) · [**Contribute / Участие**](CONTRIBUTING.md)
 
 </div>
 
----
+<details>
+<summary><strong>🇷🇺 Русский — открыть полную русскую версию прямо здесь</strong></summary>
 
-## Learn something. Have something to show for it.
+## Бесплатные IT-курсы с реальными результатами
 
-Finding free IT education is easy. Finding a course that actually leads to a **documented, obtainable credential** is harder.
+**Open IT Learning** — открытая коллекция бесплатных IT-курсов, за прохождение которых можно получить **официальные подтверждения достижений** или документированные бонусы от организатора.
 
-**Open IT Learning** is being built as a practical, curated repository that answers three questions before recommending a course:
+Не ограничиваемся сертификатами. Нас интересуют и другие подтверждённые результаты:
 
-**01 — Can I learn for free?** We distinguish free enrollment and course access from trials, subscriptions and paid exams.
-
-**02 — What can I earn?** We document the actual certificate or digital credential, how to obtain it, and whether any fee applies.
-
-**03 — Where is the proof?** We link to the provider's official pages and record when the information was checked.
-
-No invented course links. No equating a badge with a professional certification. No claiming that a certificate exists simply because a course is free.
-
-## What you'll find here
-
-| Directory | What it contains |
+| Что можно получить | Как мы это описываем |
 | :--- | :--- |
-| **[catalog/](catalog/README.md)** | Courses admitted only after official evidence confirms the learning opportunity **and** obtainable credential. |
-| **[prompts/](prompts/README.md)** | Copy-ready prompts for course discovery, verification and personalized learning paths. |
-| **[skills/](skills/README.md)** | Reusable, transparent agent workflows for checking course pages and evidence. |
-| **[integrations/](integrations/README.md)** | Ideas and interface contracts for later tools such as an MCP server; not a live integration yet. |
-| **[journal/](journal/README.md)** | Optional field notes on course research, curation and agent-assisted parsing — not the internal development environment. |
-| **[docs/](docs/CATALOG_POLICY.md)** | Verification rules, proposed record format and contribution guidance. |
+| **Сертификат** | Сертификат завершения курса, отдельная профессиональная сертификация или другой документ — не путаем категории. |
+| **Бейдж / цифровой значок** | Официальный цифровой знак достижения, в том числе с возможностью проверить выдачу. |
+| **Диплом, грамота, награда** | Названный документ или награда от организатора; не приравниваем автоматически к государственному диплому. |
+| **Подтверждение участия / результатов** | Письмо, запись о прохождении, транскрипт, подтверждённый профиль достижения. |
+| **Другие официальные бонусы** | Экзаменационный ваучер, зачётные единицы, доступ к лабораториям или иные условия — если организатор прямо обещает их за выполнение курса. |
 
-## Course catalog
+**Наши требования:** обучение бесплатно; результат привязан к конкретному курсу; официальный источник подтверждает, **что и как можно получить**; цена и ограничения указаны отдельно. Бесплатный курс не означает бесплатную выдачу награды — возможные платежи обозначаем явно.
 
-> **Catalog status:** no certificate-verified records have been published yet. We prefer an honest empty index over a directory of uncertain claims.
+### 📚 Что находится в репозитории
 
-The intended catalog is structured for real decisions, not marketing claims:
+- **[Каталог курсов](catalog/README.md)** — только проверенные записи с официальными источниками и датой проверки.
+- **[Готовые промпты](prompts/README.md)** — поиск подходящих курсов, проверка наград, планирование обучения.
+- **[Скиллы для агентов](skills/README.md)** — переносимые инструкции и сценарии проверки.
+- **[Интеграции](integrations/README.md)** — идеи экспорта данных и возможного MCP-интерфейса.
+- **[Журнал исследований](journal/README.md)** — отдельные заметки о поиске, проверке и агентном анализе источников.
 
-| Data | Required proof |
-| :--- | :--- |
-| Provider and course | Official page and canonical link |
-| Course access | Official evidence that the learning content is available free of charge |
-| Credential | Official evidence that a certificate or qualifying digital credential **can be earned** |
-| Conditions | Completion, assessment and eligibility requirements, or a clearly documented unresolved limitation |
-| Cost | Course fees and credential/exam fees shown separately |
-| Last reviewed | Date and source excerpts or references |
+### Как проверяем курс
 
-A free course with **unverified certificate availability** does **not** qualify for the verified index. A paid exam is not described as a free certificate.
+1. Находим точную официальную страницу курса.
+2. Проверяем, что доступ к учебным материалам бесплатный, а не только пробный.
+3. Подтверждаем **конкретный результат**: сертификат, бейдж, диплом, грамоту, официальный бонус и т. д.
+4. Уточняем условия выдачи, экзамены, стоимость, ограничения и способ проверки награды, если он существует.
+5. Сохраняем ссылки на первоисточники, короткие цитаты и дату проверки.
+6. Включаем курс в основной каталог только после проверки смысла доказательств.
 
-Read the [catalog acceptance policy](docs/CATALOG_POLICY.md) and the [course record format](docs/DATA_CONTRACT.md).
+Если организатор лишь показывает раздел «Achievements», но не удалось установить условия получения награды, запись остаётся **на проверке**.
 
-## Ready-to-use resources
+### Состояние каталога
 
-**Research prompt** — [Verify a course and its credential](prompts/verify-course.md). A structured, source-first prompt for a browsing-capable assistant.
+**Проверенные записи пока не опубликованы.** Мы не заполняем каталог фиктивными примерами или курсами с неустановленными условиями выдачи наград.
 
-**Planning prompt** — [Build a certificate-aware learning path](prompts/learning-path.md). Choose courses by goals, prerequisites, time and credential cost.
+В исследовании [Cisco Introduction to Cybersecurity](journal/2026-10-28-cisco-introduction-to-cybersecurity.md) подтверждены бесплатный доступ, примерная продолжительность 6 часов и упоминание бейджей. Но условия получения этих бейджей и информация о сертификате пока недостаточно проверены для включения курса в каталог.
 
-**Agent skill** — [Course Verifier](skills/course-verifier/SKILL.md). A reviewable workflow with explicit admission criteria and evidence checks.
+### Для чего нужны промпты и скиллы
 
-These are **templates and workflow instructions**, not claims that an agent or MCP server is hosted by this repository.
+Их можно использовать самостоятельно, не устанавливая внутренние инструменты разработки проекта:
 
-## A small example of why verification matters
+- [Проверка курса и официальных наград — промпт на русском](prompts/verify-course.ru.md)
+- [Проверка курса — английский промпт](prompts/verify-course.md)
+- [Построение учебного маршрута](prompts/learning-path.md)
+- [Course Verifier — переносимый скилл](skills/course-verifier/SKILL.md)
 
-A research snapshot of Cisco's *Introduction to Cybersecurity* showed an official page describing free access, approximately six hours of learning, and badges. However, the same research did **not** establish the availability and conditions of a course certificate.
+### Как помочь
 
-**Result: not eligible for the verified catalog yet.** The distinction between “badges shown” and “certificate independently confirmed” is exactly why this project exists. See the [research note](journal/2026-10-28-cisco-introduction-to-cybersecurity.md).
+Предложи курс с **официальной ссылкой на результат и условия получения**, исправь устаревшие сведения или помоги улучшить промпты, скиллы и схему данных.
 
-## Built for useful contributions
+[Предложить курс](https://github.com/effexorxruser/open-it-learning/issues/new/choose) · [Правила проверки](docs/CATALOG_POLICY.md) · [Участие](CONTRIBUTING.md)
 
-If you know a free IT course with a documented certificate, [suggest it](https://github.com/effexorxruser/open-it-learning/issues/new/choose) with its official source. If a published record becomes inaccurate, [flag it](https://github.com/effexorxruser/open-it-learning/issues/new/choose). Contributions are reviewed against the same evidence policy.
+**Важно:** это публичная библиотека курсов и материалов. Инструменты её разработки и внутренние агентные эксперименты не являются частью репозитория. Журнал может рассказывать о методах подбора без публикации приватной инфраструктуры.
 
-We are also collecting reusable prompt patterns and workflow ideas — each should solve a concrete learning or verification problem.
-
-## Roadmap
-
-1. **Verified foundation:** publish the first genuinely confirmed records and a versioned data contract.
-2. **Practical tooling:** expand prompts, skills and quality checks around the catalog.
-3. **Learning routes:** group courses by skills, prerequisite chains and goals.
-4. **Integrations:** explore exports, search tools and a potential MCP interface without requiring anyone to run the maintainer's research infrastructure.
-
-See [ROADMAP](docs/ROADMAP.md).
+</details>
 
 ---
 
-<sub>Open IT Learning is an independent, early-stage community resource. Provider names are used for reference; no affiliation or endorsement is implied. The private tooling used to research and maintain the catalog is separate from this public repository.</sub>
+## Learn for free. Earn something official.
+
+**Open IT Learning** is a curated, open repository of free IT courses that can lead to **documented recognition, credentials, or official benefits** from the issuing organization.
+
+We go beyond certificates. The catalog can include:
+
+| Official outcome | Examples |
+| :--- | :--- |
+| **Certificates** | Course completion certificates and explicitly identified professional credentials |
+| **Digital badges** | Issuer-backed achievement badges, including verifiable badges where available |
+| **Diplomas, awards & commendations** | Named provider-issued documents or awards; academic accreditation is never implied |
+| **Records of achievement** | Participation letters, transcripts, official completion records |
+| **Other official perks** | Exam vouchers, learning credits, lab access or similar clearly documented benefits |
+
+A badge is **not** a professional certificate; an award is **not** necessarily an accredited diploma; a voucher is **not** proof of exam completion. Every category is labeled accurately.
+
+### What belongs in the catalog
+
+We admit a record only when the provider's official sources establish that:
+
+1. The course and its learning content are **free to access**, subject to disclosed conditions.
+2. An **identifiable official outcome or benefit** is obtainable through that specific course.
+3. The steps to receive it, eligibility restrictions and costs are sufficiently documented.
+4. Links, evidence excerpts and a review date are preserved.
+5. An independent review confirms that the excerpts actually support the claims.
+
+A free course does **not** guarantee a free certificate or exam. Course fees and outcome fees are recorded separately.
+
+[Read the full admission policy](docs/CATALOG_POLICY.md) · [Course record format](docs/DATA_CONTRACT.md)
+
+### Explore
+
+| Directory | Contents |
+| :--- | :--- |
+| **[catalog/](catalog/README.md)** | Reviewed courses and their officially documented outcomes |
+| **[prompts/](prompts/README.md)** | Copy-ready prompts for researching courses and building learning paths |
+| **[skills/](skills/README.md)** | Portable, source-first course verification workflows |
+| **[integrations/](integrations/README.md)** | Potential exports and an optional future MCP interface |
+| **[journal/](journal/README.md)** | Short field notes on course research and curation |
+
+### Useful resources available now
+
+**[Course verification prompt](prompts/verify-course.md)** — check official URLs, free access, earnable outcomes, conditions, and fees.
+
+**[Learning-path prompt](prompts/learning-path.md)** — build a sequence around target skills, prerequisites, available time and official recognition.
+
+**[Course Verifier skill](skills/course-verifier/SKILL.md)** — a reusable process for evidence collection and catalog admission decisions.
+
+These are portable text resources — **not** a hosted agent, MCP server or subscription service.
+
+### Catalog status
+
+**No fully reviewed records have been published yet.** An empty verified index is preferable to invented awards or vague promises.
+
+Our [Cisco Introduction to Cybersecurity field note](journal/2026-10-28-cisco-introduction-to-cybersecurity.md) documents free learning and a provider page that mentions badges, but it does **not** yet establish all badge-award conditions or any certificate entitlements. The course is still **under review**.
+
+### Contribute
+
+Know a free IT course with an official badge, certificate, diploma, award or benefit? [Propose it](https://github.com/effexorxruser/open-it-learning/issues/new/choose) with the issuer's official evidence, qualification steps, and any fees. You can also improve our prompts, skills and documentation.
+
+[Contribution guide](CONTRIBUTING.md) · [Roadmap](docs/ROADMAP.md)
+
+---
+
+<sub>Open IT Learning is an independent early-stage community library. Provider names identify the original issuers, not partners or sponsors. The private research and development environment is outside this repository.</sub>
