@@ -1,100 +1,54 @@
-# Architecture / Research system
+# Public repository structure
 
-> **Design document — not a description of a deployed service.**
-> The research prototype lives in a separate local development environment. This repository currently publishes the project direction and specifications.
+[← Home](../README.md) · [Catalog policy](CATALOG_POLICY.md) · [Roadmap](ROADMAP.md)
 
-[← Overview](../README.md) · [Data contract](DATA_CONTRACT.md) · [Roadmap](ROADMAP.md)
+This repository is **a course library and a collection of reusable learning resources**. It is **not** a deployment of the maintainer's research agent, Harness², model routers, browsers, or internal experiment infrastructure.
 
-## System boundaries
+## Directory map
 
-```mermaid
-flowchart TB
-  subgraph Sources["Untrusted external sources"]
-    S1["Provider course pages"]
-    S2["Public program documentation"]
-    S3["Search results"]
-  end
-
-  subgraph Research["Research layer (experimental)"]
-    D["Discovery"]
-    B["Browser / Playwright"]
-    X["Structured extraction"]
-    D --> B --> X
-  end
-
-  subgraph Trust["Trust boundary"]
-    V["Source & claim validation"]
-    E["Evidence store"]
-    Q["Quality gates"]
-    V --> E --> Q
-  end
-
-  subgraph Graph["Future public data layer"]
-    ST["Staging"]
-    G[("Learning graph")]
-    ST --> G
-  end
-
-  subgraph Lab["Agent experimentation"]
-    EV["Evaluation set"]
-    H["Harness² improvement cycle"]
-    EV <--> H
-  end
-
-  S1 --> D
-  S2 --> D
-  S3 --> D
-  X --> V
-  Q --> ST
-  H -. "versioned harness changes" .-> Research
-  E -. "auditable outcomes" .-> EV
+```text
+open-it-learning/
+├── catalog/
+│   ├── README.md          Verified-course index
+│   ├── verified/          Approved, source-reviewed records
+│   └── schema/            Data format and validation
+├── prompts/               Ready-to-copy research and planning prompts
+├── skills/                Portable course-verification skills
+├── integrations/          Future public interfaces (MCP proposal, exports)
+├── journal/               Optional research and curation field notes
+├── docs/                  Editorial policy and user documentation
+├── assets/                Visual identity
+└── .github/               Contribution templates
 ```
 
-## Roles, not interchangeable labels
+The design optimizes for plain GitHub browsing first: records and methods should be readable without installing an application.
 
-| Role | Intended responsibility | Boundary |
-| --- | --- | --- |
-| **Codex / engineer** | Develop code, maintain tools, run controlled experiments | Engineering session, not an automatic claim verifier |
-| **Research Solver** | Discover, browse, extract and propose structured course records | Model provider and browser tools are independently configured |
-| **Evaluator** | Check source support, schema validity and reproducibility | Deterministic assertions precede model judgment |
-| **Judge** | Independently assess ambiguous or semantic quality | Requires validated independent API route |
-| **Improver / Harness²** | Propose and compare improvements to agent instructions and tool usage | No silent promotion of untested changes |
+## Course publication flow
 
-The project explores Harness² concepts and real integrations where feasible, not a claim that its stock benchmarks measure education research.
+```mermaid
+flowchart LR
+  A["Official source"] --> B["Candidate + evidence"]
+  B --> C["Independent review"]
+  C --> D{"Certificate verified?"}
+  D -->|"Yes"| E["catalog/verified"]
+  D -->|"No"| F["Keep out of verified index"]
+  E --> G["Paths / exports / future MCP"]
+```
 
-## Research trace
+The publication gate concerns **certificate availability and conditions**, not whether a browser could load a page.
 
-For each run, capture:
-1. Task ID, model route, harness version and tool configuration.
-2. Discovered candidate URLs and final canonical URLs.
-3. Browser interactions, timestamps, redirect chain and bounded diagnostics.
-4. Extracted facts and supporting evidence spans.
-5. Validation outcomes, contradictions and unresolved fields.
-6. Requests, latency, token accounting and *estimated* cost, clearly separated from provider billing.
+## Record boundaries
 
-External page text is **untrusted data**. It must never be promoted into a system instruction or shell command.
+A public record may contain provider, course and certificate data; official evidence URLs; short supporting excerpts; and review dates. It must not contain local browser traces, API keys, account identifiers, authentication cookies, or private experimental data.
 
-## Security constraints
+The difference between course and credential cost must remain explicit. A badge or achievement icon is not automatically a certificate.
 
-- Public HTTPS sources only, with per-request validation and protections against private-address access and redirect-based SSRF.
-- Navigation and browser resource budgets are separate from model request budgets.
-- Read-only discovery by default. No automatic logins, submissions, purchases or CAPTCHA bypasses.
-- Any necessary API interactions must be limited to supported read-only operations after method and payload validation.
-- Provider keys stay outside source code and reports.
-- Sensitive headers, cookies, full error bodies and private account data are excluded from shared traces.
-- The original Harness² executor sandbox settings require review before running untrusted tasks. Rootless containers alone do not guarantee network isolation.
+## Ready-to-use tools
 
-## Evaluation philosophy
+Prompts and skills are versioned text files. They can be copied into compatible assistants, reviewed, modified and reused independently of the catalog. An MCP interface is only a proposal until implemented.
 
-Every change must be compared against a stable baseline on the same tasks. Separate:
-- **Schema correctness** (deterministic),
-- **URL and source integrity** (network/record validation),
-- **Evidence support** (quote and semantic assessment),
-- **Result completeness** (task-specific),
-- **Efficiency** (time, requests, resources, estimated cost).
+## Maintainer workflow is separate
 
-Do not train on holdout answers or assume a lower token cost is proof of higher research quality.
+The maintainer may use automated browsing, agents, evaluation suites and private research tools to propose course records. Those are **implementation details of maintenance**, not parts of the public product, installation requirements or source of authority for course claims.
 
-## Deployment is not yet defined
-
-The graph database, public API, hosted application, authentication model and update schedule will be selected after a small verified dataset and evaluation benchmark are established. No production infrastructure is implied by this specification.
+Only approved catalog facts with official evidence should be represented as verified. See [catalog inclusion policy](CATALOG_POLICY.md).
