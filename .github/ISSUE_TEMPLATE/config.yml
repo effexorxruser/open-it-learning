@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "Project vision and scope"
+    url: "https://github.com/effexorxruser/open-it-learning/blob/main/README.md"
+    about: "Read the project's aims and current status before opening an issue."
