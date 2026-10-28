@@ -17,7 +17,8 @@ open-it-learning/
 ├── integrations/          Future public interfaces (MCP proposal, exports)
 ├── journal/               Optional research and curation field notes
 ├── docs/                  Editorial policy and user documentation
-└── .github/               Contribution templates
+├── wiki-source/           Reviewed pages for the separate GitHub Wiki
+└── .github/               Contribution templates and manual Wiki publishing
 ```
 
 The design optimizes for plain GitHub browsing first: records and methods should be readable without installing an application.
