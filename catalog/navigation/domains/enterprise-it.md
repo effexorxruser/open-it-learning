@@ -1,6 +1,6 @@
 # Корпоративные системы и автоматизация бизнеса / Enterprise IT and business automation
 
-[← All IT directions](../README.md) · [All verified courses](../../verified/README.md) · [Learning paths](../learning-paths.md)
+[← All IT directions](../README.md) · [Все курсы — прямые ссылки](../../courses/README.md) · [Learning paths](../learning-paths.md)
 
 ERP, 1С, корпоративные процессы и бизнес-приложения. Пока нет подтверждённых курсов.
 
