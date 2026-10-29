@@ -11,6 +11,7 @@ This roadmap covers the **public course library**, ready-to-use learning materia
 - [x] Publish initial prompts and reusable course verification skill.
 - [x] Draft the JSON Schema for free courses with **one or more typed outcomes**.
 - [x] Verify and publish the first course with a fully documented official result and conditions — [freeCodeCamp Responsive Web Design (v9)](../catalog/verified/freecodecamp-responsive-web-design-v9.json).
+- [x] Prepare the ten-course source-reviewed [Research Batch #001](../journal/research-batch-001/README.md), with independent source review and 14 typed results; see the [verified index](../catalog/verified/README.md).
 - [ ] Select an explicit license for software and editorial content.
 
 ## 02 · Useful discovery
