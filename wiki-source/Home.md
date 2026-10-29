@@ -4,13 +4,13 @@
 
 Добро пожаловать в Wiki **Open IT Learning**. Здесь собраны правила работы с курсами, объяснения типов наград, готовые инструменты для проверки и сведения о развитии открытой библиотеки.
 
-> **Статус:** каталог содержит [11 курсов с проверенными официальными источниками](https://github.com/effexorxruser/open-it-learning/blob/main/catalog/verified/README.md): 6 CS50, 3 OpenLearn и 2 freeCodeCamp. У каждого результата указаны условия и стоимость; сертификаты, бейджи, подтверждения участия и CPD-баллы разделены по типам.
+> **Статус:** каталог содержит [21 курс с проверенными официальными источниками](https://github.com/effexorxruser/open-it-learning/blob/main/catalog/verified/README.md) с 27 типизированными результатами, включая русскоязычные Linux, SQL и C++ от Stepik. Программа 1С пока на проверке. У каждого результата указаны условия и стоимость; сертификаты, бейджи, подтверждения участия и CPD-баллы разделены по типам.
 
 ## С чего начать
 
 | Раздел | Что узнаете |
 | :--- | :--- |
-| [Каталог курсов](https://github.com/effexorxruser/open-it-learning/wiki/Catalog) | Как устроена подборка и где найти 11 проверенных курсов |
+| [Каталог курсов](https://github.com/effexorxruser/open-it-learning/wiki/Catalog) | Как устроена подборка и где найти 21 проверенный курс |
 | [Официальные достижения](https://github.com/effexorxruser/open-it-learning/wiki/Achievements) | Чем отличаются сертификаты, бейджи, дипломы, грамоты и бонусы |
 | [Проверка курса](https://github.com/effexorxruser/open-it-learning/wiki/Verification) | Какие доказательства обязательны и как принимается решение |
 | [Промпты и скиллы](https://github.com/effexorxruser/open-it-learning/wiki/Resources) | Как использовать готовые материалы репозитория |

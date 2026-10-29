@@ -8,6 +8,12 @@
 
 ## Доступные заметки
 
+### Research Batch #002 · 10 новых подтверждённых программ и отдельный кандидат 1С
+
+[Отчёт, проверенные пороги Stepik и источники](https://github.com/effexorxruser/open-it-learning/blob/main/journal/research-batch-002/README.md) · [Независимое редакционное ревью](https://github.com/effexorxruser/open-it-learning/blob/main/journal/research-batch-002/editorial-review-2026-10-29.md)
+
+Проверены 10 дополнительных курсов с 12 результатами: сертификаты, бейджи, CEU-баллы. Бесплатные курсы Stepik по Linux, SQL и C++ имеют конкретные пороги сертификатов из официального API. Курс 1С «Код будущего» пока не включён в подтверждённый каталог из-за неизвестной стоимости выдачи сертификата.
+
 ### Research Batch #001 · 10 курсов CS50, OpenLearn и freeCodeCamp
 
 [Отчёт и источники](https://github.com/effexorxruser/open-it-learning/blob/main/journal/research-batch-001/README.md) · [Независимое ревью](https://github.com/effexorxruser/open-it-learning/blob/main/journal/research-batch-001/editorial-review-2026-10-29.md)

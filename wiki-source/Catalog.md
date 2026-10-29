@@ -10,7 +10,7 @@ Open IT Learning собирает **бесплатные IT-курсы**, за �
 
 ## Текущий статус
 
-**Проверено 11 курсов с 15 раздельно описанными результатами:** шесть программ CS50 (бесплатный сертификат CS50), три курса OpenLearn (подтверждения участия, два бесплатных бейджа и 24 CPD-балла на двух курсах) и две текущие сертификации freeCodeCamp (после экзамена). [Открыть индекс](https://github.com/effexorxruser/open-it-learning/blob/main/catalog/verified/README.md) и [исследование Batch #001](https://github.com/effexorxruser/open-it-learning/blob/main/journal/research-batch-001/README.md). Cisco Introduction to Cybersecurity остаётся на проверке.
+**Проверен 21 курс с 27 раздельно описанными результатами:** прежние программы CS50, OpenLearn и freeCodeCamp, а также десять новых курсов Stepik (Linux, SQL, C++), HP LIFE, Saylor, IBM SkillsBuild, Microsoft Learn и Kaggle. 1С «Код будущего» остаётся в исследовательском журнале до подтверждения стоимости выдачи сертификата. [Открыть индекс](https://github.com/effexorxruser/open-it-learning/blob/main/catalog/verified/README.md) и [исследования Batch #001](https://github.com/effexorxruser/open-it-learning/blob/main/journal/research-batch-001/README.md) и [Batch #002](https://github.com/effexorxruser/open-it-learning/blob/main/journal/research-batch-002/README.md). Cisco Introduction to Cybersecurity остаётся на проверке.
 
 ## Что будет в карточке курса
 

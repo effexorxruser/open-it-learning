@@ -15,4 +15,4 @@ A research note can describe a course whose **specific award or bonus and its co
 
 - [Research Batch #001 — ten source-checked proposals awaiting editorial review](research-batch-001/README.md)
 
-- [Research Batch #002 — 10 draft cards across seven platforms, including Russian-language 1C, Linux, SQL and C++](research-batch-002/README.md) — research only; not yet verified for publication.
+- [Research Batch #002 — 11 researched candidates, 10 source-reviewed course records, and a 1C hold](research-batch-002/README.md) — includes Linux, SQL and C++ thresholds from Stepik's official API and an [independent source review](research-batch-002/editorial-review-2026-10-29.md).
