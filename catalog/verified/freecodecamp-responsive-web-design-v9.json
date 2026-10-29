@@ -1,0 +1,112 @@
+{
+  "id": "freecodecamp-responsive-web-design-v9",
+  "title": "Responsive Web Design Certification",
+  "provider": "freeCodeCamp",
+  "official_url": "https://www.freecodecamp.org/learn/responsive-web-design-v9",
+  "category": [
+    "web-development",
+    "html",
+    "css",
+    "responsive-design"
+  ],
+  "level": null,
+  "languages": [],
+  "duration_hours": null,
+  "learning": {
+    "free": true,
+    "conditions": "Free self-paced online learning at freeCodeCamp. An account is needed to save progress and later claim the certificate; the certification path includes five required certification projects and an exam.",
+    "cost": 0,
+    "currency": "USD"
+  },
+  "outcomes": [
+    {
+      "kind": "recognition",
+      "type": "completion_certificate",
+      "name": "Responsive Web Design Certification (freeCodeCamp, v9)",
+      "issuer": "freeCodeCamp",
+      "obtainable": true,
+      "requirements": "Complete the five certification projects, meeting their automated project tests, to qualify for the 50-question exam. Accept the freeCodeCamp academic honesty pledge, take and pass the freeCodeCamp Exam Environment desktop exam, then await staff moderation of results. After a passing result, claim the certificate in account settings. The issuer's published FAQ describes English-only exams and a minimum 168-hour interval between attempts; recheck these details if they change.",
+      "cost_to_obtain": 0,
+      "currency": "USD",
+      "official_evidence_url": "https://www.freecodecamp.org/news/freecodecamps-new-responsive-web-design-certification-is-now-live",
+      "individual_verification_url": null
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "title",
+      "source_url": "https://www.freecodecamp.org/news/freecodecamps-new-responsive-web-design-certification-is-now-live",
+      "short_quote": "Responsive Web Design certification",
+      "checked_at": "2026-10-29T10:56:54Z",
+      "review_note": "freeCodeCamp's dated launch announcement identifies the live certification and links to its canonical v9 course URL."
+    },
+    {
+      "claim": "official_url",
+      "source_url": "https://www.freecodecamp.org/news/freecodecamps-new-responsive-web-design-certification-is-now-live",
+      "short_quote": "Responsive Web Design certification",
+      "checked_at": "2026-10-29T10:56:54Z",
+      "review_note": "Official launch article links directly to the v9 learning page; direct page content is JavaScript-rendered and was not parsed for independent claims."
+    },
+    {
+      "claim": "learning.free",
+      "source_url": "https://www.freecodecamp.org/",
+      "short_quote": "Every aspect of freeCodeCamp is 100% free.",
+      "checked_at": "2026-10-29T10:56:54Z",
+      "review_note": "The provider's currently indexed home page explicitly states that courses, projects, and certifications are free."
+    },
+    {
+      "claim": "outcomes[0].obtainable",
+      "source_url": "https://www.freecodecamp.org/news/freecodecamps-new-responsive-web-design-certification-is-now-live",
+      "short_quote": "free verified certification",
+      "checked_at": "2026-10-29T10:56:54Z",
+      "review_note": "The issuer says the new course-specific certification is live and obtainable by completing its exam path."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://www.freecodecamp.org/news/freecodecamps-new-responsive-web-design-certification-is-now-live",
+      "short_quote": "five certification projects",
+      "checked_at": "2026-10-29T10:56:54Z",
+      "review_note": "Five completed certification projects are prerequisites to unlock the exam."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://www.freecodecamp.org/news/freecodecamps-new-responsive-web-design-certification-is-now-live",
+      "short_quote": "50 question exam",
+      "checked_at": "2026-10-29T10:56:54Z",
+      "review_note": "The current v9 certification includes a separate 50-question exam; project completion alone is not sufficient."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://www.freecodecamp.org/news/freecodecamps-new-responsive-web-design-certification-is-now-live",
+      "short_quote": "All exam attempts are reviewed by freeCodeCamp staff",
+      "checked_at": "2026-10-29T10:56:54Z",
+      "review_note": "The issuer moderates exam submissions before releasing results; a submission alone does not guarantee a certificate."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://forum.freecodecamp.org/t/responsive-web-design-exam-you-must-complete-the-prerequisite-courses-but-all-courses-are-completed/780640",
+      "short_quote": "academic honesty pledge",
+      "checked_at": "2026-10-29T10:56:54Z",
+      "review_note": "A freeCodeCamp support responder identifies acceptance of the academic honesty pledge as an exam prerequisite."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://forum.freecodecamp.org/t/inquiry-about-the-freecodecamp-responsive-web-design-certifcation/791438",
+      "short_quote": "claim your certification",
+      "checked_at": "2026-10-29T10:56:54Z",
+      "review_note": "freeCodeCamp community support describes the claim step in account settings after a passed and moderated exam."
+    },
+    {
+      "claim": "outcomes[0].cost_to_obtain",
+      "source_url": "https://www.freecodecamp.org/",
+      "short_quote": "even the certifications.",
+      "checked_at": "2026-10-29T10:56:54Z",
+      "review_note": "The issuer explicitly includes certifications in the free offerings. Its v9 launch FAQ also confirms the exams are free."
+    }
+  ],
+  "review": {
+    "status": "verified_free_outcome",
+    "reviewed_at": "2026-10-29T10:56:54Z",
+    "recheck_after": "2027-01-29T00:00:00Z"
+  }
+}
