@@ -35,6 +35,7 @@ If an official badge is discontinued, a certificate cost changes, an exam vouche
 - Classify all outcomes accurately.
 - Keep unknown requirements as unknown; never treat excerpt matches alone as proof.
 - Never upload API keys, cookies, private agent logs or copyrighted course content in bulk.
+- Run `python3 scripts/check_integrity.py` before opening a PR. GitHub Actions runs the same dependency-free integrity check on PRs and pushes to `main`; it checks file links, JSON and basic catalog structure, **not** whether an award is genuinely offered by a provider.
 
 ## Repository boundaries
 
