@@ -2,7 +2,7 @@
 
 [← Home / Главная](../README.md) · [Admission rules](../docs/CATALOG_POLICY.md) · [Record format](../docs/DATA_CONTRACT.md)
 
-> **First verified record available:** [freeCodeCamp Responsive Web Design Certification (v9)](verified/freecodecamp-responsive-web-design-v9.json), with a [dated source review](../journal/2026-10-29-freecodecamp-responsive-web-design.md). Generic “achievements” claims still do not qualify.
+> **11 source-reviewed course records:** six Harvard CS50 programs, three OpenLearn courses and two current freeCodeCamp certifications. [Browse the verified index](verified/README.md) and [Batch #001 evidence](../journal/research-batch-001/README.md). Generic “achievements” claims still do not qualify.
 
 ## What qualifies
 
@@ -19,7 +19,7 @@ Each must have a specific issuer, eligibility steps, source evidence and transpa
 
 [Browse the verified index](verified/README.md) · [Editorial policy](../docs/CATALOG_POLICY.md) · [Schema](schema/course.schema.json)
 
-The first record concerns freeCodeCamp's free issuer certification, which requires projects, an exam and staff moderation. Records will be grouped by skill area and outcome type as the catalog grows.
+Each result has its actual type and official conditions: free CS50 certificates, OpenLearn participation records and digital badges, source-backed CPD points, and freeCodeCamp certifications with required exams. CPD points are not academic credit. Records can be grouped by skill area and outcome type as the catalog grows.
 
 ## Suggest a course
 
