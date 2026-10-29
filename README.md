@@ -6,7 +6,7 @@ Free IT courses with documented official outcomes, plus reusable tools for learn
 
 **Languages:** English · [Русский](#русский) · [Українська](#українська) · [简体中文](#简体中文)
 
-> **Catalog status:** 11 source-reviewed courses across CS50, OpenLearn and freeCodeCamp, with 15 typed official outcomes and course-linked benefits. [Browse the verified index](catalog/verified/README.md).
+> **Catalog status:** 21 source-reviewed courses across CS50, OpenLearn, freeCodeCamp, Stepik, HP LIFE, Saylor, IBM SkillsBuild, Microsoft Learn and Kaggle, with 27 typed official outcomes and course-linked benefits. [Browse the verified index](catalog/verified/README.md).
 
 ## Find and verify
 
@@ -39,7 +39,7 @@ Share official sources, report changed conditions or improve the learning tools.
 
 Open IT Learning — публичный каталог бесплатных IT-курсов с официальными результатами: сертификатами, бейджами, дипломами, грамотами, наградами, подтверждениями участия и бонусами организатора.
 
-**В каталоге 11 проверенных курсов и 15 отдельно описанных результатов:** программы CS50, OpenLearn и freeCodeCamp. Среди результатов — бесплатные сертификаты, бейджи, подтверждения прохождения и CPD-баллы (не академические кредиты). [Каталог](catalog/verified/README.md) и [журнал исследований](journal/README.md) содержат условия и источники.
+**В каталоге 21 проверенный курс и 27 отдельно описанных результатов:** программы CS50, OpenLearn, freeCodeCamp, Stepik (Linux, SQL, C++), HP LIFE, Saylor, IBM, Microsoft Learn и Kaggle. Курс 1С пока на дополнительной проверке. Среди результатов — бесплатные сертификаты, бейджи, подтверждения прохождения и CPD-баллы (не академические кредиты). [Каталог](catalog/verified/README.md) и [журнал исследований](journal/README.md) содержат условия и источники.
 
 ### Найти и проверить
 
@@ -64,7 +64,7 @@ Open IT Learning — публичный каталог бесплатных IT-�
 
 Open IT Learning — публічний каталог безкоштовних IT-курсів з офіційними результатами: сертифікатами, бейджами, дипломами, грамотами, нагородами, підтвердженнями участі та бонусами організатора.
 
-**У каталозі 11 перевірених курсів і 15 окремо описаних результатів:** програми CS50, OpenLearn та freeCodeCamp. Результати включають безкоштовні сертифікати, бейджі, підтвердження участі й бали CPD (не академічні кредити). [Каталог](catalog/verified/README.md) і [журнал](journal/README.md) містять умови та джерела.
+**У каталозі 21 перевірений курс і 27 окремо описаних результатів:** програми CS50, OpenLearn, freeCodeCamp, Stepik (Linux, SQL, C++), HP LIFE, Saylor, IBM, Microsoft Learn і Kaggle. Курс 1С наразі потребує додаткової перевірки. Результати включають безкоштовні сертифікати, бейджі, підтвердження участі й бали CPD (не академічні кредити). [Каталог](catalog/verified/README.md) і [журнал](journal/README.md) містять умови та джерела.
 
 ### Знайти та перевірити
 
@@ -89,7 +89,7 @@ Open IT Learning — публічний каталог безкоштовних 
 
 Open IT Learning 是免费 IT 课程的公共目录，关注官方学习成果：证书、徽章、文凭、奖状、奖项、参与记录及提供方的课程相关福利。
 
-**课程目录目前收录 11 门经来源核实的课程，分别记录 15 项官方成果及课程相关福利：** 涵盖 CS50、OpenLearn 和 freeCodeCamp。成果包括免费结业证书、数字徽章、参与记录及 CPD 继续职业发展积分（不等同于大学学分）。请查阅[课程目录](catalog/verified/README.md)及[研究日志](journal/README.md)了解具体要求与证据。
+**课程目录目前收录 21 门经来源核实的课程，分别记录 27 项官方成果及课程相关福利：** 涵盖 CS50、OpenLearn、freeCodeCamp、Stepik（Linux、SQL、C++）、HP LIFE、Saylor、IBM SkillsBuild、Microsoft Learn 和 Kaggle。1C 课程仍在核实中。成果包括免费结业证书、数字徽章、参与记录及 CPD 继续职业发展积分（不等同于大学学分）。请查阅[课程目录](catalog/verified/README.md)及[研究日志](journal/README.md)了解具体要求与证据。
 
 ### 查找与核实
 

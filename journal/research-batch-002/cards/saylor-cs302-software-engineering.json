@@ -1,0 +1,106 @@
+{
+  "id": "saylor-cs302-software-engineering",
+  "title": "CS302: Software Engineering",
+  "provider": "Saylor University",
+  "official_url": "https://learn.saylor.org/course/cs302",
+  "category": [
+    "software-engineering",
+    "software-testing",
+    "systems-design"
+  ],
+  "level": "intermediate",
+  "languages": [
+    "en"
+  ],
+  "duration_hours": 36,
+  "learning": {
+    "free": true,
+    "conditions": "Бесплатный self-paced курс и стандартный Certificate Final Exam. Не путать с отдельным ACE Recommended Credit Final Exam, для которого требуется платное прокторское сопровождение ($5 за попытку) и свои условия.",
+    "cost": 0,
+    "currency": null
+  },
+  "outcomes": [
+    {
+      "kind": "recognition",
+      "type": "completion_certificate",
+      "name": "Saylor University CS302 Course Completion Certificate",
+      "issuer": "Saylor University",
+      "obtainable": true,
+      "requirements": "Пройти курс и сдать бесплатный Certificate Final Exam не менее чем на 70%; при пересдаче действует интервал 7 дней. Опциональный ACE-экзамен для кредитных рекомендаций с прокторингом за $5 не требуется для обычного бесплатного сертификата.",
+      "cost_to_obtain": 0,
+      "currency": null,
+      "official_evidence_url": "https://learn.saylor.org/mod/page/view.php?id=71746",
+      "individual_verification_url": null
+    },
+    {
+      "kind": "benefit",
+      "type": "training_credit",
+      "name": "3.6 continuing education units (CEUs) shown on CS302 completion certificate",
+      "issuer": "Saylor University",
+      "obtainable": true,
+      "requirements": "Pass the free CS302 Certificate Final Exam at 70% or higher, receive the free standard course completion certificate, and see 3.6 continuing education units (CEUs) on that same document. These course-linked CEUs are not separate academic transfer credit, an automatically accepted professional license, or a separately issued qualification.",
+      "cost_to_obtain": 0,
+      "currency": null,
+      "official_evidence_url": "https://learn.saylor.org/mod/page/view.php?id=71746",
+      "individual_verification_url": null
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "learning.free",
+      "source_url": "https://learn.saylor.org/mod/page/view.php?id=71746",
+      "short_quote": "entirely free to enroll in and access",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Силлабус конкретного CS302 подтверждает бесплатное обучение."
+    },
+    {
+      "claim": "outcomes[0].obtainable",
+      "source_url": "https://learn.saylor.org/course/cs302",
+      "short_quote": "Free Certificate",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Официальный каталог CS302 указывает бесплатный сертификат."
+    },
+    {
+      "claim": "outcomes[0].cost_to_obtain",
+      "source_url": "https://learn.saylor.org/mod/page/view.php?id=71746",
+      "short_quote": "free final exam and a free course completion certificate",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Силлабус различает бесплатный обычный экзамен и отдельный платный ACE-экзамен."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://learn.saylor.org/mod/page/view.php?id=71746",
+      "short_quote": "70% or higher",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Проходной балл обычного Certificate Final Exam указан в программе."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://learn.saylor.org/mod/page/view.php?id=71746",
+      "short_quote": "7-day waiting period",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Именно для CS302 указан недельный интервал между обычными попытками."
+    },
+    {
+      "claim": "outcomes[1].obtainable",
+      "source_url": "https://learn.saylor.org/mod/page/view.php?id=71746",
+      "short_quote": "3.6 CEUs",
+      "checked_at": "2026-10-29T15:20:31.775Z",
+      "review_note": "The course-specific official syllabus states how many continuing education units appear on the completion certificate."
+    },
+    {
+      "claim": "outcomes[1].requirements",
+      "source_url": "https://learn.saylor.org/mod/page/view.php?id=71746",
+      "short_quote": "certificate earned by passing",
+      "checked_at": "2026-10-29T15:20:31.775Z",
+      "review_note": "Saylor specifies CEUs printed on the free ordinary completion certificate, contingent on passing the course."
+    },
+    {
+      "claim": "outcomes[1].cost_to_obtain",
+      "source_url": "https://learn.saylor.org/mod/page/view.php?id=71746",
+      "short_quote": "free final exam",
+      "checked_at": "2026-10-29T15:20:31.775Z",
+      "review_note": "No extra price for the CEUs documented on the standard free course certificate; optional ACE-proctored exam is a separate track."
+    }
+  ]
+}

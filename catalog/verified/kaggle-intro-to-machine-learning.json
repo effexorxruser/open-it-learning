@@ -1,0 +1,92 @@
+{
+  "id": "kaggle-intro-to-machine-learning",
+  "title": "Intro to Machine Learning",
+  "provider": "Kaggle Learn",
+  "official_url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+  "category": [
+    "machine-learning",
+    "python",
+    "data-science"
+  ],
+  "level": "beginner",
+  "languages": [
+    "en"
+  ],
+  "duration_hours": 3,
+  "learning": {
+    "free": true,
+    "conditions": "Бесплатный практический Kaggle Learn курс. Для выполнения интерактивных упражнений и получения именного электронного сертификата нужна учётная запись Kaggle; некоторые упражнения используют ноутбуки платформы.",
+    "cost": 0,
+    "currency": null
+  },
+  "outcomes": [
+    {
+      "kind": "recognition",
+      "type": "completion_certificate",
+      "name": "Kaggle Learn Certificate of Completion — Intro to Machine Learning",
+      "issuer": "Kaggle",
+      "obtainable": true,
+      "requirements": "Зарегистрироваться в Kaggle, пройти обязательные уроки и упражнения Intro to Machine Learning до статуса completed. На странице Kaggle Learn Courses открыть вкладку Completed и View Certificate, чтобы получить именной сертификат. Ориентировочные 3 часа — оценка длительности, а не минимальное обязательное время.",
+      "cost_to_obtain": 0,
+      "currency": null,
+      "official_evidence_url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+      "individual_verification_url": null
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "learning.free",
+      "source_url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+      "short_quote": "No cost, like all Kaggle Learn Courses",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Официальная страница курса подтверждает бесплатность."
+    },
+    {
+      "claim": "outcomes[0].obtainable",
+      "source_url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+      "short_quote": "Hours to earn certificate",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Конкретный курс обещает сертификат после прохождения."
+    },
+    {
+      "claim": "outcomes[0].cost_to_obtain",
+      "source_url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+      "short_quote": "No cost",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Kaggle отображает нулевую стоимость на той же странице сертификатного курса."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+      "short_quote": "Tutorial",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Курс включает необходимые уроки и упражнения; точная логика присвоения статуса completed доступна после входа."
+    },
+    {
+      "claim": "learning.conditions",
+      "source_url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+      "short_quote": "3 (estimated)",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Время лишь ориентир, а не жёсткое требование."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://www.kaggle.com/learn-course-certificates",
+      "short_quote": "For every course you finish",
+      "checked_at": "2026-10-29T15:20:31.775Z",
+      "review_note": "Официальная инструкция Kaggle прямо связывает завершение курса с выдачей completion certificate."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://www.kaggle.com/learn-course-certificates",
+      "short_quote": "View Certificate",
+      "checked_at": "2026-10-29T15:20:31.775Z",
+      "review_note": "Курс появляется во вкладке Completed, из которой открывается полученный сертификат."
+    }
+  ],
+  "review": {
+    "status": "verified_free_outcome",
+    "reviewed_at": "2026-10-29T15:20:31.775Z",
+    "recheck_after": "2027-01-29T00:00:00Z"
+  }
+}

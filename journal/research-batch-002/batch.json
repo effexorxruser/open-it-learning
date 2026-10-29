@@ -1,0 +1,120 @@
+{
+  "batch_id": "research-batch-002",
+  "research_checked_at": "2026-10-29T15:05:00Z",
+  "status": "eleven_candidates_ten_staged_after_independent_primary_source_review_one_under_review",
+  "catalog_publication_approved": false,
+  "review_method": "Independent follow-up review in separate ChatGPT research session using issuer course pages, official Stepik API, official issuer help and Credly; source checked, no enrolment or issuance test",
+  "records": [
+    {
+      "id": "hp-life-ai-for-beginners",
+      "course_title": "AI for Beginners",
+      "provider": "HP LIFE / HP Foundation / UNIDO",
+      "status": "source_reviewed_staged_pending_maintainer_merge",
+      "primary_url": "https://www.life-global.org/course/391-ai-",
+      "evidence_count": 5,
+      "typed_outcomes": 1,
+      "is_staged_in_catalog_pr": true
+    },
+    {
+      "id": "hp-life-cybersecurity-awareness",
+      "course_title": "Introduction to Cybersecurity Awareness",
+      "provider": "HP LIFE / HP Foundation",
+      "status": "source_reviewed_staged_pending_maintainer_merge",
+      "primary_url": "https://www.life-global.org/course/346-introduction-to-cybersecurity-awareness",
+      "evidence_count": 5,
+      "typed_outcomes": 1,
+      "is_staged_in_catalog_pr": true
+    },
+    {
+      "id": "ibm-skillsbuild-ai-literacy",
+      "course_title": "AI Literacy",
+      "provider": "IBM SkillsBuild / IBM",
+      "status": "source_reviewed_staged_pending_maintainer_merge",
+      "primary_url": "https://skillsbuild.org/learning-catalog",
+      "evidence_count": 6,
+      "typed_outcomes": 1,
+      "is_staged_in_catalog_pr": true
+    },
+    {
+      "id": "kaggle-intro-to-machine-learning",
+      "course_title": "Intro to Machine Learning",
+      "provider": "Kaggle Learn",
+      "status": "source_reviewed_staged_pending_maintainer_merge",
+      "primary_url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+      "evidence_count": 7,
+      "typed_outcomes": 1,
+      "is_staged_in_catalog_pr": true
+    },
+    {
+      "id": "microsoft-learn-describe-cloud-compute",
+      "course_title": "Describe cloud computing",
+      "provider": "Microsoft Learn",
+      "status": "source_reviewed_staged_pending_maintainer_merge",
+      "primary_url": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/",
+      "evidence_count": 5,
+      "typed_outcomes": 1,
+      "is_staged_in_catalog_pr": true
+    },
+    {
+      "id": "one-c-future-code-element-2026",
+      "course_title": "Разработка на 1С: игры, приложения и искусственный интеллект",
+      "provider": "1С-Учебный центр №3 / проект «Код будущего»",
+      "status": "under_review",
+      "primary_url": "https://www.1c-uc3.ru/about/news/besplatnoe-obuchenie-programmirovaniyu-dlya-shkolnikov-v-ramkakh-proekta-kod-budushchego/",
+      "evidence_count": 5,
+      "typed_outcomes": 1,
+      "is_staged_in_catalog_pr": false
+    },
+    {
+      "id": "saylor-cs101-introduction-to-programming",
+      "course_title": "CS101: Introduction to Programming I",
+      "provider": "Saylor University",
+      "status": "source_reviewed_staged_pending_maintainer_merge",
+      "primary_url": "https://learn.saylor.org/course/cs101",
+      "evidence_count": 8,
+      "typed_outcomes": 2,
+      "is_staged_in_catalog_pr": true
+    },
+    {
+      "id": "saylor-cs302-software-engineering",
+      "course_title": "CS302: Software Engineering",
+      "provider": "Saylor University",
+      "status": "source_reviewed_staged_pending_maintainer_merge",
+      "primary_url": "https://learn.saylor.org/course/cs302",
+      "evidence_count": 8,
+      "typed_outcomes": 2,
+      "is_staged_in_catalog_pr": true
+    },
+    {
+      "id": "stepik-interactive-sql-63054",
+      "course_title": "Интерактивный тренажер по SQL",
+      "provider": "Stepik",
+      "status": "source_reviewed_staged_pending_maintainer_merge",
+      "primary_url": "https://stepik.org/course/63054/promo",
+      "evidence_count": 9,
+      "typed_outcomes": 1,
+      "is_staged_in_catalog_pr": true
+    },
+    {
+      "id": "stepik-introduction-to-linux-73",
+      "course_title": "Введение в Linux",
+      "provider": "Институт биоинформатики / Stepik",
+      "status": "source_reviewed_staged_pending_maintainer_merge",
+      "primary_url": "https://stepik.org/course/73/promo",
+      "evidence_count": 9,
+      "typed_outcomes": 1,
+      "is_staged_in_catalog_pr": true
+    },
+    {
+      "id": "stepik-yandex-cpp-363",
+      "course_title": "Введение в программирование (C++)",
+      "provider": "Академия Яндекса / Stepik",
+      "status": "source_reviewed_staged_pending_maintainer_merge",
+      "primary_url": "https://stepik.org/course/363/promo",
+      "evidence_count": 9,
+      "typed_outcomes": 1,
+      "is_staged_in_catalog_pr": true
+    }
+  ],
+  "editorial_review_checked_at": "2026-10-29T15:20:31.775Z"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "hp-life-ai-for-beginners",
+  "title": "AI for Beginners",
+  "provider": "HP LIFE / HP Foundation / UNIDO",
+  "official_url": "https://www.life-global.org/course/391-ai-",
+  "category": [
+    "artificial-intelligence",
+    "digital-literacy",
+    "business-automation"
+  ],
+  "level": "beginner",
+  "languages": [
+    "en"
+  ],
+  "duration_hours": 1,
+  "learning": {
+    "free": true,
+    "conditions": "Free, self-paced HP LIFE course co-developed with UNIDO. A free HP LIFE learner account is needed to track completion and access the issuer's course completion certificate; it is not professional AI certification.",
+    "cost": 0,
+    "currency": null
+  },
+  "outcomes": [
+    {
+      "kind": "recognition",
+      "type": "completion_certificate",
+      "name": "HP LIFE Certificate of Completion — AI for Beginners",
+      "issuer": "HP Foundation / HP LIFE",
+      "obtainable": true,
+      "requirements": "Sign in with an HP LIFE account, complete the course's learning activities, and obtain the free Certificate of Completion. The course is a short foundational introduction (about 60 minutes), not an independently accredited AI qualification or exam credential.",
+      "cost_to_obtain": 0,
+      "currency": null,
+      "official_evidence_url": "https://www.life-global.org/course/391-ai-",
+      "individual_verification_url": null
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "learning.free",
+      "source_url": "https://www.life-global.org/",
+      "short_quote": "Learn critical skills free of charge",
+      "checked_at": "2026-10-29T15:20:31.775Z",
+      "review_note": "HP LIFE describes its online courses as free, with AI among the topics."
+    },
+    {
+      "claim": "outcomes[0].obtainable",
+      "source_url": "https://www.life-global.org/course/391-ai-",
+      "short_quote": "Certificate available on completion",
+      "checked_at": "2026-10-29T15:20:31.775Z",
+      "review_note": "Course-specific official page confirms availability of a named completion certificate."
+    },
+    {
+      "claim": "outcomes[0].cost_to_obtain",
+      "source_url": "https://www.life-global.org/",
+      "short_quote": "Get a free Certificate of Completion",
+      "checked_at": "2026-10-29T15:20:31.775Z",
+      "review_note": "Provider expressly offers free completion certificates for finished courses."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://www.life-global.org/course/391-ai-",
+      "short_quote": "certificate of completion for every course you finish",
+      "checked_at": "2026-10-29T15:20:31.775Z",
+      "review_note": "Issuer ties the award to completing this course; no paid exam is offered for the ordinary certificate."
+    },
+    {
+      "claim": "learning.conditions",
+      "source_url": "https://www.life-global.org/course/391-ai-",
+      "short_quote": "No more than 60 minutes",
+      "checked_at": "2026-10-29T15:20:31.775Z",
+      "review_note": "English self-paced course is co-developed by HP LIFE and UNIDO."
+    }
+  ],
+  "review": {
+    "status": "verified_free_outcome",
+    "reviewed_at": "2026-10-29T15:20:31.775Z",
+    "recheck_after": "2027-01-29T00:00:00Z"
+  }
+}

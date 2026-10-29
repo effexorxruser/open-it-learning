@@ -1,0 +1,106 @@
+{
+  "id": "saylor-cs101-introduction-to-programming",
+  "title": "CS101: Introduction to Programming I",
+  "provider": "Saylor University",
+  "official_url": "https://learn.saylor.org/course/cs101",
+  "category": [
+    "java",
+    "programming",
+    "computer-science"
+  ],
+  "level": "beginner",
+  "languages": [
+    "en"
+  ],
+  "duration_hours": 26,
+  "learning": {
+    "free": true,
+    "conditions": "Бесплатный дистанционный курс, экзамен и сертификат. Для учёта прогресса и сдачи экзамена требуется бесплатный аккаунт Saylor University.",
+    "cost": 0,
+    "currency": null
+  },
+  "outcomes": [
+    {
+      "kind": "recognition",
+      "type": "completion_certificate",
+      "name": "Saylor University CS101 Course Completion Certificate",
+      "issuer": "Saylor University",
+      "obtainable": true,
+      "requirements": "Зарегистрироваться, изучить материалы, сдать обычный бесплатный финальный экзамен минимум на 70%. По syllabus: не более трёх попыток и 14 дней между попытками. Подтверждённый сертификат курса не является академической степенью; отображаемые CEU не означают автоматическое признание вузом.",
+      "cost_to_obtain": 0,
+      "currency": null,
+      "official_evidence_url": "https://learn.saylor.org/mod/page/view.php?id=84727",
+      "individual_verification_url": null
+    },
+    {
+      "kind": "benefit",
+      "type": "training_credit",
+      "name": "2.6 continuing education units (CEUs) shown on CS101 completion certificate",
+      "issuer": "Saylor University",
+      "obtainable": true,
+      "requirements": "Pass the free CS101 Certificate Final Exam at 70% or higher, receive the free standard course completion certificate, and see 2.6 continuing education units (CEUs) on that same document. These course-linked CEUs are not separate academic transfer credit, an automatically accepted professional license, or a separately issued qualification.",
+      "cost_to_obtain": 0,
+      "currency": null,
+      "official_evidence_url": "https://learn.saylor.org/mod/page/view.php?id=84727",
+      "individual_verification_url": null
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "learning.free",
+      "source_url": "https://learn.saylor.org/mod/page/view.php?id=84727",
+      "short_quote": "entirely free to enroll in and to access",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Официальная программа курса указывает полностью бесплатный доступ."
+    },
+    {
+      "claim": "outcomes[0].obtainable",
+      "source_url": "https://learn.saylor.org/course/cs101",
+      "short_quote": "Free Certificate",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Каталог конкретного курса подтверждает бесплатный сертификат."
+    },
+    {
+      "claim": "outcomes[0].cost_to_obtain",
+      "source_url": "https://learn.saylor.org/mod/page/view.php?id=84727",
+      "short_quote": "free final exam",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Отдельная плата за обычный экзамен и сертификат не требуется."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://learn.saylor.org/mod/page/view.php?id=84727",
+      "short_quote": "70% or higher",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Официальная программа устанавливает проходной балл."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://learn.saylor.org/mod/page/view.php?id=84727",
+      "short_quote": "14-day waiting period",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Ограничения попыток и интервал 14 дней относятся к обычному итоговому экзамену CS101."
+    },
+    {
+      "claim": "outcomes[1].obtainable",
+      "source_url": "https://learn.saylor.org/mod/page/view.php?id=84727",
+      "short_quote": "2.6 CEUs",
+      "checked_at": "2026-10-29T15:20:31.775Z",
+      "review_note": "The course-specific official syllabus states how many continuing education units appear on the completion certificate."
+    },
+    {
+      "claim": "outcomes[1].requirements",
+      "source_url": "https://learn.saylor.org/mod/page/view.php?id=84727",
+      "short_quote": "certificate earned by passing",
+      "checked_at": "2026-10-29T15:20:31.775Z",
+      "review_note": "Saylor specifies CEUs printed on the free ordinary completion certificate, contingent on passing the course."
+    },
+    {
+      "claim": "outcomes[1].cost_to_obtain",
+      "source_url": "https://learn.saylor.org/mod/page/view.php?id=84727",
+      "short_quote": "free final exam",
+      "checked_at": "2026-10-29T15:20:31.775Z",
+      "review_note": "No extra price for the CEUs documented on the standard free course certificate; optional ACE-proctored exam is a separate track."
+    }
+  ]
+}

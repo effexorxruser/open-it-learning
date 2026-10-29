@@ -1,0 +1,101 @@
+{
+  "id": "stepik-introduction-to-linux-73",
+  "title": "Введение в Linux",
+  "provider": "Институт биоинформатики / Stepik",
+  "official_url": "https://stepik.org/course/73/promo",
+  "category": [
+    "linux",
+    "system-administration",
+    "command-line"
+  ],
+  "level": "beginner",
+  "languages": [
+    "ru"
+  ],
+  "duration_hours": null,
+  "learning": {
+    "free": true,
+    "conditions": "Самостоятельный курс на Stepik, бесплатный доступ; для сертификата требуется аккаунт Stepik и достаточное количество баллов по правилам конкретного курса. Официальный API Stepik публикует действующий порог сертификата.",
+    "cost": 0,
+    "currency": null
+  },
+  "outcomes": [
+    {
+      "kind": "recognition",
+      "type": "completion_certificate",
+      "name": "Сертификат «Введение в Linux»",
+      "issuer": "Институт биоинформатики / Stepik",
+      "obtainable": true,
+      "requirements": "Зарегистрироваться на Stepik, решить оцениваемые задачи курса и набрать не менее 100 баллов для обычного сертификата. Порог сертификата с отличием: 113 баллов. Официальный API сообщает, что выдача сертификата включена и происходит автоматически; согласно справке Stepik формирование/обновление может занять до суток. Сертификат отражает окончание курса, не профессиональную государственную аттестацию.",
+      "cost_to_obtain": 0,
+      "currency": null,
+      "official_evidence_url": "https://stepik.org/course/73/promo",
+      "individual_verification_url": null
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "learning.free",
+      "source_url": "https://stepik.org/course/73/promo",
+      "short_quote": "Бесплатно",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Официальная промостраница помечает весь курс как бесплатный, а не пробный."
+    },
+    {
+      "claim": "outcomes[0].obtainable",
+      "source_url": "https://stepik.org/course/73/promo",
+      "short_quote": "Сертификат",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Курс указывает в отдельном блоке сертификат Института биоинформатики."
+    },
+    {
+      "claim": "outcomes[0].cost_to_obtain",
+      "source_url": "https://help.stepik.org/article/54825",
+      "short_quote": "бонус платформы, который даётся бесплатно",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Справка Stepik объясняет отсутствие платы за сертификаты в бесплатных курсах, когда они включены; на промостранице этого курса сертификат включён."
+    },
+    {
+      "claim": "learning.conditions",
+      "source_url": "https://stepik.org/course/73/promo",
+      "short_quote": "23 урока",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Промостраница указывает структуру бесплатного курса."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://stepik.org/api/courses/73",
+      "short_quote": "\"certificate_regular_threshold\": 100",
+      "checked_at": "2026-10-29T15:20:31.775Z",
+      "review_note": "Публичный объект конкретного курса в официальном API Stepik определяет минимальный порог обычного сертификата без авторизации."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://stepik.org/api/courses/73",
+      "short_quote": "\"certificate_distinction_threshold\": 113",
+      "checked_at": "2026-10-29T15:20:31.775Z",
+      "review_note": "Официальный API отдельно определяет порог сертификата с отличием; это не цена и не новый тип награды."
+    },
+    {
+      "claim": "outcomes[0].obtainable",
+      "source_url": "https://stepik.org/api/courses/73",
+      "short_quote": "\"is_certificate_issued\": true",
+      "checked_at": "2026-10-29T15:20:31.775Z",
+      "review_note": "Тот же объект подтверждает, что сертификат у конкретного курса включён."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://stepik.org/api/courses/73",
+      "short_quote": "\"is_certificate_auto_issued\": true",
+      "checked_at": "2026-10-29T15:20:31.775Z",
+      "review_note": "Включена автоматическая выдача после порогового результата; сохраняются общие правила Stepik."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://help.stepik.org/article/54735",
+      "short_quote": "в течение суток",
+      "checked_at": "2026-10-29T15:20:31.775Z",
+      "review_note": "Официальный справочный центр описывает задержку выдачи и возможность обновления сертификата."
+    }
+  ]
+}
