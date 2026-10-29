@@ -1,6 +1,6 @@
 # Разработка ПО / Software development
 
-[← All IT directions](../README.md) · [All verified courses](../../verified/README.md) · [Learning paths](../learning-paths.md)
+[← All IT directions](../README.md) · [Все курсы — прямые ссылки](../../courses/README.md) · [Learning paths](../learning-paths.md)
 
 Языки программирования, приложения, веб-интерфейсы и инженерия ПО.
 
