@@ -2,7 +2,7 @@
 
 [← Journal](../README.md) · [Record format](../../docs/DATA_CONTRACT.md) · [Proposals and evidence](proposals.json) · [Doublecheck pass](doublecheck.md)
 
-**Ten course proposals have been source-checked and independently re-examined against public issuer pages. They are still outside the verified catalog and await maintainer approval for publication.** Each record body contains dated, claim-level official evidence. The `review` object is intentionally absent: it must be supplied only after the required independent review. Tests validate record fields using an in-memory publication projection, without manufacturing an approval in the saved data.
+**Ten source-checked proposals have undergone a separate AI-assisted official-source review. Each now has a corresponding structured record staged in `catalog/verified/` on Draft PR #4, pending maintainer approval for merge into `main`.** Each record body contains dated, claim-level official evidence. The original research bundle intentionally has **no** `review` object. The ten **staged catalog copies** carry genuine source-review timestamps and a 90-day recheck date; tests verify each staged copy exactly matches the underlying proposal apart from review metadata. No human completion test or maintainer approval is implied.
 
 ## Results
 
@@ -38,4 +38,4 @@ The [evidence journal](proposals.json) stores short excerpts, URLs, UTC review t
 
 Explicitly free amounts are represented by `0` and `currency: null` when the issuer states no currency. This does not turn unknown prices into zero. Existing currency strings remain valid; positive costs still require a currency. Tests cover these boundaries and ensure unreviewed proposals are not accepted as publication records.
 
-An independent source review has identified no disqualifying course-level contradiction, but **this is not an enrollment or credential issuance test**. Before copying a proposal into `catalog/verified/`, the maintainer must approve the exact record and supply actual publication review metadata. No automatic promotion, merge or Wiki publication is part of this batch.
+The separate source review found no disqualifying course-level contradiction, but **this is not an enrollment or credential issuance test**. Ten source-reviewed records have been prepared as individual JSON files on the **Draft PR branch only**. **Maintainer approval for merge remains required**; there is no automatic publication to `main` or Wiki. The staged review timestamps document the actual independent AI-assisted source check and are not presented as a human award-delivery audit.
