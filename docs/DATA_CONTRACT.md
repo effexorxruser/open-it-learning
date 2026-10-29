@@ -95,6 +95,8 @@ Schema validation ensures structural consistency; it does not establish whether 
 
 For credits, diplomas, exam discounts and access perks, describe exactly what the issuer promises. **No implication of academic accreditation, professional licensure or exam passing** without explicit supporting evidence.
 
+**CPD points:** If an issuer explicitly awards continuing professional development points on successful course completion, they may be represented as `type: training_credit` with `kind: benefit`. State their exact point count, issuer and conditions, and link the evidence. When CPD proof is included on a free Statement of Participation, do not imply a separate certificate, academic transfer credit, professional license, or paid redeemable voucher. Keep the participation statement and CPD benefit as separate typed outcomes only when both are documented.
+
 ## Versioning
 
 The current schema is preliminary and may change before the first verified catalog release. Do not include credentials, cookies, secret tokens or copyrighted course dumps in public records.
