@@ -2,7 +2,7 @@
 
 Free IT courses with documented official outcomes, plus reusable tools for learning and research.
 
-[Catalog](catalog/README.md) · [Prompts](prompts/README.md) · [Skills](skills/README.md) · [Wiki](https://github.com/effexorxruser/open-it-learning/wiki) · [Contribute](CONTRIBUTING.md)
+[Catalog](catalog/README.md) · [IT directions / Отрасли IT](catalog/navigation/README.md) · [Learning paths](catalog/navigation/learning-paths.md) · [Prompts](prompts/README.md) · [Skills](skills/README.md) · [Wiki](https://github.com/effexorxruser/open-it-learning/wiki) · [Contribute](CONTRIBUTING.md)
 
 **Languages:** English · [Русский](#русский) · [Українська](#українська) · [简体中文](#简体中文)
 
@@ -22,6 +22,8 @@ Read the [catalog policy](docs/CATALOG_POLICY.md) for admission and evidence req
 
 ## Explore
 
+- [Browse by IT direction](catalog/navigation/README.md) — six broad domains, 14 specializations, cross-listed courses.
+- [Learning paths](catalog/navigation/learning-paths.md) — six curated sequences, not formal prerequisites.
 - [Prompts](prompts/README.md) — course verification and learning paths.
 - [Skills](skills/README.md) — reusable instructions for course research.
 - [Research journal](journal/README.md) — dated research notes, including candidates still under review.
@@ -42,6 +44,8 @@ Open IT Learning — публичный каталог бесплатных IT-�
 **В каталоге 21 проверенный курс и 27 отдельно описанных результатов:** программы CS50, OpenLearn, freeCodeCamp, Stepik (Linux, SQL, C++), HP LIFE, Saylor, IBM, Microsoft Learn и Kaggle. Курс 1С пока на дополнительной проверке. Среди результатов — бесплатные сертификаты, бейджи, подтверждения прохождения и CPD-баллы (не академические кредиты). [Каталог](catalog/verified/README.md) и [журнал исследований](journal/README.md) содержат условия и источники.
 
 ### Найти и проверить
+
+[Направления IT](catalog/navigation/README.md) · [Маршруты обучения](catalog/navigation/learning-paths.md) · [Связанные курсы](catalog/navigation/relationships.md)
 
 1. Откройте [каталог](catalog/README.md) и изучите официальные источники и условия курса.
 2. Используйте [промпт проверки на русском](prompts/verify-course.ru.md) или [Course Verifier](skills/course-verifier/SKILL.md) для исследования кандидата.
@@ -68,6 +72,8 @@ Open IT Learning — публічний каталог безкоштовних 
 
 ### Знайти та перевірити
 
+[Напрями IT](catalog/navigation/README.md) · [Навчальні маршрути](catalog/navigation/learning-paths.md)
+
 1. Відкрийте [каталог](catalog/README.md) і прочитайте офіційні джерела та умови курсу.
 2. Скористайтеся [промптом перевірки англійською](prompts/verify-course.md) або [Course Verifier](skills/course-verifier/SKILL.md) для дослідження кандидата.
 3. [Запропонуйте курс](https://github.com/effexorxruser/open-it-learning/issues/new/choose), додавши офіційні посилання, короткі цитати, дату перевірки, вимоги й вартість.
@@ -92,6 +98,8 @@ Open IT Learning 是免费 IT 课程的公共目录，关注官方学习成果�
 **课程目录目前收录 21 门经来源核实的课程，分别记录 27 项官方成果及课程相关福利：** 涵盖 CS50、OpenLearn、freeCodeCamp、Stepik（Linux、SQL、C++）、HP LIFE、Saylor、IBM SkillsBuild、Microsoft Learn 和 Kaggle。1C 课程仍在核实中。成果包括免费结业证书、数字徽章、参与记录及 CPD 继续职业发展积分（不等同于大学学分）。请查阅[课程目录](catalog/verified/README.md)及[研究日志](journal/README.md)了解具体要求与证据。
 
 ### 查找与核实
+
+[IT 领域分类](catalog/navigation/README.md) · [推荐学习路径](catalog/navigation/learning-paths.md)
 
 1. 打开[课程目录](catalog/README.md)，阅读提供方的官方来源与课程条件。
 2. 使用[英文核实提示词](prompts/verify-course.md)或 [Course Verifier](skills/course-verifier/SKILL.md) 调查候选课程。

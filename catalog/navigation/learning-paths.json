@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "disclaimer": "Editorial recommended order, not a verified prerequisite or admission requirement of the course issuers.",
+  "paths": [
+    {
+      "id": "start-programming",
+      "label": {
+        "en": "From zero to programming",
+        "ru": "С нуля до программирования"
+      },
+      "description": {
+        "en": "Broad computing basics, then Python practice and a project-based certification.",
+        "ru": "Общее представление об IT, затем Python и практическая сертификация."
+      },
+      "course_ids": [
+        "openlearn-introducing-computing",
+        "cs50-x",
+        "cs50-python",
+        "freecodecamp-python-v9"
+      ]
+    },
+    {
+      "id": "web-development",
+      "label": {
+        "en": "Web developer foundations",
+        "ru": "Основы веб-разработки"
+      },
+      "description": {
+        "en": "Responsive pages first; Python and then full web applications.",
+        "ru": "Сначала адаптивная вёрстка, затем Python и полноценные веб-приложения."
+      },
+      "course_ids": [
+        "freecodecamp-responsive-web-design-v9",
+        "cs50-python",
+        "cs50-web"
+      ]
+    },
+    {
+      "id": "data-and-sql",
+      "label": {
+        "en": "SQL and data foundations",
+        "ru": "SQL и основы работы с данными"
+      },
+      "description": {
+        "en": "Practice SQL queries, then strengthen database theory before machine-learning exploration.",
+        "ru": "Практика SQL, углубление в базы данных, затем знакомство с ML."
+      },
+      "course_ids": [
+        "stepik-interactive-sql-63054",
+        "cs50-sql",
+        "kaggle-intro-to-machine-learning"
+      ]
+    },
+    {
+      "id": "security-fundamentals",
+      "label": {
+        "en": "Cybersecurity foundations",
+        "ru": "Базовая кибербезопасность"
+      },
+      "description": {
+        "en": "Start with everyday risks, build safety literacy, then explore broader cybersecurity.",
+        "ru": "От повседневных угроз к цифровой безопасности и общим принципам ИБ."
+      },
+      "course_ids": [
+        "hp-life-cybersecurity-awareness",
+        "openlearn-cyber-security",
+        "cs50-cybersecurity"
+      ]
+    },
+    {
+      "id": "linux-to-cloud",
+      "label": {
+        "en": "Linux to cloud basics",
+        "ru": "От Linux к облачным технологиям"
+      },
+      "description": {
+        "en": "Introductory computing, Linux terminal and then core cloud concepts.",
+        "ru": "Базовые знания об IT, терминал Linux и основные понятия облаков."
+      },
+      "course_ids": [
+        "openlearn-introducing-computing",
+        "stepik-introduction-to-linux-73",
+        "microsoft-learn-describe-cloud-compute"
+      ]
+    },
+    {
+      "id": "ai-literacy-to-implementation",
+      "label": {
+        "en": "From AI literacy to implementation",
+        "ru": "От ИИ-грамотности к разработке"
+      },
+      "description": {
+        "en": "Understand AI's uses and limitations, then gain Python foundations before an advanced AI course.",
+        "ru": "Понять возможности и ограничения ИИ, освоить Python и перейти к углублённому курсу."
+      },
+      "course_ids": [
+        "hp-life-ai-for-beginners",
+        "ibm-skillsbuild-ai-literacy",
+        "cs50-python",
+        "cs50-ai"
+      ]
+    }
+  ]
+}

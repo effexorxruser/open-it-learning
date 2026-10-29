@@ -1,6 +1,6 @@
 # Verified course records
 
-[← Catalog](../README.md) · [Admission policy](../../docs/CATALOG_POLICY.md) · [Research Batch #001](../../journal/research-batch-001/README.md) · [Batch #002 evidence and review](../../journal/research-batch-002/README.md)
+[← Catalog](../README.md) · [IT directions](../navigation/README.md) · [Learning paths](../navigation/learning-paths.md) · [Admission policy](../../docs/CATALOG_POLICY.md) · [Research Batch #001](../../journal/research-batch-001/README.md) · [Batch #002 evidence and review](../../journal/research-batch-002/README.md)
 
 **21 source-reviewed course records** covering **27 separately typed official outcomes and course-linked benefits**. Conditions were reviewed against official public issuer information; no actual course completion or award issuance was tested.
 
@@ -17,7 +17,6 @@
 | [OpenLearn: Digital skills](openlearn-digital-skills.json) | The Open University | Digital literacy | Participation record, free digital badge, 24 CPD points | Free / free |
 | [freeCodeCamp: Python Certification (v9)](freecodecamp-python-v9.json) | freeCodeCamp | Python | Free issuer certification after projects, exam and moderation | Free / free |
 | [freeCodeCamp: Responsive Web Design (v9)](freecodecamp-responsive-web-design-v9.json) | freeCodeCamp | HTML/CSS | Free issuer certification after projects, exam and moderation | Free / free |
-
 | [Stepik: Введение в Linux](stepik-introduction-to-linux-73.json) | Bioinformatics Institute / Stepik | Linux, command line | Free issuer course certificate: **100 points**, distinction at 113 | Free / free |
 | [Stepik: Интерактивный тренажер по SQL](stepik-interactive-sql-63054.json) | Stepik | SQL, databases | Free certificate: **136 points**, distinction at 144 | Free / free |
 | [Yandex Academy: Введение в программирование (C++)](stepik-yandex-cpp-363.json) | Yandex Academy / Stepik | C++, algorithms | Free certificate: **90 points**, distinction at 106 | Free / free |
