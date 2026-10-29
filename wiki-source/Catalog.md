@@ -6,7 +6,7 @@
 
 Open IT Learning собирает **бесплатные IT-курсы**, за которые можно получить определённый и официально подтверждённый результат: сертификат, цифровой бейдж, диплом, грамоту, награду, документ о прохождении или бонус, непосредственно связанный с курсом.
 
-[Открыть каталог в репозитории](https://github.com/effexorxruser/open-it-learning/tree/main/catalog)
+[Открыть каталог в репозитории](https://github.com/effexorxruser/open-it-learning/tree/main/catalog) · [Навигация по отраслям IT](https://github.com/effexorxruser/open-it-learning/wiki/IT-Directions) · [Рекомендуемые маршруты](https://github.com/effexorxruser/open-it-learning/blob/main/catalog/navigation/learning-paths.md)
 
 ## Текущий статус
 

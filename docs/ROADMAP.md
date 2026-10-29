@@ -17,7 +17,8 @@ This roadmap covers the **public course library**, ready-to-use learning materia
 
 ## 02 · Useful discovery
 
-- [ ] Browse courses by skills: cybersecurity, networking, software, cloud, data and more.
+- [x] Publish [IT directions and specializations](../catalog/navigation/README.md) with course cross-listings, a versioned classification and a reserved ERP/1C branch.
+- [ ] Extend topics to networking and new fields as independently verified courses become available.
 - [ ] Filter by official outcome type: certificate, badge, diploma, award, record, voucher or other benefit.
 - [ ] Show the distinct costs of training, award issuance and exams.
 - [ ] Track official evidence links, countries, languages and prerequisites.
@@ -25,7 +26,8 @@ This roadmap covers the **public course library**, ready-to-use learning materia
 
 ## 03 · Learning paths and resources
 
-- [ ] Publish source-backed routes by skill, role and starting level.
+- [x] Publish six [ordered editorial study routes](../catalog/navigation/learning-paths.md) with explicit non-prerequisite disclaimers.
+- [ ] Add issuer-confirmed prerequisites and role-aligned routes where evidence permits.
 - [ ] Expand prompts for research, study planning and validation.
 - [ ] Add more portable skills with practical instructions.
 - [ ] Provide a versioned machine-readable catalog export.
