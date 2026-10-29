@@ -1,0 +1,73 @@
+{
+  "id": "stepik-yandex-cpp-363",
+  "title": "Введение в программирование (C++)",
+  "provider": "Академия Яндекса / Stepik",
+  "official_url": "https://stepik.org/course/363/promo",
+  "category": [
+    "cpp",
+    "algorithms",
+    "programming"
+  ],
+  "level": "beginner",
+  "languages": [
+    "ru"
+  ],
+  "duration_hours": null,
+  "learning": {
+    "free": true,
+    "conditions": "Бесплатный вводный курс по C++ на Stepik; упражнения оцениваются баллами. Сертификат указан на странице курса, но конкретный числовой порог выдачи необходимо дополнительно проверить.",
+    "cost": 0,
+    "currency": null
+  },
+  "outcomes": [
+    {
+      "kind": "recognition",
+      "type": "completion_certificate",
+      "name": "Сертификат курса «Введение в программирование (C++)»",
+      "issuer": "Академия Яндекса / Stepik",
+      "obtainable": true,
+      "requirements": "Зарегистрироваться на платформе, выполнить обязательные практические задачи и набрать установленное авторами количество баллов для сертификата. Это сертификат обучения, а не свидетельство профессиональной аттестации.",
+      "cost_to_obtain": 0,
+      "currency": null,
+      "official_evidence_url": "https://stepik.org/course/363/promo",
+      "individual_verification_url": null
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "learning.free",
+      "source_url": "https://stepik.org/course/363/promo",
+      "short_quote": "Price: Бесплатно",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Промостраница подтверждает бесплатный доступ."
+    },
+    {
+      "claim": "outcomes[0].obtainable",
+      "source_url": "https://stepik.org/course/363/promo",
+      "short_quote": "Академия Яндекса",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Награда названа в отдельном поле сертификата курса."
+    },
+    {
+      "claim": "outcomes[0].cost_to_obtain",
+      "source_url": "https://help.stepik.org/article/54825",
+      "short_quote": "бонус платформы, который даётся бесплатно",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Сервисная политика Stepik связывает сертификаты бесплатных курсов с бесплатным бонусом."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://help.stepik.org/article/54735",
+      "short_quote": "Количество баллов, необходимое для получения сертификата",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Точный порог устанавливается на уровне курса и требует проверки."
+    },
+    {
+      "claim": "learning.conditions",
+      "source_url": "https://stepik.org/course/363/promo",
+      "short_quote": "116 интерактивных задач",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Содержание курса соответствует освоению C++ через практику."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "batch_id": "research-batch-002",
+  "research_checked_at": "2026-10-29T15:05:00Z",
+  "status": "ten_source_checked_candidates_pending_independent_editorial_review",
+  "catalog_publication_approved": false,
+  "review_method": "Separate primary issuer web pages and issuer-hosted credential conditions; not actual enrollment or certificate issuance",
+  "records": [
+    {
+      "id": "one-c-future-code-element-2026",
+      "course_title": "Разработка на 1С: игры, приложения и искусственный интеллект",
+      "provider": "1С-Учебный центр №3 / проект «Код будущего»",
+      "status": "under_review",
+      "primary_url": "https://www.1c-uc3.ru/about/news/besplatnoe-obuchenie-programmirovaniyu-dlya-shkolnikov-v-ramkakh-proekta-kod-budushchego/",
+      "evidence_count": 5
+    },
+    {
+      "id": "stepik-introduction-to-linux-73",
+      "course_title": "Введение в Linux",
+      "provider": "Институт биоинформатики / Stepik",
+      "status": "source_checked_pending_threshold_review",
+      "primary_url": "https://stepik.org/course/73/promo",
+      "evidence_count": 5
+    },
+    {
+      "id": "stepik-interactive-sql-63054",
+      "course_title": "Интерактивный тренажер по SQL",
+      "provider": "Stepik",
+      "status": "source_checked_pending_threshold_review",
+      "primary_url": "https://stepik.org/course/63054/promo",
+      "evidence_count": 5
+    },
+    {
+      "id": "stepik-yandex-cpp-363",
+      "course_title": "Введение в программирование (C++)",
+      "provider": "Академия Яндекса / Stepik",
+      "status": "source_checked_pending_threshold_review",
+      "primary_url": "https://stepik.org/course/363/promo",
+      "evidence_count": 5
+    },
+    {
+      "id": "hp-life-cybersecurity-awareness",
+      "course_title": "Introduction to Cybersecurity Awareness",
+      "provider": "HP LIFE / HP Foundation",
+      "status": "source_checked_pending_independent_review",
+      "primary_url": "https://www.life-global.org/course/346-introduction-to-cybersecurity-awareness",
+      "evidence_count": 5
+    },
+    {
+      "id": "saylor-cs101-introduction-to-programming",
+      "course_title": "CS101: Introduction to Programming I",
+      "provider": "Saylor University",
+      "status": "source_checked_pending_independent_review",
+      "primary_url": "https://learn.saylor.org/course/cs101",
+      "evidence_count": 5
+    },
+    {
+      "id": "saylor-cs302-software-engineering",
+      "course_title": "CS302: Software Engineering",
+      "provider": "Saylor University",
+      "status": "source_checked_pending_independent_review",
+      "primary_url": "https://learn.saylor.org/course/cs302",
+      "evidence_count": 5
+    },
+    {
+      "id": "ibm-skillsbuild-ai-literacy",
+      "course_title": "AI Literacy",
+      "provider": "IBM SkillsBuild / IBM",
+      "status": "source_checked_pending_independent_review",
+      "primary_url": "https://skillsbuild.org/learning-catalog",
+      "evidence_count": 5
+    },
+    {
+      "id": "microsoft-learn-describe-cloud-compute",
+      "course_title": "Describe cloud computing",
+      "provider": "Microsoft Learn",
+      "status": "source_checked_pending_independent_review",
+      "primary_url": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/",
+      "evidence_count": 5
+    },
+    {
+      "id": "kaggle-intro-to-machine-learning",
+      "course_title": "Intro to Machine Learning",
+      "provider": "Kaggle Learn",
+      "status": "source_checked_pending_independent_review",
+      "primary_url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+      "evidence_count": 5
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "one-c-future-code-element-2026",
+  "title": "Разработка на 1С: игры, приложения и искусственный интеллект",
+  "provider": "1С-Учебный центр №3 / проект «Код будущего»",
+  "official_url": "https://www.1c-uc3.ru/about/news/besplatnoe-obuchenie-programmirovaniyu-dlya-shkolnikov-v-ramkakh-proekta-kod-budushchego/",
+  "category": [
+    "1c",
+    "business-automation",
+    "application-development",
+    "artificial-intelligence"
+  ],
+  "level": "beginner",
+  "languages": [
+    "ru"
+  ],
+  "duration_hours": null,
+  "learning": {
+    "free": true,
+    "conditions": "Бесплатное обучение за счёт госпрограммы «Код будущего»; только учащиеся 8–11 классов и студенты колледжей подходящих ИТ-специальностей. Эта карточка касается ОЧНОЙ площадки 1С-Учебного центра №3 в Москве (3-й Самотёчный переулок, 23); заявление через Госуслуги, справка об обучении, проверка заявки и вступительное тестирование. Места и сроки набора зависят от потока.",
+    "cost": 0,
+    "currency": null
+  },
+  "outcomes": [
+    {
+      "kind": "recognition",
+      "type": "completion_certificate",
+      "name": "Сертификат об успешном окончании каждого модуля программы «Разработка на 1С: игры, приложения и искусственный интеллект»",
+      "issuer": "1С-Учебный центр №3",
+      "obtainable": true,
+      "requirements": "Успешно завершить соответствующий модуль после зачисления на бесплатную программу; перед этим подать заявку через Госуслуги и пройти вступительное тестирование. Условие бесплатности обучения подтверждено, но отдельное явное заявление об отсутствии сбора за выдачу сертификата не найдено: проверить у организатора перед финальным допуском.",
+      "cost_to_obtain": 0,
+      "currency": null,
+      "official_evidence_url": "https://www.1c-uc3.ru/about/news/besplatnoe-obuchenie-programmirovaniyu-dlya-shkolnikov-v-ramkakh-proekta-kod-budushchego/",
+      "individual_verification_url": null
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "learning.free",
+      "source_url": "https://www.1c-uc3.ru/about/news/besplatnoe-obuchenie-programmirovaniyu-dlya-shkolnikov-v-ramkakh-proekta-kod-budushchego/",
+      "short_quote": "бесплатное обучение программированию",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Официальное объявление учебного центра подтверждает бюджетное финансирование обучения только для названных групп."
+    },
+    {
+      "claim": "outcomes[0].obtainable",
+      "source_url": "https://www.1c-uc3.ru/about/news/besplatnoe-obuchenie-programmirovaniyu-dlya-shkolnikov-v-ramkakh-proekta-kod-budushchego/",
+      "short_quote": "По итогам каждого модуля выдается сертификат об успешном окончании.",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Официальное описание конкретной программы обещает модульные сертификаты."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://www.1c-uc3.ru/about/news/besplatnoe-obuchenie-programmirovaniyu-dlya-shkolnikov-v-ramkakh-proekta-kod-budushchego/",
+      "short_quote": "Его необходимо пройти для зачисления на программу.",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Это относится ко вступительному тестированию после заявки и проверки документов."
+    },
+    {
+      "claim": "learning.conditions",
+      "source_url": "https://www.1c-uc3.ru/about/news/besplatnoe-obuchenie-programmirovaniyu-dlya-shkolnikov-v-ramkakh-proekta-kod-budushchego/",
+      "short_quote": "Обучение проходит очно по субботам",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Проверенная площадка находится в Москве; нельзя рекламировать её как универсальный онлайн-курс."
+    },
+    {
+      "claim": "outcomes[0].cost_to_obtain",
+      "source_url": "https://www.1c-uc3.ru/about/news/besplatnoe-obuchenie-programmirovaniyu-dlya-shkolnikov-v-ramkakh-proekta-kod-budushchego/",
+      "short_quote": "Код будущего",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Награда названа частью бесплатной госпрограммы, но отдельная стоимость выдачи сертификата не прописана. Нулевая стоимость пока гипотеза для ручного подтверждения; кандидат не готов к verified."
+    }
+  ]
+}

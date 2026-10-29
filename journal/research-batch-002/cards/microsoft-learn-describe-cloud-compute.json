@@ -1,0 +1,73 @@
+{
+  "id": "microsoft-learn-describe-cloud-compute",
+  "title": "Describe cloud computing",
+  "provider": "Microsoft Learn",
+  "official_url": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/",
+  "category": [
+    "azure",
+    "cloud",
+    "cloud-fundamentals"
+  ],
+  "level": "beginner",
+  "languages": [
+    "en"
+  ],
+  "duration_hours": 0.4,
+  "learning": {
+    "free": true,
+    "conditions": "Бесплатный обучающий модуль Microsoft Learn. Для сохранения прогресса и получения награды потребуется бесплатный Microsoft Learn профиль; Azure-подписка для простого чтения модуля не нужна. Не путать Achievement badge с Microsoft Certification или Applied Skills credential.",
+    "cost": 0,
+    "currency": null
+  },
+  "outcomes": [
+    {
+      "kind": "recognition",
+      "type": "digital_badge",
+      "name": "Microsoft Learn Achievement badge — Describe cloud computing",
+      "issuer": "Microsoft Learn",
+      "obtainable": true,
+      "requirements": "Завершить 8 модульных разделов, авторизоваться в Microsoft Learn и пройти проверку знаний (на странице указано ответить на все вопросы правильно для отметки pass). После завершения модуля награда появляется во вкладке Achievements профиля; это учебный бейдж, не профессиональный экзамен AZ-900.",
+      "cost_to_obtain": 0,
+      "currency": null,
+      "official_evidence_url": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/",
+      "individual_verification_url": null
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "learning.free",
+      "source_url": "https://learn.microsoft.com/en-us/training/support/faq",
+      "short_quote": "Microsoft Learn training is free",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Официальный FAQ подтверждает бесплатный доступ к обучению."
+    },
+    {
+      "claim": "outcomes[0].obtainable",
+      "source_url": "https://learn.microsoft.com/en-us/training/support/faq",
+      "short_quote": "Badges are achievements that you earn when you finish a module",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Microsoft отличает модульный учебный бейдж от независимого credentials/exam."
+    },
+    {
+      "claim": "outcomes[0].cost_to_obtain",
+      "source_url": "https://learn.microsoft.com/en-us/training/support/faq",
+      "short_quote": "training is free",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Модульный badge возникает при бесплатном обучении, отдельная платная аттестация не указана; не путать с платными Microsoft Certification."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/",
+      "short_quote": "answer all questions correctly",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Страница конкретного модуля даёт условия отметки pass."
+    },
+    {
+      "claim": "learning.conditions",
+      "source_url": "https://learn.microsoft.com/en-us/training/modules/describe-cloud-compute/",
+      "short_quote": "8 Units",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Указан конкретный модуль из восьми частей."
+    }
+  ]
+}

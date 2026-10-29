@@ -1,0 +1,73 @@
+{
+  "id": "stepik-introduction-to-linux-73",
+  "title": "Введение в Linux",
+  "provider": "Институт биоинформатики / Stepik",
+  "official_url": "https://stepik.org/course/73/promo",
+  "category": [
+    "linux",
+    "system-administration",
+    "command-line"
+  ],
+  "level": "beginner",
+  "languages": [
+    "ru"
+  ],
+  "duration_hours": null,
+  "learning": {
+    "free": true,
+    "conditions": "Самостоятельный курс на Stepik, бесплатный доступ; для сертификата требуется аккаунт Stepik и достаточное количество баллов по правилам конкретного курса. Точный минимальный порог баллов на открытой промостранице не установлен.",
+    "cost": 0,
+    "currency": null
+  },
+  "outcomes": [
+    {
+      "kind": "recognition",
+      "type": "completion_certificate",
+      "name": "Сертификат «Введение в Linux»",
+      "issuer": "Институт биоинформатики / Stepik",
+      "obtainable": true,
+      "requirements": "Зарегистрироваться на Stepik, изучить курс и набрать установленный автором курса порог баллов за проверяемые задания. При отсутствии дедлайнов Stepik обычно выпускает сертификат автоматически в течение суток; конкретный порог баллов требуется сверить в интерфейсе курса.",
+      "cost_to_obtain": 0,
+      "currency": null,
+      "official_evidence_url": "https://stepik.org/course/73/promo",
+      "individual_verification_url": null
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "learning.free",
+      "source_url": "https://stepik.org/course/73/promo",
+      "short_quote": "Бесплатно",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Официальная промостраница помечает весь курс как бесплатный, а не пробный."
+    },
+    {
+      "claim": "outcomes[0].obtainable",
+      "source_url": "https://stepik.org/course/73/promo",
+      "short_quote": "Сертификат",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Курс указывает в отдельном блоке сертификат Института биоинформатики."
+    },
+    {
+      "claim": "outcomes[0].cost_to_obtain",
+      "source_url": "https://help.stepik.org/article/54825",
+      "short_quote": "бонус платформы, который даётся бесплатно",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Справка Stepik объясняет отсутствие платы за сертификаты в бесплатных курсах, когда они включены; на промостранице этого курса сертификат включён."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://help.stepik.org/article/54735",
+      "short_quote": "набравшие необходимое количество баллов",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Условия набора баллов определяются конкретным курсом, числовой порог нужно сверить при ручном ревью."
+    },
+    {
+      "claim": "learning.conditions",
+      "source_url": "https://stepik.org/course/73/promo",
+      "short_quote": "23 урока",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Промостраница указывает структуру бесплатного курса."
+    }
+  ]
+}
