@@ -1,0 +1,143 @@
+{
+  "id": "openlearn-digital-skills",
+  "title": "Digital skills: succeeding in a digital world",
+  "provider": "The Open University / OpenLearn",
+  "official_url": "https://www.open.edu/openlearn/digital-computing/digital-skills-succeeding-digital-world/content-section-overview",
+  "category": [
+    "digital-skills",
+    "online-safety"
+  ],
+  "level": null,
+  "languages": [
+    "en"
+  ],
+  "duration_hours": null,
+  "learning": {
+    "free": true,
+    "conditions": "Course content is free to study without signing up. An OpenLearn account and enrolment are needed for tracked completion and recognition.",
+    "cost": 0,
+    "currency": null
+  },
+  "outcomes": [
+    {
+      "kind": "recognition",
+      "type": "participation_record",
+      "name": "Open University Statement of Participation — Digital skills: succeeding in a digital world",
+      "issuer": "The Open University / OpenLearn",
+      "obtainable": true,
+      "requirements": "Sign in and enrol; read Introduction and Guidance and every course page; submit the quizzes. Download the free statement from My OpenLearn after completion; notification can take 24 hours. No formal qualification credit.",
+      "cost_to_obtain": 0,
+      "currency": null,
+      "official_evidence_url": "https://www.open.edu/openlearn/digital-computing/digital-skills-succeeding-digital-world/content-section-overview",
+      "individual_verification_url": null
+    },
+    {
+      "kind": "recognition",
+      "type": "digital_badge",
+      "name": "Open University digital badge — Digital skills: succeeding in a digital world",
+      "issuer": "The Open University / OpenLearn",
+      "obtainable": true,
+      "requirements": "Sign in and enrol, read all eight weeks and score at least 50% on each of the two badge quizzes in Weeks 4 and 8. Most quiz questions allow up to three attempts, true/false questions usually one; later correct responses score fewer marks. If an entire badge quiz is failed, it can be retaken after 24 hours, with no stated limit on whole-quiz retakes. A badge is not an accredited OU degree or professional license.",
+      "cost_to_obtain": 0,
+      "currency": null,
+      "official_evidence_url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=108797&section=_unit1.1.2",
+      "individual_verification_url": null
+    },
+    {
+      "kind": "benefit",
+      "type": "training_credit",
+      "name": "24 CPD points — Digital skills: succeeding in a digital world",
+      "issuer": "The Open University / OpenLearn",
+      "obtainable": true,
+      "requirements": "Successfully complete the named OpenLearn course while enrolled. The Open University states that 24 continuing professional development (CPD) points are awarded on successful completion; evidence appears on the course's free Statement of Participation. These are CPD points, not transferable academic credits or a separate degree. No separately purchased CPD credential is described.",
+      "cost_to_obtain": 0,
+      "currency": null,
+      "official_evidence_url": "https://www.open.edu/openlearn/digital-computing/digital-skills-succeeding-digital-world/content-section-overview",
+      "individual_verification_url": null
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "learning.free",
+      "source_url": "https://www.open.edu/openlearn/digital-computing/digital-skills-succeeding-digital-world/content-section-overview",
+      "short_quote": "Free course",
+      "checked_at": "2026-10-29T14:09:30.714679Z",
+      "review_note": "Course-specific free learning designation, not an unrelated provider-wide promotion."
+    },
+    {
+      "claim": "outcomes[0].obtainable",
+      "source_url": "https://www.open.edu/openlearn/digital-computing/digital-skills-succeeding-digital-world/content-section-overview",
+      "short_quote": "Free statement of participation on completion",
+      "checked_at": "2026-10-29T14:09:30.714679Z",
+      "review_note": "This specific course offers a participation record, not a professional or accredited academic certificate."
+    },
+    {
+      "claim": "outcomes[0].cost_to_obtain",
+      "source_url": "https://www.open.edu/openlearn/digital-computing/digital-skills-succeeding-digital-world/content-section-overview",
+      "short_quote": "free Statement of Participation",
+      "checked_at": "2026-10-29T14:09:30.714679Z",
+      "review_note": "The specific course describes the statement as free; no currency is inferred."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://www.open.edu/openlearn/about-openlearn/frequently-asked-questions-on-openlearn",
+      "short_quote": "Be enrolled on the course.",
+      "checked_at": "2026-10-29T14:09:30.714679Z",
+      "review_note": "Shared issuer statement rules: enrol, read all pages and submit quizzes; allow up to 24 hours."
+    },
+    {
+      "claim": "outcomes[1].obtainable",
+      "source_url": "https://www.open.edu/openlearn/digital-computing/digital-skills-succeeding-digital-world/content-section-overview",
+      "short_quote": "Open University digital badge",
+      "checked_at": "2026-10-29T14:39:03.592Z",
+      "review_note": "Official course page advertises the course-specific badge offered after enrollment and completion."
+    },
+    {
+      "claim": "outcomes[1].cost_to_obtain",
+      "source_url": "https://www.open.edu/openlearn/digital-computing/digital-skills-succeeding-digital-world/content-section-overview",
+      "short_quote": "Earn this free Open University digital badge",
+      "checked_at": "2026-10-29T14:39:03.592Z",
+      "review_note": "Issuer calls the badge free on this specific course page."
+    },
+    {
+      "claim": "outcomes[1].requirements",
+      "source_url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=108797&section=_unit1.1.2",
+      "short_quote": "score 50% or more",
+      "checked_at": "2026-10-29T14:39:03.592Z",
+      "review_note": "Course-specific guide requires reading all weeks and passing both Week 4 and Week 8 badge quizzes at 50% or higher."
+    },
+    {
+      "claim": "outcomes[1].requirements",
+      "source_url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=108797&section=_unit1.1.2",
+      "short_quote": "after 24 hours you can attempt the whole quiz",
+      "checked_at": "2026-10-29T14:39:03.592Z",
+      "review_note": "Full badge quiz can be retaken after 24 hours; per-question tries and decreasing scores are separate constraints."
+    },
+    {
+      "claim": "outcomes[2].obtainable",
+      "source_url": "https://www.open.edu/openlearn/digital-computing/digital-skills-succeeding-digital-world/content-section-overview",
+      "short_quote": "you will be awarded 24 CPD points",
+      "checked_at": "2026-10-29T14:39:03.592Z",
+      "review_note": "Issuer promises 24 CPD points on successful completion; this is continuing professional development, not academic credit."
+    },
+    {
+      "claim": "outcomes[2].requirements",
+      "source_url": "https://www.open.edu/openlearn/digital-computing/digital-skills-succeeding-digital-world/content-section-overview",
+      "short_quote": "on successful completion of the course",
+      "checked_at": "2026-10-29T14:39:03.592Z",
+      "review_note": "CPD points require successful course completion; no distinct independent CPD exam is claimed."
+    },
+    {
+      "claim": "outcomes[2].cost_to_obtain",
+      "source_url": "https://www.open.edu/openlearn/digital-computing/digital-skills-succeeding-digital-world/content-section-overview",
+      "short_quote": "free Statement of Participation awarded on completion",
+      "checked_at": "2026-10-29T14:39:03.592Z",
+      "review_note": "Official page says CPD evidence is on the free participation statement, with no separate fee described."
+    }
+  ],
+  "review": {
+    "status": "verified_free_outcome",
+    "reviewed_at": "2026-10-29T14:43:59.614Z",
+    "recheck_after": "2027-01-29T00:00:00Z"
+  }
+}
