@@ -489,10 +489,22 @@
           "name": "Open University digital badge — Introduction to cyber security: stay safe online",
           "issuer": "The Open University / OpenLearn",
           "obtainable": true,
-          "requirements": "Enrol and sign in, read each of the eight weeks, and score at least 50% in both badge quizzes in Weeks 4 and 8. Most questions allow three attempts, true/false usually one; later correct attempts earn fewer marks, so answering all questions eventually correctly does not itself guarantee a passing score. Badge is not an accredited OU qualification.",
+          "requirements": "Enrol and sign in, read each of the eight weeks, and score at least 50% in both badge quizzes in Weeks 4 and 8. Most questions allow three attempts, true/false usually one; later correct attempts earn fewer marks, so answering all questions eventually correctly does not itself guarantee a passing score. Badge is not an accredited OU qualification. After a failed badge quiz, the whole quiz can be retaken after 24 hours, with no stated limit on whole-quiz retakes.",
           "cost_to_obtain": 0,
           "currency": null,
           "official_evidence_url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=50885&section=1.2",
+          "individual_verification_url": null
+        },
+        {
+          "kind": "benefit",
+          "type": "training_credit",
+          "name": "24 CPD points — Introduction to cyber security: stay safe online",
+          "issuer": "The Open University / OpenLearn",
+          "obtainable": true,
+          "requirements": "Successfully complete the named OpenLearn course while enrolled. The Open University states that 24 continuing professional development (CPD) points are awarded on successful completion; evidence appears on the course's free Statement of Participation. These are CPD points, not transferable academic credits or a separate degree. No separately purchased CPD credential is described.",
+          "cost_to_obtain": 0,
+          "currency": null,
+          "official_evidence_url": "https://www.open.edu/openlearn/digital-computing/introduction-cyber-security-stay-safe-online/content-section-overview",
           "individual_verification_url": null
         }
       ],
@@ -545,6 +557,34 @@
           "short_quote": "score 50% or more",
           "checked_at": "2026-10-29T14:09:30.714679Z",
           "review_note": "Specific badge instructions require reading every week and passing the Week 4 and Week 8 quizzes; attempt limits and score deductions are retained in requirements."
+        },
+        {
+          "claim": "outcomes[1].requirements",
+          "source_url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=50885&section=1.2",
+          "short_quote": "after 24 hours you can attempt the whole quiz",
+          "checked_at": "2026-10-29T14:39:03.592Z",
+          "review_note": "Course-specific badge instructions distinguish whole-quiz retakes after 24 hours from per-question attempt limits."
+        },
+        {
+          "claim": "outcomes[2].obtainable",
+          "source_url": "https://www.open.edu/openlearn/digital-computing/introduction-cyber-security-stay-safe-online/content-section-overview",
+          "short_quote": "you will be awarded 24 CPD points",
+          "checked_at": "2026-10-29T14:39:03.592Z",
+          "review_note": "Issuer explicitly states that 24 CPD points are awarded on successful completion of this exact course."
+        },
+        {
+          "claim": "outcomes[2].requirements",
+          "source_url": "https://www.open.edu/openlearn/digital-computing/introduction-cyber-security-stay-safe-online/content-section-overview",
+          "short_quote": "on successful completion of the course",
+          "checked_at": "2026-10-29T14:39:03.592Z",
+          "review_note": "CPD award is conditional on course completion, not just enrollment or access to free materials."
+        },
+        {
+          "claim": "outcomes[2].cost_to_obtain",
+          "source_url": "https://www.open.edu/openlearn/digital-computing/introduction-cyber-security-stay-safe-online/content-section-overview",
+          "short_quote": "free Statement of Participation awarded on completion",
+          "checked_at": "2026-10-29T14:39:03.592Z",
+          "review_note": "CPD evidence is included in the free course-specific statement; no separate CPD award fee is described."
         }
       ]
     },
@@ -645,6 +685,30 @@
           "currency": null,
           "official_evidence_url": "https://www.open.edu/openlearn/digital-computing/digital-skills-succeeding-digital-world/content-section-overview",
           "individual_verification_url": null
+        },
+        {
+          "kind": "recognition",
+          "type": "digital_badge",
+          "name": "Open University digital badge — Digital skills: succeeding in a digital world",
+          "issuer": "The Open University / OpenLearn",
+          "obtainable": true,
+          "requirements": "Sign in and enrol, read all eight weeks and score at least 50% on each of the two badge quizzes in Weeks 4 and 8. Most quiz questions allow up to three attempts, true/false questions usually one; later correct responses score fewer marks. If an entire badge quiz is failed, it can be retaken after 24 hours, with no stated limit on whole-quiz retakes. A badge is not an accredited OU degree or professional license.",
+          "cost_to_obtain": 0,
+          "currency": null,
+          "official_evidence_url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=108797&section=_unit1.1.2",
+          "individual_verification_url": null
+        },
+        {
+          "kind": "benefit",
+          "type": "training_credit",
+          "name": "24 CPD points — Digital skills: succeeding in a digital world",
+          "issuer": "The Open University / OpenLearn",
+          "obtainable": true,
+          "requirements": "Successfully complete the named OpenLearn course while enrolled. The Open University states that 24 continuing professional development (CPD) points are awarded on successful completion; evidence appears on the course's free Statement of Participation. These are CPD points, not transferable academic credits or a separate degree. No separately purchased CPD credential is described.",
+          "cost_to_obtain": 0,
+          "currency": null,
+          "official_evidence_url": "https://www.open.edu/openlearn/digital-computing/digital-skills-succeeding-digital-world/content-section-overview",
+          "individual_verification_url": null
         }
       ],
       "evidence": [
@@ -675,6 +739,55 @@
           "short_quote": "Be enrolled on the course.",
           "checked_at": "2026-10-29T14:09:30.714679Z",
           "review_note": "Shared issuer statement rules: enrol, read all pages and submit quizzes; allow up to 24 hours."
+        },
+        {
+          "claim": "outcomes[1].obtainable",
+          "source_url": "https://www.open.edu/openlearn/digital-computing/digital-skills-succeeding-digital-world/content-section-overview",
+          "short_quote": "Open University digital badge",
+          "checked_at": "2026-10-29T14:39:03.592Z",
+          "review_note": "Official course page advertises the course-specific badge offered after enrollment and completion."
+        },
+        {
+          "claim": "outcomes[1].cost_to_obtain",
+          "source_url": "https://www.open.edu/openlearn/digital-computing/digital-skills-succeeding-digital-world/content-section-overview",
+          "short_quote": "Earn this free Open University digital badge",
+          "checked_at": "2026-10-29T14:39:03.592Z",
+          "review_note": "Issuer calls the badge free on this specific course page."
+        },
+        {
+          "claim": "outcomes[1].requirements",
+          "source_url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=108797&section=_unit1.1.2",
+          "short_quote": "score 50% or more",
+          "checked_at": "2026-10-29T14:39:03.592Z",
+          "review_note": "Course-specific guide requires reading all weeks and passing both Week 4 and Week 8 badge quizzes at 50% or higher."
+        },
+        {
+          "claim": "outcomes[1].requirements",
+          "source_url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=108797&section=_unit1.1.2",
+          "short_quote": "after 24 hours you can attempt the whole quiz",
+          "checked_at": "2026-10-29T14:39:03.592Z",
+          "review_note": "Full badge quiz can be retaken after 24 hours; per-question tries and decreasing scores are separate constraints."
+        },
+        {
+          "claim": "outcomes[2].obtainable",
+          "source_url": "https://www.open.edu/openlearn/digital-computing/digital-skills-succeeding-digital-world/content-section-overview",
+          "short_quote": "you will be awarded 24 CPD points",
+          "checked_at": "2026-10-29T14:39:03.592Z",
+          "review_note": "Issuer promises 24 CPD points on successful completion; this is continuing professional development, not academic credit."
+        },
+        {
+          "claim": "outcomes[2].requirements",
+          "source_url": "https://www.open.edu/openlearn/digital-computing/digital-skills-succeeding-digital-world/content-section-overview",
+          "short_quote": "on successful completion of the course",
+          "checked_at": "2026-10-29T14:39:03.592Z",
+          "review_note": "CPD points require successful course completion; no distinct independent CPD exam is claimed."
+        },
+        {
+          "claim": "outcomes[2].cost_to_obtain",
+          "source_url": "https://www.open.edu/openlearn/digital-computing/digital-skills-succeeding-digital-world/content-section-overview",
+          "short_quote": "free Statement of Participation awarded on completion",
+          "checked_at": "2026-10-29T14:39:03.592Z",
+          "review_note": "Official page says CPD evidence is on the free participation statement, with no separate fee described."
         }
       ]
     },
