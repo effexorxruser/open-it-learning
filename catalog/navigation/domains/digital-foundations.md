@@ -1,6 +1,6 @@
 # Цифровая грамотность и основы IT / Digital and computing fundamentals
 
-[← All IT directions](../README.md) · [All verified courses](../../verified/README.md) · [Learning paths](../learning-paths.md)
+[← All IT directions](../README.md) · [Все курсы — прямые ссылки](../../courses/README.md) · [Learning paths](../learning-paths.md)
 
 Общее устройство вычислительных систем и повседневные цифровые навыки.
 
