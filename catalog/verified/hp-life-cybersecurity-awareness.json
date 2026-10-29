@@ -1,0 +1,78 @@
+{
+  "id": "hp-life-cybersecurity-awareness",
+  "title": "Introduction to Cybersecurity Awareness",
+  "provider": "HP LIFE / HP Foundation",
+  "official_url": "https://www.life-global.org/course/346-introduction-to-cybersecurity-awareness",
+  "category": [
+    "cybersecurity",
+    "digital-literacy",
+    "privacy"
+  ],
+  "level": "beginner",
+  "languages": [
+    "en"
+  ],
+  "duration_hours": 1,
+  "learning": {
+    "free": true,
+    "conditions": "Бесплатный самостоятельный онлайн-курс HP LIFE; для отслеживания завершения и выпуска сертификата требуется аккаунт HP LIFE. Не является отраслевой сертификацией специалиста по ИБ.",
+    "cost": 0,
+    "currency": null
+  },
+  "outcomes": [
+    {
+      "kind": "recognition",
+      "type": "completion_certificate",
+      "name": "HP LIFE Certificate of Completion — Introduction to Cybersecurity Awareness",
+      "issuer": "HP Foundation / HP LIFE",
+      "obtainable": true,
+      "requirements": "Завершить учебный курс HP LIFE. Официальная страница конкретного курса обещает сертификат по завершении; отдельный платный экзамен или выпуск документа не заявлены.",
+      "cost_to_obtain": 0,
+      "currency": null,
+      "official_evidence_url": "https://www.life-global.org/course/346-introduction-to-cybersecurity-awareness",
+      "individual_verification_url": null
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "learning.free",
+      "source_url": "https://www.life-global.org/",
+      "short_quote": "Learn critical skills free of charge",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Официальный поставщик характеризует обучение HP LIFE как бесплатное."
+    },
+    {
+      "claim": "outcomes[0].obtainable",
+      "source_url": "https://www.life-global.org/course/346-introduction-to-cybersecurity-awareness",
+      "short_quote": "Certificate available on completion",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Курс обещает конкретный сертификат по завершении."
+    },
+    {
+      "claim": "outcomes[0].cost_to_obtain",
+      "source_url": "https://www.life-global.org/",
+      "short_quote": "Get a free Certificate of Completion",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "HP LIFE отдельно утверждает бесплатную выдачу сертификатов."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://www.life-global.org/course/346-introduction-to-cybersecurity-awareness",
+      "short_quote": "for every course you finish",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Достижение связано с завершением конкретного курса, не с профессиональным экзаменом."
+    },
+    {
+      "claim": "learning.conditions",
+      "source_url": "https://www.life-global.org/course/346-introduction-to-cybersecurity-awareness",
+      "short_quote": "No more than 60 minutes",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Официальная длительность и английский язык."
+    }
+  ],
+  "review": {
+    "status": "verified_free_outcome",
+    "reviewed_at": "2026-10-29T15:20:31.775Z",
+    "recheck_after": "2027-01-29T00:00:00Z"
+  }
+}

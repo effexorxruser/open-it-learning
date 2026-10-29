@@ -1,0 +1,85 @@
+{
+  "id": "ibm-skillsbuild-ai-literacy",
+  "title": "AI Literacy",
+  "provider": "IBM SkillsBuild / IBM",
+  "official_url": "https://skillsbuild.org/learning-catalog",
+  "category": [
+    "artificial-intelligence",
+    "responsible-ai",
+    "prompt-engineering"
+  ],
+  "level": "beginner",
+  "languages": [
+    "en"
+  ],
+  "duration_hours": null,
+  "learning": {
+    "free": true,
+    "conditions": "Бесплатная IBM SkillsBuild образовательная программа с обязательной регистрацией; доступна взрослым учащимся 18+ и отдельным школьным/образовательным трекам. Награда — цифровой бейдж IBM, не профессиональный сертификат.",
+    "cost": 0,
+    "currency": null
+  },
+  "outcomes": [
+    {
+      "kind": "recognition",
+      "type": "digital_badge",
+      "name": "AI Literacy digital credential",
+      "issuer": "IBM SkillsBuild",
+      "obtainable": true,
+      "requirements": "Зарегистрироваться в IBM SkillsBuild, завершить предписанный IBM набор модулей AI Literacy и получить не менее 80% в тесте в конце каждого модуля. Учитывать выбранный возрастной/образовательный трек; это digital credential через Credly, а не диплом.",
+      "cost_to_obtain": 0,
+      "currency": null,
+      "official_evidence_url": "https://www.credly.com/org/ibm-skillsbuild/badge/ai-literacy",
+      "individual_verification_url": null
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "learning.free",
+      "source_url": "https://skillsbuild.org/",
+      "short_quote": "100% free learning",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "IBM SkillsBuild рекламирует бесплатный доступ к учебным материалам."
+    },
+    {
+      "claim": "outcomes[0].obtainable",
+      "source_url": "https://www.credly.com/org/ibm-skillsbuild/badge/ai-literacy",
+      "short_quote": "Issued by IBM SkillsBuild",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Публичная карточка официального эмитента фиксирует конкретный бейдж."
+    },
+    {
+      "claim": "outcomes[0].cost_to_obtain",
+      "source_url": "https://www.credly.com/org/ibm-skillsbuild/badge/ai-literacy",
+      "short_quote": "Cost  Free",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "На странице бейджа указана нулевая цена."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://www.credly.com/org/ibm-skillsbuild/badge/ai-literacy",
+      "short_quote": "80% or higher",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Issuer-описание требует завершения модулей и 80%+ по финальным тестам модулей."
+    },
+    {
+      "claim": "learning.conditions",
+      "source_url": "https://www.credly.com/org/ibm-skillsbuild/badge/ai-literacy",
+      "short_quote": "Adult learners (age 18+)",
+      "checked_at": "2026-10-29T15:05:00Z",
+      "review_note": "Публично документированы отдельные маршруты взрослых и школьников."
+    },
+    {
+      "claim": "outcomes[0].obtainable",
+      "source_url": "https://skillsbuild.org/learning-catalog",
+      "short_quote": "AI Literacy (Earn a digital credential!)",
+      "checked_at": "2026-10-29T15:20:31.775Z",
+      "review_note": "Официальный каталог программы конкретно помечает AI Literacy как учебный план с цифровой наградой."
+    }
+  ],
+  "review": {
+    "status": "verified_free_outcome",
+    "reviewed_at": "2026-10-29T15:20:31.775Z",
+    "recheck_after": "2027-01-29T00:00:00Z"
+  }
+}

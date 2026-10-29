@@ -15,7 +15,7 @@
   "duration_hours": 24,
   "learning": {
     "free": true,
-    "conditions": "Бесплатный интерактивный тренажёр SQL на Stepik. Для получения сертификата необходимо зарегистрироваться и набрать баллы за задачи в размере, установленном авторами конкретного курса; окончательный порог на открытой странице не указан.",
+    "conditions": "Бесплатный интерактивный тренажёр SQL на Stepik. Для получения сертификата необходимо зарегистрироваться и набрать баллы за задачи в размере, установленном авторами конкретного курса; точный порог проверен в официальном API Stepik.",
     "cost": 0,
     "currency": null
   },
@@ -26,7 +26,7 @@
       "name": "Сертификат Stepik — «Интерактивный тренажер по SQL»",
       "issuer": "Stepik",
       "obtainable": true,
-      "requirements": "Пройти SQL-задания и набрать установленный для курса порог баллов в зарегистрированном аккаунте. Это сертификат платформы, не профессиональная аккредитация; уточнить минимальный балл в разделе сертификата курса.",
+      "requirements": "Зарегистрироваться на Stepik, решить оцениваемые задачи курса и набрать не менее 136 баллов для обычного сертификата. Порог сертификата с отличием: 144 баллов. Официальный API сообщает, что выдача сертификата включена и происходит автоматически; согласно справке Stepik формирование/обновление может занять до суток. Сертификат отражает окончание курса, не профессиональную государственную аттестацию.",
       "cost_to_obtain": 0,
       "currency": null,
       "official_evidence_url": "https://stepik.org/course/63054/promo",
@@ -56,18 +56,46 @@
       "review_note": "Stepik предоставляет включённые сертификаты бесплатных курсов без отдельной платы."
     },
     {
-      "claim": "outcomes[0].requirements",
-      "source_url": "https://help.stepik.org/article/54735",
-      "short_quote": "необходимое количество баллов",
-      "checked_at": "2026-10-29T15:05:00Z",
-      "review_note": "Точный порог устанавливает автор курса; пока не получен с авторизованной страницы."
-    },
-    {
       "claim": "learning.conditions",
       "source_url": "https://stepik.org/course/63054/promo",
       "short_quote": "173 интерактивные задачи",
       "checked_at": "2026-10-29T15:05:00Z",
       "review_note": "Курс имеет практические задания с автопроверкой."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://stepik.org/api/courses/63054",
+      "short_quote": "\"certificate_regular_threshold\": 136",
+      "checked_at": "2026-10-29T15:20:31.775Z",
+      "review_note": "Публичный объект конкретного курса в официальном API Stepik определяет минимальный порог обычного сертификата без авторизации."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://stepik.org/api/courses/63054",
+      "short_quote": "\"certificate_distinction_threshold\": 144",
+      "checked_at": "2026-10-29T15:20:31.775Z",
+      "review_note": "Официальный API отдельно определяет порог сертификата с отличием; это не цена и не новый тип награды."
+    },
+    {
+      "claim": "outcomes[0].obtainable",
+      "source_url": "https://stepik.org/api/courses/63054",
+      "short_quote": "\"is_certificate_issued\": true",
+      "checked_at": "2026-10-29T15:20:31.775Z",
+      "review_note": "Тот же объект подтверждает, что сертификат у конкретного курса включён."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://stepik.org/api/courses/63054",
+      "short_quote": "\"is_certificate_auto_issued\": true",
+      "checked_at": "2026-10-29T15:20:31.775Z",
+      "review_note": "Включена автоматическая выдача после порогового результата; сохраняются общие правила Stepik."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://help.stepik.org/article/54735",
+      "short_quote": "в течение суток",
+      "checked_at": "2026-10-29T15:20:31.775Z",
+      "review_note": "Официальный справочный центр описывает задержку выдачи и возможность обновления сертификата."
     }
   ]
 }

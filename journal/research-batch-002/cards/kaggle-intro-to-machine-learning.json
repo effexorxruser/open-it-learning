@@ -26,7 +26,7 @@
       "name": "Kaggle Learn Certificate of Completion — Intro to Machine Learning",
       "issuer": "Kaggle",
       "obtainable": true,
-      "requirements": "Пройти необходимые уроки и практические задания в аккаунте Kaggle. Официальная страница указывает «Hours to earn certificate: 3» и стоимость «No cost». Указанный срок примерный, не обязательное минимальное время обучения.",
+      "requirements": "Зарегистрироваться в Kaggle, пройти обязательные уроки и упражнения Intro to Machine Learning до статуса completed. На странице Kaggle Learn Courses открыть вкладку Completed и View Certificate, чтобы получить именной сертификат. Ориентировочные 3 часа — оценка длительности, а не минимальное обязательное время.",
       "cost_to_obtain": 0,
       "currency": null,
       "official_evidence_url": "https://www.kaggle.com/learn/intro-to-machine-learning",
@@ -68,6 +68,20 @@
       "short_quote": "3 (estimated)",
       "checked_at": "2026-10-29T15:05:00Z",
       "review_note": "Время лишь ориентир, а не жёсткое требование."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://www.kaggle.com/learn-course-certificates",
+      "short_quote": "For every course you finish",
+      "checked_at": "2026-10-29T15:20:31.775Z",
+      "review_note": "Официальная инструкция Kaggle прямо связывает завершение курса с выдачей completion certificate."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://www.kaggle.com/learn-course-certificates",
+      "short_quote": "View Certificate",
+      "checked_at": "2026-10-29T15:20:31.775Z",
+      "review_note": "Курс появляется во вкладке Completed, из которой открывается полученный сертификат."
     }
   ]
 }
