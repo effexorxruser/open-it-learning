@@ -1,0 +1,142 @@
+{
+  "id": "openlearn-cyber-security",
+  "title": "Introduction to cyber security: stay safe online",
+  "provider": "The Open University / OpenLearn",
+  "official_url": "https://www.open.edu/openlearn/digital-computing/introduction-cyber-security-stay-safe-online/content-section-overview",
+  "category": [
+    "cybersecurity"
+  ],
+  "level": null,
+  "languages": [
+    "en"
+  ],
+  "duration_hours": null,
+  "learning": {
+    "free": true,
+    "conditions": "Course content is free to study without signing up. An OpenLearn account and enrolment are needed for tracked completion and recognition.",
+    "cost": 0,
+    "currency": null
+  },
+  "outcomes": [
+    {
+      "kind": "recognition",
+      "type": "participation_record",
+      "name": "Open University Statement of Participation — Introduction to cyber security: stay safe online",
+      "issuer": "The Open University / OpenLearn",
+      "obtainable": true,
+      "requirements": "Sign in and enrol; read Introduction and Guidance and every course page; submit the quizzes. Download the free statement from My OpenLearn after completion; notification can take 24 hours. No formal qualification credit.",
+      "cost_to_obtain": 0,
+      "currency": null,
+      "official_evidence_url": "https://www.open.edu/openlearn/digital-computing/introduction-cyber-security-stay-safe-online/content-section-overview",
+      "individual_verification_url": null
+    },
+    {
+      "kind": "recognition",
+      "type": "digital_badge",
+      "name": "Open University digital badge — Introduction to cyber security: stay safe online",
+      "issuer": "The Open University / OpenLearn",
+      "obtainable": true,
+      "requirements": "Enrol and sign in, read each of the eight weeks, and score at least 50% in both badge quizzes in Weeks 4 and 8. Most questions allow three attempts, true/false usually one; later correct attempts earn fewer marks, so answering all questions eventually correctly does not itself guarantee a passing score. Badge is not an accredited OU qualification. After a failed badge quiz, the whole quiz can be retaken after 24 hours, with no stated limit on whole-quiz retakes.",
+      "cost_to_obtain": 0,
+      "currency": null,
+      "official_evidence_url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=50885&section=1.2",
+      "individual_verification_url": null
+    },
+    {
+      "kind": "benefit",
+      "type": "training_credit",
+      "name": "24 CPD points — Introduction to cyber security: stay safe online",
+      "issuer": "The Open University / OpenLearn",
+      "obtainable": true,
+      "requirements": "Successfully complete the named OpenLearn course while enrolled. The Open University states that 24 continuing professional development (CPD) points are awarded on successful completion; evidence appears on the course's free Statement of Participation. These are CPD points, not transferable academic credits or a separate degree. No separately purchased CPD credential is described.",
+      "cost_to_obtain": 0,
+      "currency": null,
+      "official_evidence_url": "https://www.open.edu/openlearn/digital-computing/introduction-cyber-security-stay-safe-online/content-section-overview",
+      "individual_verification_url": null
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "learning.free",
+      "source_url": "https://www.open.edu/openlearn/digital-computing/introduction-cyber-security-stay-safe-online/content-section-overview",
+      "short_quote": "Free course",
+      "checked_at": "2026-10-29T14:09:30.714679Z",
+      "review_note": "Course-specific free learning designation, not an unrelated provider-wide promotion."
+    },
+    {
+      "claim": "outcomes[0].obtainable",
+      "source_url": "https://www.open.edu/openlearn/digital-computing/introduction-cyber-security-stay-safe-online/content-section-overview",
+      "short_quote": "Free statement of participation on completion",
+      "checked_at": "2026-10-29T14:09:30.714679Z",
+      "review_note": "This specific course offers a participation record, not a professional or accredited academic certificate."
+    },
+    {
+      "claim": "outcomes[0].cost_to_obtain",
+      "source_url": "https://www.open.edu/openlearn/digital-computing/introduction-cyber-security-stay-safe-online/content-section-overview",
+      "short_quote": "free Statement of Participation",
+      "checked_at": "2026-10-29T14:09:30.714679Z",
+      "review_note": "The specific course describes the statement as free; no currency is inferred."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://www.open.edu/openlearn/about-openlearn/frequently-asked-questions-on-openlearn",
+      "short_quote": "Be enrolled on the course.",
+      "checked_at": "2026-10-29T14:09:30.714679Z",
+      "review_note": "Shared issuer statement rules: enrol, read all pages and submit quizzes; allow up to 24 hours."
+    },
+    {
+      "claim": "outcomes[1].obtainable",
+      "source_url": "https://www.open.edu/openlearn/digital-computing/introduction-cyber-security-stay-safe-online/content-section-overview",
+      "short_quote": "digital badge",
+      "checked_at": "2026-10-29T14:09:30.714679Z",
+      "review_note": "Course-specific page offers the badge for completion and passing quizzes."
+    },
+    {
+      "claim": "outcomes[1].cost_to_obtain",
+      "source_url": "https://www.open.edu/openlearn/digital-computing/introduction-cyber-security-stay-safe-online/content-section-overview",
+      "short_quote": "free Open University digital badge",
+      "checked_at": "2026-10-29T14:09:30.714679Z",
+      "review_note": "The course explicitly describes this badge as free, separately from learning access."
+    },
+    {
+      "claim": "outcomes[1].requirements",
+      "source_url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=50885&section=1.2",
+      "short_quote": "score 50% or more",
+      "checked_at": "2026-10-29T14:09:30.714679Z",
+      "review_note": "Specific badge instructions require reading every week and passing the Week 4 and Week 8 quizzes; attempt limits and score deductions are retained in requirements."
+    },
+    {
+      "claim": "outcomes[1].requirements",
+      "source_url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=50885&section=1.2",
+      "short_quote": "after 24 hours you can attempt the whole quiz",
+      "checked_at": "2026-10-29T14:39:03.592Z",
+      "review_note": "Course-specific badge instructions distinguish whole-quiz retakes after 24 hours from per-question attempt limits."
+    },
+    {
+      "claim": "outcomes[2].obtainable",
+      "source_url": "https://www.open.edu/openlearn/digital-computing/introduction-cyber-security-stay-safe-online/content-section-overview",
+      "short_quote": "you will be awarded 24 CPD points",
+      "checked_at": "2026-10-29T14:39:03.592Z",
+      "review_note": "Issuer explicitly states that 24 CPD points are awarded on successful completion of this exact course."
+    },
+    {
+      "claim": "outcomes[2].requirements",
+      "source_url": "https://www.open.edu/openlearn/digital-computing/introduction-cyber-security-stay-safe-online/content-section-overview",
+      "short_quote": "on successful completion of the course",
+      "checked_at": "2026-10-29T14:39:03.592Z",
+      "review_note": "CPD award is conditional on course completion, not just enrollment or access to free materials."
+    },
+    {
+      "claim": "outcomes[2].cost_to_obtain",
+      "source_url": "https://www.open.edu/openlearn/digital-computing/introduction-cyber-security-stay-safe-online/content-section-overview",
+      "short_quote": "free Statement of Participation awarded on completion",
+      "checked_at": "2026-10-29T14:39:03.592Z",
+      "review_note": "CPD evidence is included in the free course-specific statement; no separate CPD award fee is described."
+    }
+  ],
+  "review": {
+    "status": "verified_free_outcome",
+    "reviewed_at": "2026-10-29T14:43:59.614Z",
+    "recheck_after": "2027-01-29T00:00:00Z"
+  }
+}

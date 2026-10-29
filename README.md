@@ -6,7 +6,7 @@ Free IT courses with documented official outcomes, plus reusable tools for learn
 
 **Languages:** English · [Русский](#русский) · [Українська](#українська) · [简体中文](#简体中文)
 
-> **Catalog status:** 1 source-reviewed course — [freeCodeCamp Responsive Web Design (v9)](catalog/verified/freecodecamp-responsive-web-design-v9.json). [Browse the verified index](catalog/verified/README.md).
+> **Catalog status:** 11 source-reviewed courses across CS50, OpenLearn and freeCodeCamp, with 15 typed official outcomes and course-linked benefits. [Browse the verified index](catalog/verified/README.md).
 
 ## Find and verify
 
@@ -39,7 +39,7 @@ Share official sources, report changed conditions or improve the learning tools.
 
 Open IT Learning — публичный каталог бесплатных IT-курсов с официальными результатами: сертификатами, бейджами, дипломами, грамотами, наградами, подтверждениями участия и бонусами организатора.
 
-**Первая проверенная запись:** [freeCodeCamp Responsive Web Design (v9)](catalog/verified/freecodecamp-responsive-web-design-v9.json) с бесплатным сертификатом, получаемым после проектов и экзамена. [Каталог](catalog/README.md) содержит остальные правила; [журнал](journal/README.md) — исследования, включая незавершённые проверки.
+**В каталоге 11 проверенных курсов и 15 отдельно описанных результатов:** программы CS50, OpenLearn и freeCodeCamp. Среди результатов — бесплатные сертификаты, бейджи, подтверждения прохождения и CPD-баллы (не академические кредиты). [Каталог](catalog/verified/README.md) и [журнал исследований](journal/README.md) содержат условия и источники.
 
 ### Найти и проверить
 
@@ -64,7 +64,7 @@ Open IT Learning — публичный каталог бесплатных IT-�
 
 Open IT Learning — публічний каталог безкоштовних IT-курсів з офіційними результатами: сертифікатами, бейджами, дипломами, грамотами, нагородами, підтвердженнями участі та бонусами організатора.
 
-**Перша перевірена позиція:** [freeCodeCamp Responsive Web Design (v9)](catalog/verified/freecodecamp-responsive-web-design-v9.json) із безкоштовним сертифікатом після проєктів та іспиту. [Каталог](catalog/README.md) містить правила, а [журнал](journal/README.md) — дослідження, включно з незавершеними перевірками.
+**У каталозі 11 перевірених курсів і 15 окремо описаних результатів:** програми CS50, OpenLearn та freeCodeCamp. Результати включають безкоштовні сертифікати, бейджі, підтвердження участі й бали CPD (не академічні кредити). [Каталог](catalog/verified/README.md) і [журнал](journal/README.md) містять умови та джерела.
 
 ### Знайти та перевірити
 
@@ -89,7 +89,7 @@ Open IT Learning — публічний каталог безкоштовних 
 
 Open IT Learning 是免费 IT 课程的公共目录，关注官方学习成果：证书、徽章、文凭、奖状、奖项、参与记录及提供方的课程相关福利。
 
-**首条已核实课程记录：** [freeCodeCamp Responsive Web Design (v9)](catalog/verified/freecodecamp-responsive-web-design-v9.json)，完成项目并通过考试后可免费申领官方平台证书。[课程目录](catalog/README.md)包含收录规则；[研究日志](journal/README.md)也包含待核实的候选课程。
+**课程目录目前收录 11 门经来源核实的课程，分别记录 15 项官方成果及课程相关福利：** 涵盖 CS50、OpenLearn 和 freeCodeCamp。成果包括免费结业证书、数字徽章、参与记录及 CPD 继续职业发展积分（不等同于大学学分）。请查阅[课程目录](catalog/verified/README.md)及[研究日志](journal/README.md)了解具体要求与证据。
 
 ### 查找与核实
 

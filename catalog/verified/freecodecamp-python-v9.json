@@ -1,0 +1,77 @@
+{
+  "id": "freecodecamp-python-v9",
+  "title": "Python Certification",
+  "provider": "freeCodeCamp",
+  "official_url": "https://www.freecodecamp.org/learn/python-v9/",
+  "category": [
+    "python",
+    "programming"
+  ],
+  "level": null,
+  "languages": [
+    "en"
+  ],
+  "duration_hours": null,
+  "learning": {
+    "free": true,
+    "conditions": "Current freeCodeCamp curriculum is free. Account required for progress and certification; desktop/laptop exam environment required. No enrolment or exam attempted during research.",
+    "cost": 0,
+    "currency": null
+  },
+  "outcomes": [
+    {
+      "kind": "recognition",
+      "type": "completion_certificate",
+      "name": "Python Certification (freeCodeCamp, v9)",
+      "issuer": "freeCodeCamp",
+      "obtainable": true,
+      "requirements": "Complete the five certification projects and pass their tests, then take and pass the 50-question closed-book English exam in the desktop Exam Environment. Follow account and academic honesty requirements and await staff review of results. Attempts are separated by 168 hours; desktop/laptop required. No promise of instant issuance.",
+      "cost_to_obtain": 0,
+      "currency": null,
+      "official_evidence_url": "https://www.freecodecamp.org/news/freecodecamps-new-python-certification-is-now-live",
+      "individual_verification_url": null
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "learning.free",
+      "source_url": "https://www.freecodecamp.org/news/freecodecamps-new-python-certification-is-now-live",
+      "short_quote": "Is all of this really free?",
+      "checked_at": "2026-10-29T14:09:30.714679Z",
+      "review_note": "The course-specific FAQ answers yes and explicitly includes the exams and certifications."
+    },
+    {
+      "claim": "outcomes[0].obtainable",
+      "source_url": "https://www.freecodecamp.org/news/freecodecamps-new-python-certification-is-now-live",
+      "short_quote": "free verified certification",
+      "checked_at": "2026-10-29T14:09:30.714679Z",
+      "review_note": "The issuer announces this specific current Python path and a certification exam; this is not the legacy Scientific Computing curriculum."
+    },
+    {
+      "claim": "outcomes[0].cost_to_obtain",
+      "source_url": "https://www.freecodecamp.org/news/freecodecamps-new-python-certification-is-now-live",
+      "short_quote": "Yes.",
+      "checked_at": "2026-10-29T14:09:30.714679Z",
+      "review_note": "This answer belongs to the explicit free-pricing FAQ for this course, covering the exam and certification."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://www.freecodecamp.org/learn/python-v9/",
+      "short_quote": "five required projects",
+      "checked_at": "2026-10-29T14:09:30.714679Z",
+      "review_note": "The current rendered course requires these projects to qualify for its certification exam and requires passing the exam."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://www.freecodecamp.org/news/freecodecamps-new-python-certification-is-now-live",
+      "short_quote": "50 question exam",
+      "checked_at": "2026-10-29T14:09:30.714679Z",
+      "review_note": "Course-specific announcement specifies the desktop Exam Environment, five prerequisites, English-only closed-book exam, staff moderation and one attempt per week. Do not promise automatic issuance."
+    }
+  ],
+  "review": {
+    "status": "verified_free_outcome",
+    "reviewed_at": "2026-10-29T14:43:59.614Z",
+    "recheck_after": "2027-01-29T00:00:00Z"
+  }
+}

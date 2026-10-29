@@ -1,0 +1,70 @@
+{
+  "id": "openlearn-introducing-computing",
+  "title": "Introducing computing and IT",
+  "provider": "The Open University / OpenLearn",
+  "official_url": "https://www.open.edu/openlearn/digital-computing/introducing-computing-and-it/content-section-0",
+  "category": [
+    "computing",
+    "it-fundamentals"
+  ],
+  "level": null,
+  "languages": [
+    "en"
+  ],
+  "duration_hours": null,
+  "learning": {
+    "free": true,
+    "conditions": "Course content is free to study without signing up. An OpenLearn account and enrolment are needed for tracked completion and recognition.",
+    "cost": 0,
+    "currency": null
+  },
+  "outcomes": [
+    {
+      "kind": "recognition",
+      "type": "participation_record",
+      "name": "Open University Statement of Participation — Introducing computing and IT",
+      "issuer": "The Open University / OpenLearn",
+      "obtainable": true,
+      "requirements": "Sign in and enrol; read Introduction and Guidance and every course page; submit the quizzes. Download the free statement from My OpenLearn after completion; notification can take 24 hours. No formal qualification credit.",
+      "cost_to_obtain": 0,
+      "currency": null,
+      "official_evidence_url": "https://www.open.edu/openlearn/digital-computing/introducing-computing-and-it/content-section-0",
+      "individual_verification_url": null
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "learning.free",
+      "source_url": "https://www.open.edu/openlearn/digital-computing/introducing-computing-and-it/content-section-0",
+      "short_quote": "Free course",
+      "checked_at": "2026-10-29T14:09:30.714679Z",
+      "review_note": "Course-specific free learning designation, not an unrelated provider-wide promotion."
+    },
+    {
+      "claim": "outcomes[0].obtainable",
+      "source_url": "https://www.open.edu/openlearn/digital-computing/introducing-computing-and-it/content-section-0",
+      "short_quote": "Free statement of participation on completion",
+      "checked_at": "2026-10-29T14:09:30.714679Z",
+      "review_note": "This specific course offers a participation record, not a professional or accredited academic certificate."
+    },
+    {
+      "claim": "outcomes[0].cost_to_obtain",
+      "source_url": "https://www.open.edu/openlearn/digital-computing/introducing-computing-and-it/content-section-0",
+      "short_quote": "free Statement of Participation",
+      "checked_at": "2026-10-29T14:09:30.714679Z",
+      "review_note": "The specific course describes the statement as free; no currency is inferred."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://www.open.edu/openlearn/about-openlearn/frequently-asked-questions-on-openlearn",
+      "short_quote": "Be enrolled on the course.",
+      "checked_at": "2026-10-29T14:09:30.714679Z",
+      "review_note": "Shared issuer statement rules: enrol, read all pages and submit quizzes; allow up to 24 hours."
+    }
+  ],
+  "review": {
+    "status": "verified_free_outcome",
+    "reviewed_at": "2026-10-29T14:43:59.614Z",
+    "recheck_after": "2027-01-29T00:00:00Z"
+  }
+}

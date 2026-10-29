@@ -11,6 +11,7 @@ Wiki отражает планы **публичной библиотеки ку�
 - [x] Опубликовать первую версию правил проверки и модель данных.
 - [x] Подготовить промпты и переносимый скилл Course Verifier.
 - [x] Независимо проверить и опубликовать первый подходящий курс — [freeCodeCamp Responsive Web Design (v9)](https://github.com/effexorxruser/open-it-learning/blob/main/catalog/verified/freecodecamp-responsive-web-design-v9.json).
+- [x] Подготовить и проверить ещё десять записей в [Research Batch #001](https://github.com/effexorxruser/open-it-learning/blob/main/journal/research-batch-001/README.md), с 14 раздельными официальными результатами и перечнем источников.
 - [ ] Утвердить лицензии для кода и контента.
 
 ## Этап 2 · Удобный каталог
