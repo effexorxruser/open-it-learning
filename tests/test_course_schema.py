@@ -69,10 +69,12 @@ class CourseSchemaTests(unittest.TestCase):
         bundle = json.loads((ROOT / 'journal/research-batch-001/proposals.json').read_text())
         self.assertFalse(bundle['catalog_publication_approved'])
         self.assertEqual(len(bundle['records']), 10)
-        existing_urls = {json.loads(p.read_text())['official_url'].rstrip('/')
-                         for p in (ROOT / 'catalog/verified').glob('*.json')}
+        catalog = {r['id']: r for p in (ROOT / 'catalog/verified').glob('*.json')
+                   for r in [json.loads(p.read_text())]}
+        existing_urls = {r['official_url'].rstrip('/') for r in catalog.values()}
         urls = set()
         ids = set()
+        staged = 0
         for record in bundle['records']:
             with self.subTest(record=record['id']):
                 self.assertNotIn('review', record)  # Independent approval is deliberately absent.
@@ -80,8 +82,15 @@ class CourseSchemaTests(unittest.TestCase):
                 self.assertNotIn(record['id'], ids)
                 ids.add(record['id'])
                 url = record['official_url'].rstrip('/')
-                self.assertNotIn(url, urls | existing_urls)
+                self.assertNotIn(url, urls)
                 urls.add(url)
+                if record['id'] in catalog:
+                    staged += 1
+                    expected = copy.deepcopy(record)
+                    expected['review'] = catalog[record['id']]['review']
+                    self.assertEqual(catalog[record['id']], expected)
+                else:
+                    self.assertNotIn(url, existing_urls)
                 # In-memory projection tests shape only, not approval or truth.
                 projected = copy.deepcopy(record)
                 projected['review'] = {'status': 'verified_free_outcome',
@@ -92,6 +101,9 @@ class CourseSchemaTests(unittest.TestCase):
                 for i in range(len(record['outcomes'])):
                     for field in ['obtainable', 'requirements', 'cost_to_obtain']:
                         self.assertIn(f'outcomes[{i}].{field}', claims)
+
+        # Draft PR stages reviewed files, while original research proposals remain unapproved.
+        self.assertEqual(staged, 10)
 
     def test_openlearn_course_specific_awards_and_cpd(self):
         bundle = json.loads((ROOT / 'journal/research-batch-001/proposals.json').read_text())
