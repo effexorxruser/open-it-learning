@@ -2,7 +2,7 @@
 
 [← Home / Главная](../README.md) · [Admission rules](../docs/CATALOG_POLICY.md) · [Record format](../docs/DATA_CONTRACT.md)
 
-> **No fully reviewed entries have been published yet.** We do not count marketing language or generic “achievements” sections as confirmation of an obtainable award.
+> **First verified record available:** [freeCodeCamp Responsive Web Design Certification (v9)](verified/freecodecamp-responsive-web-design-v9.json), with a [dated source review](../journal/2026-10-29-freecodecamp-responsive-web-design.md). Generic “achievements” claims still do not qualify.
 
 ## What qualifies
 
@@ -19,7 +19,7 @@ Each must have a specific issuer, eligibility steps, source evidence and transpa
 
 [Browse the verified index](verified/README.md) · [Editorial policy](../docs/CATALOG_POLICY.md) · [Schema](schema/course.schema.json)
 
-Records will be grouped by learning area and searchable by reward/benefit type as the catalog grows.
+The first record concerns freeCodeCamp's free issuer certification, which requires projects, an exam and staff moderation. Records will be grouped by skill area and outcome type as the catalog grows.
 
 ## Suggest a course
 

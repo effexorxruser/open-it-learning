@@ -6,7 +6,7 @@ Free IT courses with documented official outcomes, plus reusable tools for learn
 
 **Languages:** English · [Русский](#русский) · [Українська](#українська) · [简体中文](#简体中文)
 
-> **Catalog status:** No verified course records have been published yet. [See the catalog](catalog/verified/README.md).
+> **Catalog status:** 1 source-reviewed course — [freeCodeCamp Responsive Web Design (v9)](catalog/verified/freecodecamp-responsive-web-design-v9.json). [Browse the verified index](catalog/verified/README.md).
 
 ## Find and verify
 
@@ -39,7 +39,7 @@ Share official sources, report changed conditions or improve the learning tools.
 
 Open IT Learning — публичный каталог бесплатных IT-курсов с официальными результатами: сертификатами, бейджами, дипломами, грамотами, наградами, подтверждениями участия и бонусами организатора.
 
-**Проверенных записей пока нет.** [Каталог](catalog/README.md) содержит правила и место для будущих записей; [журнал](journal/README.md) — исследования, включая незавершённые проверки.
+**Первая проверенная запись:** [freeCodeCamp Responsive Web Design (v9)](catalog/verified/freecodecamp-responsive-web-design-v9.json) с бесплатным сертификатом, получаемым после проектов и экзамена. [Каталог](catalog/README.md) содержит остальные правила; [журнал](journal/README.md) — исследования, включая незавершённые проверки.
 
 ### Найти и проверить
 
@@ -64,7 +64,7 @@ Open IT Learning — публичный каталог бесплатных IT-�
 
 Open IT Learning — публічний каталог безкоштовних IT-курсів з офіційними результатами: сертифікатами, бейджами, дипломами, грамотами, нагородами, підтвердженнями участі та бонусами організатора.
 
-**Перевірених записів поки немає.** [Каталог](catalog/README.md) містить правила й місце для майбутніх записів; [журнал](journal/README.md) — дослідження, включно з незавершеними перевірками.
+**Перша перевірена позиція:** [freeCodeCamp Responsive Web Design (v9)](catalog/verified/freecodecamp-responsive-web-design-v9.json) із безкоштовним сертифікатом після проєктів та іспиту. [Каталог](catalog/README.md) містить правила, а [журнал](journal/README.md) — дослідження, включно з незавершеними перевірками.
 
 ### Знайти та перевірити
 
@@ -89,7 +89,7 @@ Open IT Learning — публічний каталог безкоштовних 
 
 Open IT Learning 是免费 IT 课程的公共目录，关注官方学习成果：证书、徽章、文凭、奖状、奖项、参与记录及提供方的课程相关福利。
 
-**目前尚无已核实的课程记录。** [课程目录](catalog/README.md)目前提供收录规则及未来记录的位置；[研究日志](journal/README.md)也包含尚未完成核实的候选课程。
+**首条已核实课程记录：** [freeCodeCamp Responsive Web Design (v9)](catalog/verified/freecodecamp-responsive-web-design-v9.json)，完成项目并通过考试后可免费申领官方平台证书。[课程目录](catalog/README.md)包含收录规则；[研究日志](journal/README.md)也包含待核实的候选课程。
 
 ### 查找与核实
 

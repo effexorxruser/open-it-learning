@@ -10,7 +10,7 @@ This roadmap covers the **public course library**, ready-to-use learning materia
 - [x] Define inclusion rules for issuer-backed badges, certificates, diplomas, awards and course-linked benefits.
 - [x] Publish initial prompts and reusable course verification skill.
 - [x] Draft the JSON Schema for free courses with **one or more typed outcomes**.
-- [ ] Verify and publish the first course with a fully documented official result and conditions.
+- [x] Verify and publish the first course with a fully documented official result and conditions — [freeCodeCamp Responsive Web Design (v9)](../catalog/verified/freecodecamp-responsive-web-design-v9.json).
 - [ ] Select an explicit license for software and editorial content.
 
 ## 02 · Useful discovery

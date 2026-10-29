@@ -10,4 +10,5 @@ A research note can describe a course whose **specific award or bonus and its co
 
 ## Notes
 
+- [2026-10-29 · freeCodeCamp Responsive Web Design: documenting a free verifiable certification](2026-10-29-freecodecamp-responsive-web-design.md) — source-backed candidate for the verified index.
 - [2026-10-28 · Cisco Introduction to Cybersecurity: what the evidence does and doesn't show](2026-10-28-cisco-introduction-to-cybersecurity.md)
