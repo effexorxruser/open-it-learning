@@ -1,0 +1,77 @@
+{
+  "id": "cs50-x",
+  "title": "CS50’s Introduction to Computer Science",
+  "provider": "CS50 / Harvard University",
+  "official_url": "https://cs50.harvard.edu/x/",
+  "category": [
+    "computer-science",
+    "programming"
+  ],
+  "level": null,
+  "languages": [
+    "en"
+  ],
+  "duration_hours": null,
+  "learning": {
+    "free": true,
+    "conditions": "OpenCourseWare learning is free. Recognition needs edX registration and the CS50 submission/Gradebook workflow; paid edX verification is optional. Follow course prerequisites and academic honesty rules.",
+    "cost": 0,
+    "currency": null
+  },
+  "outcomes": [
+    {
+      "kind": "recognition",
+      "type": "completion_certificate",
+      "name": "Free CS50 Certificate — CS50’s Introduction to Computer Science",
+      "issuer": "CS50 / Harvard University",
+      "obtainable": true,
+      "requirements": "Earn at least 70% on each required problem set and the final project, following academic honesty rules. Register with edX and enable/link the CS50 Gradebook; request the free certificate from the Gradebook after completion using GitHub sign-in. The FAQ currently sets the course deadline to 30 June 2027; request/download the certificate before that deadline. This proposal covers the free CS50 certificate, not paid edX verification, professional credentials or academic credit.",
+      "cost_to_obtain": 0,
+      "currency": null,
+      "official_evidence_url": "https://cs50.harvard.edu/x/certificate/",
+      "individual_verification_url": null
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "learning.free",
+      "source_url": "https://cs50.harvard.edu/x/",
+      "short_quote": "for free via this OpenCourseWare",
+      "checked_at": "2026-10-29T14:09:30.714679Z",
+      "review_note": "The specific course provides its materials free to non-Harvard learners; account setup is needed for submission/recognition."
+    },
+    {
+      "claim": "outcomes[0].obtainable",
+      "source_url": "https://cs50.harvard.edu/x/certificate/",
+      "short_quote": "CS50 Certificate",
+      "checked_at": "2026-10-29T14:09:30.714679Z",
+      "review_note": "Course-specific certificate page explicitly makes the free certificate available after graded completion."
+    },
+    {
+      "claim": "outcomes[0].cost_to_obtain",
+      "source_url": "https://cs50.harvard.edu/x/certificate/",
+      "short_quote": "free CS50 Certificate",
+      "checked_at": "2026-10-29T14:09:30.714679Z",
+      "review_note": "Explicitly free issuer certificate; paid edX verification is a separate option."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://cs50.harvard.edu/x/certificate/",
+      "short_quote": "at least 70%",
+      "checked_at": "2026-10-29T14:09:30.714679Z",
+      "review_note": "The threshold applies to each required problem set and the final project, not to completing only 70% of the work."
+    },
+    {
+      "claim": "outcomes[0].requirements",
+      "source_url": "https://cs50.harvard.edu/x/faqs/",
+      "short_quote": "Registration with edX",
+      "checked_at": "2026-10-29T14:09:30.714679Z",
+      "review_note": "Current FAQ requires registration even for the free certificate; also describes Gradebook, GitHub redemption and the 30 June 2027 deadline."
+    }
+  ],
+  "review": {
+    "status": "verified_free_outcome",
+    "reviewed_at": "2026-10-29T14:43:59.614Z",
+    "recheck_after": "2027-01-29T00:00:00Z"
+  }
+}
