@@ -115,8 +115,7 @@ class CourseSchemaTests(unittest.TestCase):
                     for field in ('obtainable', 'requirements', 'cost_to_obtain'):
                         self.assertIn(f'outcomes[{i}].{field}', claims)
                     if outcome['type'] == 'digital_badge':
-                        self.assertIn('Week 4', outcome['requirements'])
-                        self.assertIn('Week 8', outcome['requirements'])
+                        self.assertRegex(outcome['requirements'], r'Weeks? 4 and (?:Week )?8')
                         self.assertIn('24 hours', outcome['requirements'])
                     if outcome['type'] == 'training_credit':
                         self.assertEqual(outcome['kind'], 'benefit')
