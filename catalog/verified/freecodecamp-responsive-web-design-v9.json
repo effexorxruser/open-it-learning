@@ -43,7 +43,7 @@
     {
       "claim": "official_url",
       "source_url": "https://www.freecodecamp.org/news/freecodecamps-new-responsive-web-design-certification-is-now-live",
-      "short_quote": "Responsive Web Design certification",
+      "short_quote": "Responsive Web Design",
       "checked_at": "2026-10-29T10:56:54Z",
       "review_note": "Official launch article links directly to the v9 learning page; direct page content is JavaScript-rendered and was not parsed for independent claims."
     },
