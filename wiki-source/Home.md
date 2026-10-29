@@ -4,13 +4,13 @@
 
 Добро пожаловать в Wiki **Open IT Learning**. Здесь собраны правила работы с курсами, объяснения типов наград, готовые инструменты для проверки и сведения о развитии открытой библиотеки.
 
-> **Статус:** проект находится в начале развития. Подтверждённые записи пока не опубликованы; проверенные источники важнее количества ссылок.
+> **Статус:** опубликована первая проверенная запись — [freeCodeCamp Responsive Web Design (v9)](https://github.com/effexorxruser/open-it-learning/blob/main/catalog/verified/freecodecamp-responsive-web-design-v9.json). Условия получения официального сертификата подтверждены источниками; другие кандидаты проходят проверку.
 
 ## С чего начать
 
 | Раздел | Что узнаете |
 | :--- | :--- |
-| [Каталог курсов](https://github.com/effexorxruser/open-it-learning/wiki/Catalog) | Как устроена подборка и почему в ней нет неподтверждённых записей |
+| [Каталог курсов](https://github.com/effexorxruser/open-it-learning/wiki/Catalog) | Как устроена подборка и где находится первая проверенная запись |
 | [Официальные достижения](https://github.com/effexorxruser/open-it-learning/wiki/Achievements) | Чем отличаются сертификаты, бейджи, дипломы, грамоты и бонусы |
 | [Проверка курса](https://github.com/effexorxruser/open-it-learning/wiki/Verification) | Какие доказательства обязательны и как принимается решение |
 | [Промпты и скиллы](https://github.com/effexorxruser/open-it-learning/wiki/Resources) | Как использовать готовые материалы репозитория |
