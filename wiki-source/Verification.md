@@ -1,6 +1,6 @@
 # Как проверяется курс
 
-[[← Главная|Home]] · [[Каталог|Catalog]] · [[Типы достижений|Achievements]]
+[← Главная](https://github.com/effexorxruser/open-it-learning/wiki/Home) · [Каталог](https://github.com/effexorxruser/open-it-learning/wiki/Catalog) · [Типы достижений](https://github.com/effexorxruser/open-it-learning/wiki/Achievements)
 
 Цель проверки — доказать не только то, что курс существует, но и то, **какое конкретно официальное достижение доступно после его прохождения**.
 

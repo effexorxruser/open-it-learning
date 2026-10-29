@@ -1,6 +1,6 @@
 # Официальные достижения и бонусы
 
-[[← Главная|Home]] · [[Каталог|Catalog]] · [[Проверка|Verification]]
+[← Главная](https://github.com/effexorxruser/open-it-learning/wiki/Home) · [Каталог](https://github.com/effexorxruser/open-it-learning/wiki/Catalog) · [Проверка](https://github.com/effexorxruser/open-it-learning/wiki/Verification)
 
 В Open IT Learning результат обучения — это не только сертификат. Главное, чтобы **организатор официально подтверждал его существование, связь с конкретным курсом и условия получения**.
 
@@ -41,4 +41,4 @@
 
 **«Диплом от платформы = диплом об образовании»** — далеко не всегда; нельзя заявлять об академическом статусе без официального доказательства.
 
-[[Как мы проверяем курсы|Verification]] · [Политика каталога](https://github.com/effexorxruser/open-it-learning/blob/main/docs/CATALOG_POLICY.md)
+[Как мы проверяем курсы](https://github.com/effexorxruser/open-it-learning/wiki/Verification) · [Политика каталога](https://github.com/effexorxruser/open-it-learning/blob/main/docs/CATALOG_POLICY.md)

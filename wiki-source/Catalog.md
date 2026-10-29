@@ -1,6 +1,6 @@
 # Каталог курсов
 
-[[← Главная|Home]] · [[Типы достижений|Achievements]] · [[Правила проверки|Verification]]
+[← Главная](https://github.com/effexorxruser/open-it-learning/wiki/Home) · [Типы достижений](https://github.com/effexorxruser/open-it-learning/wiki/Achievements) · [Правила проверки](https://github.com/effexorxruser/open-it-learning/wiki/Verification)
 
 ## Назначение
 
