@@ -1,11 +1,12 @@
 ```text
-  ___  ___  ___ _  _   ___ _____
- / _ \| _ \| __| \| | |_ _|_   _|
-| (_) |  _/| _|| .` |  | |  | |
- \___/|_|  |___|_|\_| |___| |_|
+  ___  ___  ___ _  _
+ / _ \| _ \| __| \| |
+| (_) |  _/| _|| .` |
+ \___/|_|  |___|_|\_|
 
- LEARNING
- free courses / official outcomes
+ IT LEARNING
+ free courses
+ official outcomes
 ```
 
 # Open IT Learning
