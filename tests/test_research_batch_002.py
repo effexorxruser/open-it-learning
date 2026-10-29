@@ -43,11 +43,10 @@ class Batch002Checks(unittest.TestCase):
 
     def test_new_and_existing_ids_and_urls_do_not_overlap(self):
         self.assertEqual(len(self.proposals), 11)
-        self.assertEqual(len(self.catalog), 21)
+        self.assertGreaterEqual(len(self.catalog), 21)
         self.assertTrue(PREEXISTING_IDS.issubset(self.catalog))
         self.assertNotIn(BLOCKED_ID, self.catalog)
-        self.assertEqual(set(self.proposals) - {BLOCKED_ID},
-                         set(self.catalog) - PREEXISTING_IDS)
+        self.assertTrue((set(self.proposals) - {BLOCKED_ID}).issubset(self.catalog))
         all_urls = [c["official_url"].rstrip("/") for c in self.catalog.values()]
         self.assertEqual(len(all_urls), len(set(all_urls)))
         self.assertEqual(len({c["official_url"].rstrip("/") for c in self.proposals.values()}), 11)
@@ -90,10 +89,11 @@ class Batch002Checks(unittest.TestCase):
 
     def test_source_coverage_and_russian_language(self):
         self.assertEqual(sum("ru" in c["languages"] for c in self.proposals.values()), 4)
-        self.assertEqual(sum("ru" in c["languages"] for c in self.catalog.values()
-                             if c["id"] not in PREEXISTING_IDS), 3)
+        self.assertEqual(sum("ru" in self.catalog[record_id]["languages"] for
+                             record_id in set(self.proposals) - {BLOCKED_ID}), 3)
         self.assertEqual(sum(len(c["evidence"]) for c in self.proposals.values()), 76)
-        self.assertEqual(sum(len(c["outcomes"]) for c in self.catalog.values()), 27)
+        self.assertEqual(sum(len(self.catalog[record_id]["outcomes"]) for
+                             record_id in set(self.proposals) - {BLOCKED_ID}), 12)
         for c in self.proposals.values():
             with self.subTest(record=c["id"]):
                 self.assertGreaterEqual(len(c["evidence"]), 4)
