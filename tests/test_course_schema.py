@@ -93,6 +93,51 @@ class CourseSchemaTests(unittest.TestCase):
                     for field in ['obtainable', 'requirements', 'cost_to_obtain']:
                         self.assertIn(f'outcomes[{i}].{field}', claims)
 
+    def test_openlearn_course_specific_awards_and_cpd(self):
+        bundle = json.loads((ROOT / 'journal/research-batch-001/proposals.json').read_text())
+        records = {entry['id']: entry for entry in bundle['records']}
+        expected = {
+            'openlearn-cyber-security': ['participation_record', 'digital_badge', 'training_credit'],
+            'openlearn-digital-skills': ['participation_record', 'digital_badge', 'training_credit'],
+            'openlearn-introducing-computing': ['participation_record'],
+        }
+        for record_id, types in expected.items():
+            with self.subTest(record=record_id):
+                record = records[record_id]
+                self.assertEqual([o['type'] for o in record['outcomes']], types)
+                self.assertNotIn('review', record)
+                for i, outcome in enumerate(record['outcomes']):
+                    self.assertEqual(outcome['cost_to_obtain'], 0)
+                    self.assertIsNone(outcome['currency'])
+                    evidence = [e for e in record['evidence']
+                                if e['claim'].startswith(f'outcomes[{i}].')]
+                    claims = {e['claim'] for e in evidence}
+                    for field in ('obtainable', 'requirements', 'cost_to_obtain'):
+                        self.assertIn(f'outcomes[{i}].{field}', claims)
+                    if outcome['type'] == 'digital_badge':
+                        self.assertIn('Week 4', outcome['requirements'])
+                        self.assertIn('Week 8', outcome['requirements'])
+                        self.assertIn('24 hours', outcome['requirements'])
+                    if outcome['type'] == 'training_credit':
+                        self.assertEqual(outcome['kind'], 'benefit')
+                        self.assertIn('24 CPD points', outcome['name'])
+                        self.assertIn('Statement of Participation', outcome['requirements'])
+                        self.assertIn('not transferable academic credits', outcome['requirements'])
+                        self.assertEqual(len(evidence), 3)
+
+    def test_batch_evidence_coverage_and_urls(self):
+        bundle = json.loads((ROOT / 'journal/research-batch-001/proposals.json').read_text())
+        self.assertEqual(sum(len(r['outcomes']) for r in bundle['records']), 14)
+        self.assertEqual(sum(len(r['evidence']) for r in bundle['records']), 63)
+        self.assertEqual(len({e['source_url'] for r in bundle['records']
+                              for e in r['evidence']}), 26)
+        for record in bundle['records']:
+            for evidence in record['evidence']:
+                with self.subTest(record=record['id'], claim=evidence['claim']):
+                    self.assertTrue(evidence['source_url'].startswith('https://'))
+                    self.assertTrue(evidence['short_quote'].strip())
+                    self.assertTrue(evidence['review_note'].strip())
+
     def test_dates_are_checked(self):
         self.record['evidence'][0]['checked_at'] = 'not-a-date'
         self.invalid(self.record)
