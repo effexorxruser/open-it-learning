@@ -1,6 +1,6 @@
 # Recommended learning paths / Рекомендуемые маршруты
 
-[← IT directions](README.md) · [Verified index](../verified/README.md)
+[← IT directions](README.md) · [Все курсы — прямые ссылки](../courses/README.md)
 
 These **editorial study sequences** suggest a progression from introductory topics to deeper practice. They are **not formal prerequisites**, entrance requirements, credit-transfer agreements or guarantees of a credential. Check each provider's official requirements in its JSON record.
 
