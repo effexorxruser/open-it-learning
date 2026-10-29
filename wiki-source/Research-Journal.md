@@ -1,6 +1,6 @@
 # Журнал исследований
 
-[[← Главная|Home]] · [[Каталог|Catalog]]
+[← Главная](https://github.com/effexorxruser/open-it-learning/wiki/Home) · [Каталог](https://github.com/effexorxruser/open-it-learning/wiki/Catalog)
 
 Журнал нужен для прозрачного объяснения **почему курс попал или не попал в каталог**, какие официальные сведения удалось проверить и что пока осталось неизвестным.
 

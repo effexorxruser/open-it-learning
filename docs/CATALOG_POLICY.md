@@ -22,6 +22,7 @@ It must be tied to the **specific course**. A provider's generic claims about aw
 | `participation_record` | Official participation letter, transcript or completion statement | Not automatically a graded qualification |
 | `exam_voucher` | Official exam voucher or exam discount tied to course completion | Not an earned exam pass or credential |
 | `training_credit` | Provider-issued learning credits, credits toward a program or lab access | Do not infer formal academic credit or unlimited access |
+| `other_official_recognition` | Another named, issuer-provided recognition | Describe the specific result and do not infer accreditation |
 | `other_official_benefit` | Another specifically documented, course-linked benefit | Must be identified, not described vaguely as “perks” |
 
 **Evidence must describe the particular outcome**, its issuer, how to earn it, and its cost. Individual credential verification may be available but is **not** assumed; note the method or `null` if unavailable.
@@ -43,7 +44,7 @@ A verified course must pass **all** checks:
 | Status | Meaning |
 | :--- | :--- |
 | `verified_free_outcome` | Free learning and at least one documented **free** obtainable official outcome |
-| `verified_paid_outcome` | Free learning and documented obtainable official outcome with known issuance or exam cost |
+| `verified_paid_outcome` | Free learning with only paid official outcomes confirmed, with known issuance or exam costs |
 | `under_review` | Source proof, conditions, costs or semantics are incomplete — **not published** in the verified index |
 | `recheck_required` | Previously confirmed claim may be stale, broken or conflicting; no current verified claim until rechecked |
 | `rejected` | Not a qualifying free course or no documented official outcome is obtainable |

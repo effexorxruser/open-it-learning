@@ -1,6 +1,6 @@
 # План развития
 
-[[← Главная|Home]] · [[Как участвовать|Contributing]]
+[← Главная](https://github.com/effexorxruser/open-it-learning/wiki/Home) · [Как участвовать](https://github.com/effexorxruser/open-it-learning/wiki/Contributing)
 
 Wiki отражает планы **публичной библиотеки курсов**, а не внутренней агентной лаборатории.
 

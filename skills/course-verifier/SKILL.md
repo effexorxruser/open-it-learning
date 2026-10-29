@@ -63,7 +63,7 @@ These are **candidate findings**. An independent content reviewer must approve b
 
 ## Output candidate structure
 
-Return a human-readable summary and machine-readable object such as:
+Return a human-readable summary and a research candidate object such as the example below. This candidate format allows unknowns and is not a publishable catalog record. After independent review, map it to the [record format](../../docs/DATA_CONTRACT.md), including currency, individual verification URL and review metadata.
 
 ```json
 {
@@ -92,7 +92,7 @@ Return a human-readable summary and machine-readable object such as:
 }
 ```
 
-An `evidence` item should contain `claim`, `source_url`, `short_quote`, `checked_at` and `semantic_support_note`. Unknown values remain `null`, not zero or false.
+An `evidence` item should contain `claim`, `source_url`, `short_quote`, `checked_at` and `review_note`. Unknown values remain `null`, not zero or false.
 
 ## Non-negotiable rules
 

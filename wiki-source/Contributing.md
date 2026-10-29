@@ -1,6 +1,6 @@
 # Как участвовать в Open IT Learning
 
-[[← Главная|Home]] · [[Как проверить курс|Verification]]
+[← Главная](https://github.com/effexorxruser/open-it-learning/wiki/Home) · [Как проверить курс](https://github.com/effexorxruser/open-it-learning/wiki/Verification)
 
 Проект развивается через предложения курсов, исправления, переводы, полезные промпты и компактные агентные навыки.
 
