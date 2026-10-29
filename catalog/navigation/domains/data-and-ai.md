@@ -1,6 +1,6 @@
 # Данные и искусственный интеллект / Data and artificial intelligence
 
-[← All IT directions](../README.md) · [All verified courses](../../verified/README.md) · [Learning paths](../learning-paths.md)
+[← All IT directions](../README.md) · [Все курсы — прямые ссылки](../../courses/README.md) · [Learning paths](../learning-paths.md)
 
 SQL, базы данных, аналитика и машинное обучение.
 
