@@ -83,7 +83,10 @@
           "const": 0
         },
         "currency": {
-          "type": "string",
+          "type": [
+            "string",
+            "null"
+          ],
           "pattern": "^[A-Z]{3}$"
         }
       }
@@ -187,7 +190,10 @@
           "minimum": 0
         },
         "currency": {
-          "type": "string",
+          "type": [
+            "string",
+            "null"
+          ],
           "pattern": "^[A-Z]{3}$"
         },
         "official_evidence_url": {
@@ -230,6 +236,25 @@
             "properties": {
               "kind": {
                 "const": "recognition"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "cost_to_obtain": {
+                "exclusiveMinimum": 0
+              }
+            },
+            "required": [
+              "cost_to_obtain"
+            ]
+          },
+          "then": {
+            "properties": {
+              "currency": {
+                "type": "string"
               }
             }
           }

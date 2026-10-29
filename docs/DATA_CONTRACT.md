@@ -83,6 +83,12 @@ Do **not** merge them into an ambiguous `certificate` field. Each official outco
 - `evidence`: dated official sources supporting specific material fields, including outcome requirements and costs.
 - `review.status`: `verified_free_outcome` or `verified_paid_outcome` in published records. Candidates with missing information stay outside `catalog/verified/`.
 
+## Zero cost and currency
+
+Use `cost: 0` or `cost_to_obtain: 0` only with official evidence of a free offering. For an explicitly zero amount with no currency stated by the issuer, use `currency: null`. This means **no currency denomination was supplied**, not an unknown price. Never assign an arbitrary currency to a free result.
+
+A positive outcome cost still requires a three-letter uppercase currency code. Existing records with `0` and a currency string remain valid for compatibility. Unknown prices remain in research candidates, outside the verified index; a null price is not accepted by the publication schema.
+
 ## Admission and semantic checks
 
 Schema validation ensures structural consistency; it does not establish whether sources are trustworthy or claims are true. A human or independent review must confirm that cited evidence means what the record says.

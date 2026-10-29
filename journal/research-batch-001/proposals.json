@@ -1,0 +1,754 @@
+{
+  "batch_id": "research-batch-001",
+  "research_checked_at": "2026-10-29T14:09:30.714679Z",
+  "status": "source_checked_proposals_awaiting_editorial_review",
+  "review_method": "Course Verifier plus a separate Doublecheck pass by the same Codex; not independent model review",
+  "catalog_publication_approved": false,
+  "records": [
+    {
+      "id": "cs50-x",
+      "title": "CS50’s Introduction to Computer Science",
+      "provider": "CS50 / Harvard University",
+      "official_url": "https://cs50.harvard.edu/x/",
+      "category": [
+        "computer-science",
+        "programming"
+      ],
+      "level": null,
+      "languages": [
+        "en"
+      ],
+      "duration_hours": null,
+      "learning": {
+        "free": true,
+        "conditions": "OpenCourseWare learning is free. Recognition needs edX registration and the CS50 submission/Gradebook workflow; paid edX verification is optional. Follow course prerequisites and academic honesty rules.",
+        "cost": 0,
+        "currency": null
+      },
+      "outcomes": [
+        {
+          "kind": "recognition",
+          "type": "completion_certificate",
+          "name": "Free CS50 Certificate — CS50’s Introduction to Computer Science",
+          "issuer": "CS50 / Harvard University",
+          "obtainable": true,
+          "requirements": "Earn at least 70% on each required problem set and the final project, following academic honesty rules. Register with edX and enable/link the CS50 Gradebook; request the free certificate from the Gradebook after completion using GitHub sign-in. The FAQ currently sets the course deadline to 30 June 2027; request/download the certificate before that deadline. This proposal covers the free CS50 certificate, not paid edX verification, professional credentials or academic credit.",
+          "cost_to_obtain": 0,
+          "currency": null,
+          "official_evidence_url": "https://cs50.harvard.edu/x/certificate/",
+          "individual_verification_url": null
+        }
+      ],
+      "evidence": [
+        {
+          "claim": "learning.free",
+          "source_url": "https://cs50.harvard.edu/x/",
+          "short_quote": "for free via this OpenCourseWare",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "The specific course provides its materials free to non-Harvard learners; account setup is needed for submission/recognition."
+        },
+        {
+          "claim": "outcomes[0].obtainable",
+          "source_url": "https://cs50.harvard.edu/x/certificate/",
+          "short_quote": "CS50 Certificate",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Course-specific certificate page explicitly makes the free certificate available after graded completion."
+        },
+        {
+          "claim": "outcomes[0].cost_to_obtain",
+          "source_url": "https://cs50.harvard.edu/x/certificate/",
+          "short_quote": "free CS50 Certificate",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Explicitly free issuer certificate; paid edX verification is a separate option."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://cs50.harvard.edu/x/certificate/",
+          "short_quote": "at least 70%",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "The threshold applies to each required problem set and the final project, not to completing only 70% of the work."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://cs50.harvard.edu/x/faqs/",
+          "short_quote": "Registration with edX",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Current FAQ requires registration even for the free certificate; also describes Gradebook, GitHub redemption and the 30 June 2027 deadline."
+        }
+      ]
+    },
+    {
+      "id": "cs50-python",
+      "title": "CS50’s Introduction to Programming with Python",
+      "provider": "CS50 / Harvard University",
+      "official_url": "https://cs50.harvard.edu/python/",
+      "category": [
+        "python",
+        "programming"
+      ],
+      "level": null,
+      "languages": [
+        "en"
+      ],
+      "duration_hours": null,
+      "learning": {
+        "free": true,
+        "conditions": "OpenCourseWare learning is free. Recognition needs edX registration and the CS50 submission/Gradebook workflow; paid edX verification is optional. Follow course prerequisites and academic honesty rules.",
+        "cost": 0,
+        "currency": null
+      },
+      "outcomes": [
+        {
+          "kind": "recognition",
+          "type": "completion_certificate",
+          "name": "Free CS50 Certificate — CS50’s Introduction to Programming with Python",
+          "issuer": "CS50 / Harvard University",
+          "obtainable": true,
+          "requirements": "Earn at least 70% on each required problem and the final project, following academic honesty rules. Register with edX and enable/link the CS50 Gradebook; request the free certificate from the Gradebook after completion using GitHub sign-in. The FAQ currently sets the course deadline to 30 June 2027; request/download the certificate before that deadline. This proposal covers the free CS50 certificate, not paid edX verification, professional credentials or academic credit.",
+          "cost_to_obtain": 0,
+          "currency": null,
+          "official_evidence_url": "https://cs50.harvard.edu/python/certificate/",
+          "individual_verification_url": null
+        }
+      ],
+      "evidence": [
+        {
+          "claim": "learning.free",
+          "source_url": "https://cs50.harvard.edu/python/",
+          "short_quote": "for free via this OpenCourseWare",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "The specific course provides its materials free to non-Harvard learners; account setup is needed for submission/recognition."
+        },
+        {
+          "claim": "outcomes[0].obtainable",
+          "source_url": "https://cs50.harvard.edu/python/certificate/",
+          "short_quote": "CS50 Certificate",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Course-specific certificate page explicitly makes the free certificate available after graded completion."
+        },
+        {
+          "claim": "outcomes[0].cost_to_obtain",
+          "source_url": "https://cs50.harvard.edu/python/certificate/",
+          "short_quote": "free CS50 Certificate",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Explicitly free issuer certificate; paid edX verification is a separate option."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://cs50.harvard.edu/python/certificate/",
+          "short_quote": "at least 70%",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "The threshold applies to each required problem and the final project, not to completing only 70% of the work."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://cs50.harvard.edu/python/faqs/",
+          "short_quote": "Registration with edX",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Current FAQ requires registration even for the free certificate; also describes Gradebook, GitHub redemption and the 30 June 2027 deadline."
+        }
+      ]
+    },
+    {
+      "id": "cs50-ai",
+      "title": "CS50’s Introduction to Artificial Intelligence with Python",
+      "provider": "CS50 / Harvard University",
+      "official_url": "https://cs50.harvard.edu/ai/",
+      "category": [
+        "artificial-intelligence",
+        "python"
+      ],
+      "level": null,
+      "languages": [
+        "en"
+      ],
+      "duration_hours": null,
+      "learning": {
+        "free": true,
+        "conditions": "OpenCourseWare learning is free. Recognition needs edX registration and the CS50 submission/Gradebook workflow; paid edX verification is optional. Follow course prerequisites and academic honesty rules. Prerequisite: CS50x or at least one year of experience with Python.",
+        "cost": 0,
+        "currency": null
+      },
+      "outcomes": [
+        {
+          "kind": "recognition",
+          "type": "completion_certificate",
+          "name": "Free CS50 Certificate — CS50’s Introduction to Artificial Intelligence with Python",
+          "issuer": "CS50 / Harvard University",
+          "obtainable": true,
+          "requirements": "Earn at least 70% on each required project, following academic honesty rules. Register with edX and enable/link the CS50 Gradebook; request the free certificate from the Gradebook after completion using GitHub sign-in. The FAQ currently sets the course deadline to 30 June 2027; request/download the certificate before that deadline. This proposal covers the free CS50 certificate, not paid edX verification, professional credentials or academic credit.",
+          "cost_to_obtain": 0,
+          "currency": null,
+          "official_evidence_url": "https://cs50.harvard.edu/ai/certificate/",
+          "individual_verification_url": null
+        }
+      ],
+      "evidence": [
+        {
+          "claim": "learning.free",
+          "source_url": "https://cs50.harvard.edu/ai/",
+          "short_quote": "for free via this OpenCourseWare",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "The specific course provides its materials free to non-Harvard learners; account setup is needed for submission/recognition."
+        },
+        {
+          "claim": "outcomes[0].obtainable",
+          "source_url": "https://cs50.harvard.edu/ai/certificate/",
+          "short_quote": "CS50 Certificate",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Course-specific certificate page explicitly makes the free certificate available after graded completion."
+        },
+        {
+          "claim": "outcomes[0].cost_to_obtain",
+          "source_url": "https://cs50.harvard.edu/ai/certificate/",
+          "short_quote": "free CS50 Certificate",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Explicitly free issuer certificate; paid edX verification is a separate option."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://cs50.harvard.edu/ai/certificate/",
+          "short_quote": "at least 70%",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "The threshold applies to each required project, not to completing only 70% of the work."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://cs50.harvard.edu/ai/faqs/",
+          "short_quote": "Registration with edX",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Current FAQ requires registration even for the free certificate; also describes Gradebook, GitHub redemption and the 30 June 2027 deadline."
+        },
+        {
+          "claim": "learning.conditions",
+          "source_url": "https://cs50.harvard.edu/ai/",
+          "short_quote": "Prerequisites",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "CS50x or at least one year of experience with Python."
+        }
+      ]
+    },
+    {
+      "id": "cs50-sql",
+      "title": "CS50’s Introduction to Databases with SQL",
+      "provider": "CS50 / Harvard University",
+      "official_url": "https://cs50.harvard.edu/sql/",
+      "category": [
+        "sql",
+        "databases"
+      ],
+      "level": null,
+      "languages": [
+        "en"
+      ],
+      "duration_hours": null,
+      "learning": {
+        "free": true,
+        "conditions": "OpenCourseWare learning is free. Recognition needs edX registration and the CS50 submission/Gradebook workflow; paid edX verification is optional. Follow course prerequisites and academic honesty rules.",
+        "cost": 0,
+        "currency": null
+      },
+      "outcomes": [
+        {
+          "kind": "recognition",
+          "type": "completion_certificate",
+          "name": "Free CS50 Certificate — CS50’s Introduction to Databases with SQL",
+          "issuer": "CS50 / Harvard University",
+          "obtainable": true,
+          "requirements": "Earn at least 70% on each required problem and the final project, following academic honesty rules. Register with edX and enable/link the CS50 Gradebook; request the free certificate from the Gradebook after completion using GitHub sign-in. The FAQ currently sets the course deadline to 30 June 2027; request/download the certificate before that deadline. This proposal covers the free CS50 certificate, not paid edX verification, professional credentials or academic credit.",
+          "cost_to_obtain": 0,
+          "currency": null,
+          "official_evidence_url": "https://cs50.harvard.edu/sql/certificate/",
+          "individual_verification_url": null
+        }
+      ],
+      "evidence": [
+        {
+          "claim": "learning.free",
+          "source_url": "https://cs50.harvard.edu/sql/",
+          "short_quote": "for free via this OpenCourseWare",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "The specific course provides its materials free to non-Harvard learners; account setup is needed for submission/recognition."
+        },
+        {
+          "claim": "outcomes[0].obtainable",
+          "source_url": "https://cs50.harvard.edu/sql/certificate/",
+          "short_quote": "CS50 Certificate",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Course-specific certificate page explicitly makes the free certificate available after graded completion."
+        },
+        {
+          "claim": "outcomes[0].cost_to_obtain",
+          "source_url": "https://cs50.harvard.edu/sql/certificate/",
+          "short_quote": "free CS50 Certificate",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Explicitly free issuer certificate; paid edX verification is a separate option."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://cs50.harvard.edu/sql/certificate/",
+          "short_quote": "at least 70%",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "The threshold applies to each required problem and the final project, not to completing only 70% of the work."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://cs50.harvard.edu/sql/faqs/",
+          "short_quote": "Registration with edX",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Current FAQ requires registration even for the free certificate; also describes Gradebook, GitHub redemption and the 30 June 2027 deadline."
+        }
+      ]
+    },
+    {
+      "id": "cs50-cybersecurity",
+      "title": "CS50’s Introduction to Cybersecurity",
+      "provider": "CS50 / Harvard University",
+      "official_url": "https://cs50.harvard.edu/cybersecurity/",
+      "category": [
+        "cybersecurity"
+      ],
+      "level": null,
+      "languages": [
+        "en"
+      ],
+      "duration_hours": null,
+      "learning": {
+        "free": true,
+        "conditions": "OpenCourseWare learning is free. Recognition needs edX registration and the CS50 submission/Gradebook workflow; paid edX verification is optional. Follow course prerequisites and academic honesty rules.",
+        "cost": 0,
+        "currency": null
+      },
+      "outcomes": [
+        {
+          "kind": "recognition",
+          "type": "completion_certificate",
+          "name": "Free CS50 Certificate — CS50’s Introduction to Cybersecurity",
+          "issuer": "CS50 / Harvard University",
+          "obtainable": true,
+          "requirements": "Earn at least 70% on each required problem and the final project, following academic honesty rules. Register with edX and enable/link the CS50 Gradebook; request the free certificate from the Gradebook after completion using GitHub sign-in. The FAQ currently sets the course deadline to 30 June 2027; request/download the certificate before that deadline. This proposal covers the free CS50 certificate, not paid edX verification, professional credentials or academic credit.",
+          "cost_to_obtain": 0,
+          "currency": null,
+          "official_evidence_url": "https://cs50.harvard.edu/cybersecurity/certificate/",
+          "individual_verification_url": null
+        }
+      ],
+      "evidence": [
+        {
+          "claim": "learning.free",
+          "source_url": "https://cs50.harvard.edu/cybersecurity/",
+          "short_quote": "for free via this OpenCourseWare",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "The specific course provides its materials free to non-Harvard learners; account setup is needed for submission/recognition."
+        },
+        {
+          "claim": "outcomes[0].obtainable",
+          "source_url": "https://cs50.harvard.edu/cybersecurity/certificate/",
+          "short_quote": "CS50 Certificate",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Course-specific certificate page explicitly makes the free certificate available after graded completion."
+        },
+        {
+          "claim": "outcomes[0].cost_to_obtain",
+          "source_url": "https://cs50.harvard.edu/cybersecurity/certificate/",
+          "short_quote": "free CS50 Certificate",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Explicitly free issuer certificate; paid edX verification is a separate option."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://cs50.harvard.edu/cybersecurity/certificate/",
+          "short_quote": "at least 70%",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "The threshold applies to each required problem and the final project, not to completing only 70% of the work."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://cs50.harvard.edu/cybersecurity/faqs/",
+          "short_quote": "Registration with edX",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Current FAQ requires registration even for the free certificate; also describes Gradebook, GitHub redemption and the 30 June 2027 deadline."
+        }
+      ]
+    },
+    {
+      "id": "cs50-web",
+      "title": "CS50’s Web Programming with Python and JavaScript",
+      "provider": "CS50 / Harvard University",
+      "official_url": "https://cs50.harvard.edu/web/",
+      "category": [
+        "web-development",
+        "python",
+        "javascript"
+      ],
+      "level": null,
+      "languages": [
+        "en"
+      ],
+      "duration_hours": null,
+      "learning": {
+        "free": true,
+        "conditions": "OpenCourseWare learning is free. Recognition needs edX registration and the CS50 submission/Gradebook workflow; paid edX verification is optional. Follow course prerequisites and academic honesty rules. Prerequisite: CS50x or prior experience in any programming language.",
+        "cost": 0,
+        "currency": null
+      },
+      "outcomes": [
+        {
+          "kind": "recognition",
+          "type": "completion_certificate",
+          "name": "Free CS50 Certificate — CS50’s Web Programming with Python and JavaScript",
+          "issuer": "CS50 / Harvard University",
+          "obtainable": true,
+          "requirements": "Earn at least 70% on each required project, including the final project, following academic honesty rules. Register with edX and enable/link the CS50 Gradebook; request the free certificate from the Gradebook after completion using GitHub sign-in. The FAQ currently sets the course deadline to 30 June 2027; request/download the certificate before that deadline. This proposal covers the free CS50 certificate, not paid edX verification, professional credentials or academic credit.",
+          "cost_to_obtain": 0,
+          "currency": null,
+          "official_evidence_url": "https://cs50.harvard.edu/web/certificate/",
+          "individual_verification_url": null
+        }
+      ],
+      "evidence": [
+        {
+          "claim": "learning.free",
+          "source_url": "https://cs50.harvard.edu/web/",
+          "short_quote": "for free via this OpenCourseWare",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "The specific course provides its materials free to non-Harvard learners; account setup is needed for submission/recognition."
+        },
+        {
+          "claim": "outcomes[0].obtainable",
+          "source_url": "https://cs50.harvard.edu/web/certificate/",
+          "short_quote": "CS50 Certificate",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Course-specific certificate page explicitly makes the free certificate available after graded completion."
+        },
+        {
+          "claim": "outcomes[0].cost_to_obtain",
+          "source_url": "https://cs50.harvard.edu/web/certificate/",
+          "short_quote": "free CS50 Certificate",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Explicitly free issuer certificate; paid edX verification is a separate option."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://cs50.harvard.edu/web/certificate/",
+          "short_quote": "at least 70%",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "The threshold applies to each required project, including the final project, not to completing only 70% of the work."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://cs50.harvard.edu/web/faqs/",
+          "short_quote": "Registration with edX",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Current FAQ requires registration even for the free certificate; also describes Gradebook, GitHub redemption and the 30 June 2027 deadline."
+        },
+        {
+          "claim": "learning.conditions",
+          "source_url": "https://cs50.harvard.edu/web/",
+          "short_quote": "Prerequisites",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "CS50x or prior experience in any programming language."
+        }
+      ]
+    },
+    {
+      "id": "openlearn-cyber-security",
+      "title": "Introduction to cyber security: stay safe online",
+      "provider": "The Open University / OpenLearn",
+      "official_url": "https://www.open.edu/openlearn/digital-computing/introduction-cyber-security-stay-safe-online/content-section-overview",
+      "category": [
+        "cybersecurity"
+      ],
+      "level": null,
+      "languages": [
+        "en"
+      ],
+      "duration_hours": null,
+      "learning": {
+        "free": true,
+        "conditions": "Course content is free to study without signing up. An OpenLearn account and enrolment are needed for tracked completion and recognition.",
+        "cost": 0,
+        "currency": null
+      },
+      "outcomes": [
+        {
+          "kind": "recognition",
+          "type": "participation_record",
+          "name": "Open University Statement of Participation — Introduction to cyber security: stay safe online",
+          "issuer": "The Open University / OpenLearn",
+          "obtainable": true,
+          "requirements": "Sign in and enrol; read Introduction and Guidance and every course page; submit the quizzes. Download the free statement from My OpenLearn after completion; notification can take 24 hours. No formal qualification credit.",
+          "cost_to_obtain": 0,
+          "currency": null,
+          "official_evidence_url": "https://www.open.edu/openlearn/digital-computing/introduction-cyber-security-stay-safe-online/content-section-overview",
+          "individual_verification_url": null
+        },
+        {
+          "kind": "recognition",
+          "type": "digital_badge",
+          "name": "Open University digital badge — Introduction to cyber security: stay safe online",
+          "issuer": "The Open University / OpenLearn",
+          "obtainable": true,
+          "requirements": "Enrol and sign in, read each of the eight weeks, and score at least 50% in both badge quizzes in Weeks 4 and 8. Most questions allow three attempts, true/false usually one; later correct attempts earn fewer marks, so answering all questions eventually correctly does not itself guarantee a passing score. Badge is not an accredited OU qualification.",
+          "cost_to_obtain": 0,
+          "currency": null,
+          "official_evidence_url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=50885&section=1.2",
+          "individual_verification_url": null
+        }
+      ],
+      "evidence": [
+        {
+          "claim": "learning.free",
+          "source_url": "https://www.open.edu/openlearn/digital-computing/introduction-cyber-security-stay-safe-online/content-section-overview",
+          "short_quote": "Free course",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Course-specific free learning designation, not an unrelated provider-wide promotion."
+        },
+        {
+          "claim": "outcomes[0].obtainable",
+          "source_url": "https://www.open.edu/openlearn/digital-computing/introduction-cyber-security-stay-safe-online/content-section-overview",
+          "short_quote": "Free statement of participation on completion",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "This specific course offers a participation record, not a professional or accredited academic certificate."
+        },
+        {
+          "claim": "outcomes[0].cost_to_obtain",
+          "source_url": "https://www.open.edu/openlearn/digital-computing/introduction-cyber-security-stay-safe-online/content-section-overview",
+          "short_quote": "free Statement of Participation",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "The specific course describes the statement as free; no currency is inferred."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://www.open.edu/openlearn/about-openlearn/frequently-asked-questions-on-openlearn",
+          "short_quote": "Be enrolled on the course.",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Shared issuer statement rules: enrol, read all pages and submit quizzes; allow up to 24 hours."
+        },
+        {
+          "claim": "outcomes[1].obtainable",
+          "source_url": "https://www.open.edu/openlearn/digital-computing/introduction-cyber-security-stay-safe-online/content-section-overview",
+          "short_quote": "digital badge",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Course-specific page offers the badge for completion and passing quizzes."
+        },
+        {
+          "claim": "outcomes[1].cost_to_obtain",
+          "source_url": "https://www.open.edu/openlearn/digital-computing/introduction-cyber-security-stay-safe-online/content-section-overview",
+          "short_quote": "free Open University digital badge",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "The course explicitly describes this badge as free, separately from learning access."
+        },
+        {
+          "claim": "outcomes[1].requirements",
+          "source_url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=50885&section=1.2",
+          "short_quote": "score 50% or more",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Specific badge instructions require reading every week and passing the Week 4 and Week 8 quizzes; attempt limits and score deductions are retained in requirements."
+        }
+      ]
+    },
+    {
+      "id": "openlearn-introducing-computing",
+      "title": "Introducing computing and IT",
+      "provider": "The Open University / OpenLearn",
+      "official_url": "https://www.open.edu/openlearn/digital-computing/introducing-computing-and-it/content-section-0",
+      "category": [
+        "computing",
+        "it-fundamentals"
+      ],
+      "level": null,
+      "languages": [
+        "en"
+      ],
+      "duration_hours": null,
+      "learning": {
+        "free": true,
+        "conditions": "Course content is free to study without signing up. An OpenLearn account and enrolment are needed for tracked completion and recognition.",
+        "cost": 0,
+        "currency": null
+      },
+      "outcomes": [
+        {
+          "kind": "recognition",
+          "type": "participation_record",
+          "name": "Open University Statement of Participation — Introducing computing and IT",
+          "issuer": "The Open University / OpenLearn",
+          "obtainable": true,
+          "requirements": "Sign in and enrol; read Introduction and Guidance and every course page; submit the quizzes. Download the free statement from My OpenLearn after completion; notification can take 24 hours. No formal qualification credit.",
+          "cost_to_obtain": 0,
+          "currency": null,
+          "official_evidence_url": "https://www.open.edu/openlearn/digital-computing/introducing-computing-and-it/content-section-0",
+          "individual_verification_url": null
+        }
+      ],
+      "evidence": [
+        {
+          "claim": "learning.free",
+          "source_url": "https://www.open.edu/openlearn/digital-computing/introducing-computing-and-it/content-section-0",
+          "short_quote": "Free course",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Course-specific free learning designation, not an unrelated provider-wide promotion."
+        },
+        {
+          "claim": "outcomes[0].obtainable",
+          "source_url": "https://www.open.edu/openlearn/digital-computing/introducing-computing-and-it/content-section-0",
+          "short_quote": "Free statement of participation on completion",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "This specific course offers a participation record, not a professional or accredited academic certificate."
+        },
+        {
+          "claim": "outcomes[0].cost_to_obtain",
+          "source_url": "https://www.open.edu/openlearn/digital-computing/introducing-computing-and-it/content-section-0",
+          "short_quote": "free Statement of Participation",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "The specific course describes the statement as free; no currency is inferred."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://www.open.edu/openlearn/about-openlearn/frequently-asked-questions-on-openlearn",
+          "short_quote": "Be enrolled on the course.",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Shared issuer statement rules: enrol, read all pages and submit quizzes; allow up to 24 hours."
+        }
+      ]
+    },
+    {
+      "id": "openlearn-digital-skills",
+      "title": "Digital skills: succeeding in a digital world",
+      "provider": "The Open University / OpenLearn",
+      "official_url": "https://www.open.edu/openlearn/digital-computing/digital-skills-succeeding-digital-world/content-section-overview",
+      "category": [
+        "digital-skills",
+        "online-safety"
+      ],
+      "level": null,
+      "languages": [
+        "en"
+      ],
+      "duration_hours": null,
+      "learning": {
+        "free": true,
+        "conditions": "Course content is free to study without signing up. An OpenLearn account and enrolment are needed for tracked completion and recognition.",
+        "cost": 0,
+        "currency": null
+      },
+      "outcomes": [
+        {
+          "kind": "recognition",
+          "type": "participation_record",
+          "name": "Open University Statement of Participation — Digital skills: succeeding in a digital world",
+          "issuer": "The Open University / OpenLearn",
+          "obtainable": true,
+          "requirements": "Sign in and enrol; read Introduction and Guidance and every course page; submit the quizzes. Download the free statement from My OpenLearn after completion; notification can take 24 hours. No formal qualification credit.",
+          "cost_to_obtain": 0,
+          "currency": null,
+          "official_evidence_url": "https://www.open.edu/openlearn/digital-computing/digital-skills-succeeding-digital-world/content-section-overview",
+          "individual_verification_url": null
+        }
+      ],
+      "evidence": [
+        {
+          "claim": "learning.free",
+          "source_url": "https://www.open.edu/openlearn/digital-computing/digital-skills-succeeding-digital-world/content-section-overview",
+          "short_quote": "Free course",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Course-specific free learning designation, not an unrelated provider-wide promotion."
+        },
+        {
+          "claim": "outcomes[0].obtainable",
+          "source_url": "https://www.open.edu/openlearn/digital-computing/digital-skills-succeeding-digital-world/content-section-overview",
+          "short_quote": "Free statement of participation on completion",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "This specific course offers a participation record, not a professional or accredited academic certificate."
+        },
+        {
+          "claim": "outcomes[0].cost_to_obtain",
+          "source_url": "https://www.open.edu/openlearn/digital-computing/digital-skills-succeeding-digital-world/content-section-overview",
+          "short_quote": "free Statement of Participation",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "The specific course describes the statement as free; no currency is inferred."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://www.open.edu/openlearn/about-openlearn/frequently-asked-questions-on-openlearn",
+          "short_quote": "Be enrolled on the course.",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Shared issuer statement rules: enrol, read all pages and submit quizzes; allow up to 24 hours."
+        }
+      ]
+    },
+    {
+      "id": "freecodecamp-python-v9",
+      "title": "Python Certification",
+      "provider": "freeCodeCamp",
+      "official_url": "https://www.freecodecamp.org/learn/python-v9/",
+      "category": [
+        "python",
+        "programming"
+      ],
+      "level": null,
+      "languages": [
+        "en"
+      ],
+      "duration_hours": null,
+      "learning": {
+        "free": true,
+        "conditions": "Current freeCodeCamp curriculum is free. Account required for progress and certification; desktop/laptop exam environment required. No enrolment or exam attempted during research.",
+        "cost": 0,
+        "currency": null
+      },
+      "outcomes": [
+        {
+          "kind": "recognition",
+          "type": "completion_certificate",
+          "name": "Python Certification (freeCodeCamp, v9)",
+          "issuer": "freeCodeCamp",
+          "obtainable": true,
+          "requirements": "Complete the five certification projects and pass their tests, then take and pass the 50-question closed-book English exam in the desktop Exam Environment. Follow account and academic honesty requirements and await staff review of results. Attempts are separated by 168 hours; desktop/laptop required. No promise of instant issuance.",
+          "cost_to_obtain": 0,
+          "currency": null,
+          "official_evidence_url": "https://www.freecodecamp.org/news/freecodecamps-new-python-certification-is-now-live",
+          "individual_verification_url": null
+        }
+      ],
+      "evidence": [
+        {
+          "claim": "learning.free",
+          "source_url": "https://www.freecodecamp.org/news/freecodecamps-new-python-certification-is-now-live",
+          "short_quote": "Is all of this really free?",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "The course-specific FAQ answers yes and explicitly includes the exams and certifications."
+        },
+        {
+          "claim": "outcomes[0].obtainable",
+          "source_url": "https://www.freecodecamp.org/news/freecodecamps-new-python-certification-is-now-live",
+          "short_quote": "free verified certification",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "The issuer announces this specific current Python path and a certification exam; this is not the legacy Scientific Computing curriculum."
+        },
+        {
+          "claim": "outcomes[0].cost_to_obtain",
+          "source_url": "https://www.freecodecamp.org/news/freecodecamps-new-python-certification-is-now-live",
+          "short_quote": "Yes.",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "This answer belongs to the explicit free-pricing FAQ for this course, covering the exam and certification."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://www.freecodecamp.org/learn/python-v9/",
+          "short_quote": "five required projects",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "The current rendered course requires these projects to qualify for its certification exam and requires passing the exam."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://www.freecodecamp.org/news/freecodecamps-new-python-certification-is-now-live",
+          "short_quote": "50 question exam",
+          "checked_at": "2026-10-29T14:09:30.714679Z",
+          "review_note": "Course-specific announcement specifies the desktop Exam Environment, five prerequisites, English-only closed-book exam, staff moderation and one attempt per week. Do not promise automatic issuance."
+        }
+      ]
+    }
+  ]
+}
