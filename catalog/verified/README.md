@@ -2,7 +2,7 @@
 
 [← Catalog](../README.md) · [Admission policy](../../docs/CATALOG_POLICY.md) · [Research Batch #001](../../journal/research-batch-001/README.md)
 
-**11 source-reviewed course records** (including 10 staged in [Draft PR #4](https://github.com/effexorxruser/open-it-learning/pull/4), pending maintainer merge approval). These cover **15 separately typed official outcomes and course-linked benefits**. The index below will become public in `main` only after the draft PR is approved and merged.
+**11 source-reviewed course records** covering **15 separately typed official outcomes and course-linked benefits**. Conditions were reviewed against official public issuer information; no actual course completion or award issuance was tested.
 
 | Course | Issuer | Focus | Official result(s) | Training / outcome fee |
 | :--- | :--- | :--- | :--- | :--- |
@@ -28,7 +28,5 @@ All fees listed as “free” were source-checked; `currency: null` on a **zero*
 - **Cisco Introduction to Cybersecurity** remains [under review](../../journal/2026-10-28-cisco-introduction-to-cybersecurity.md) because its exact badge issuance conditions were not adequately established.
 
 [Independent editorial source review](../../journal/research-batch-001/editorial-review-2026-10-29.md) · [Original dated course research and evidence](../../journal/research-batch-001/proposals.json) · [Existing freeCodeCamp Responsive Web Design investigation](../../journal/2026-10-29-freecodecamp-responsive-web-design.md)
-
-**Publication boundary:** These ten new files are currently proposed in a Draft PR. The independent review checked official public sources, not actual enrollment or reward issuance. Approval to merge them into `main` remains with the project maintainer.
 
 [Suggest another course](https://github.com/effexorxruser/open-it-learning/issues/new/choose).
