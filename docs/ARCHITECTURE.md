@@ -2,7 +2,7 @@
 
 [← Home](../README.md) · [Catalog policy](CATALOG_POLICY.md) · [Roadmap](ROADMAP.md)
 
-This repository is **a course library and a collection of reusable learning resources**. It is **not** a deployment of the maintainer's private research or automation infrastructure.
+This repository is **a course library and a collection of reusable learning resources**. Readers can browse the catalog and use the text resources directly on GitHub.
 
 ## Directory map
 
@@ -29,17 +29,17 @@ The design optimizes for plain GitHub browsing first: records and methods should
 flowchart LR
   A["Official source"] --> B["Candidate + evidence"]
   B --> C["Independent review"]
-  C --> D{"Certificate verified?"}
+  C --> D{"Official outcome verified?"}
   D -->|"Yes"| E["catalog/verified"]
   D -->|"No"| F["Keep out of verified index"]
   E --> G["Paths / exports / future MCP"]
 ```
 
-The publication gate concerns **certificate availability and conditions**, not whether a browser could load a page.
+The publication gate concerns **official outcome availability, costs and conditions**, not whether a browser could load a page.
 
 ## Record boundaries
 
-A public record may contain provider, course and certificate data; official evidence URLs; short supporting excerpts; and review dates. It must not contain local browser traces, API keys, account identifiers, authentication cookies, or private experimental data.
+A public record may contain provider, course and official outcome data; official evidence URLs; short supporting excerpts; and review dates. It must not contain local browser traces, API keys, account identifiers, authentication cookies, or private experimental data.
 
 The difference between course and credential cost must remain explicit. A badge or achievement icon is not automatically a certificate.
 
@@ -47,8 +47,4 @@ The difference between course and credential cost must remain explicit. A badge 
 
 Prompts and skills are versioned text files. They can be copied into compatible assistants, reviewed, modified and reused independently of the catalog. An MCP interface is only a proposal until implemented.
 
-## Maintainer workflow is separate
-
-The maintainer may use automated browsing, agents, evaluation suites and private research tools to propose course records. Those are **implementation details of maintenance**, not parts of the public product, installation requirements or source of authority for course claims.
-
-Only approved catalog facts with official evidence should be represented as verified. See [catalog inclusion policy](CATALOG_POLICY.md).
+See the [catalog inclusion policy](CATALOG_POLICY.md) for the publication requirements.
