@@ -66,7 +66,7 @@ class NavigationContractTests(unittest.TestCase):
                     linked = (course["primary_specialization"] == sp["id"]
                               or sp["id"] in course["additional_specializations"])
                     if linked:
-                        self.assertIn("../../verified/" + course["course_id"] + ".json", body)
+                        self.assertIn("../../courses/" + course["course_id"] + ".md", body)
         self.assertNotIn("one-c-future-code-element-2026",
                          {c["course_id"] for c in self.records})
         enterprise = (BASE / "domains/enterprise-it.md").read_text(encoding="utf-8")
@@ -93,7 +93,7 @@ class NavigationContractTests(unittest.TestCase):
                 section = rendered.split(heading, 1)[1].split("\n## ", 1)[0]
                 previous = -1
                 for cid in p["course_ids"]:
-                    link = "../verified/" + cid + ".json"
+                    link = "../courses/" + cid + ".md"
                     current = section.find(link)
                     self.assertGreater(current, previous)
                     previous = current
