@@ -1,6 +1,6 @@
 # Направления IT и маршруты обучения
 
-[← Каталог](https://github.com/effexorxruser/open-it-learning/wiki/Catalog) · [Все подтверждённые курсы](https://github.com/effexorxruser/open-it-learning/blob/main/catalog/verified/README.md)
+[← Каталог](https://github.com/effexorxruser/open-it-learning/wiki/Catalog) · [Прямые ссылки на курсы](https://github.com/effexorxruser/open-it-learning/wiki/Courses) · [Все подтверждённые курсы](https://github.com/effexorxruser/open-it-learning/blob/main/catalog/verified/README.md)
 
 В Open IT Learning курсы организованы по принципу **направление → специализация → курс**. Один курс может встречаться в нескольких рубриках, но исходная JSON-карточка остаётся единственной.
 

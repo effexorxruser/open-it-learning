@@ -2,7 +2,7 @@
   "id": "ibm-skillsbuild-ai-literacy",
   "title": "AI Literacy",
   "provider": "IBM SkillsBuild / IBM",
-  "official_url": "https://skillsbuild.org/learning-catalog",
+  "official_url": "https://skills.yourlearning.ibm.com/activity/PLAN-1C903152880C",
   "category": [
     "artificial-intelligence",
     "responsible-ai",
@@ -15,7 +15,7 @@
   "duration_hours": null,
   "learning": {
     "free": true,
-    "conditions": "Бесплатная IBM SkillsBuild образовательная программа с обязательной регистрацией; доступна взрослым учащимся 18+ и отдельным школьным/образовательным трекам. Награда — цифровой бейдж IBM, не профессиональный сертификат.",
+    "conditions": "Бесплатная IBM SkillsBuild образовательная программа с обязательной регистрацией; доступна взрослым учащимся 18+ и отдельным школьным/образовательным трекам. Награда — цифровой бейдж IBM, не профессиональный сертификат. Прямая ссылка ведёт в учебный план IBM и может потребовать авторизации через IBM SkillsBuild.",
     "cost": 0,
     "currency": null
   },

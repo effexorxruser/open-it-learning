@@ -48,14 +48,27 @@ Each path is an ordered list, not a directed credential dependency graph. The pr
 
 Learning paths can mix languages, providers and award types. Check each course's `languages`, `learning.conditions`, `outcomes[].requirements` and `review.recheck_after` before recommending a path to an individual.
 
+## Human-facing course pages
+
+The public entrypoint is [catalog/courses/README.md](../catalog/courses/README.md): it displays provider-hosted **Start course** links, not raw JSON download links. Every verified course also has a generated Markdown page in `catalog/courses/{id}.md`, containing the direct official URL, recorded learner requirements, outcomes and evidence link back to the canonical JSON.
+
+Generate and validate with:
+
+```bash
+python3 scripts/build_course_pages.py
+python3 scripts/build_course_pages.py --check
+```
+
+The generator also creates `wiki-source/Courses.md` for a single-click Wiki directory. If an issuer changes their course URL, update the **canonical `official_url` in the verified JSON** and, when needed, the archived proposal/manifest so research provenance remains consistent. Re-generate; never manually substitute a paid/mirror link or let the Markdown and JSON diverge. For SSO-protected courses, clearly indicate that free sign-in may be necessary.
+
 ## Adding a course or branch
 
 1. Complete normal issuer/source review and merge the approved course into `catalog/verified/`.
 2. Inspect its existing `category` keywords and choose **one primary specialization**, plus optional additional specializations. Add a new specialization to `taxonomy.json` only if existing ones do not fit.
 3. Add exactly one mapping to `placements.json`. Never duplicate the official course JSON to create category pages.
-4. Update the affected human-readable [domain page](../catalog/navigation/domains/) and navigation index/counters. Add a learning-path step or a relation **only when pedagogically useful**, without inventing prerequisites.
+4. Run `python3 scripts/build_course_pages.py` to regenerate the readable course page, public directory and Wiki links. Update the affected human-readable [domain page](../catalog/navigation/domains/) and navigation index/counters. Add a learning-path step or a relation **only when pedagogically useful**, without inventing prerequisites.
 5. Update navigation links/README/Wiki if category names or structure change. Edit EN/RU labels first; expand UK/ZH-CN translations as maintained.
-6. Run `python3 scripts/check_integrity.py` and `python3 -m unittest discover -s tests -v`. The CI contract tests enforce referential integrity and exact classification of every currently verified course.
+6. Run `python3 scripts/build_course_pages.py --check`, `python3 scripts/check_integrity.py` and `python3 -m unittest discover -s tests -v`. The CI contract tests enforce referential integrity and exact classification of every currently verified course.
 7. Require a reviewed PR for structural changes; keep `main` and the GitHub Wiki publication as separate approval gates.
 
 ## Future facets — not invented today

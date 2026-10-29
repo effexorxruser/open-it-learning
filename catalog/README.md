@@ -1,8 +1,12 @@
 # Verified free IT courses & official achievements
 
-[← Home / Главная](../README.md) · [Admission rules](../docs/CATALOG_POLICY.md) · [Record format](../docs/DATA_CONTRACT.md)
+[← Home / Главная](../README.md) · [Прямые ссылки на курсы](courses/README.md) · [Admission rules](../docs/CATALOG_POLICY.md) · [Record format](../docs/DATA_CONTRACT.md)
 
 > **21 source-reviewed course records and 27 separately typed results:** programs from Harvard CS50, OpenLearn, freeCodeCamp, Stepik, HP LIFE, Saylor, IBM, Microsoft Learn and Kaggle. [Browse the verified index](verified/README.md), [Batch #001](../journal/research-batch-001/README.md), and [Batch #002](../journal/research-batch-002/README.md) evidence. Restricted 1С training remains under review.
+
+## Начать обучение / Start learning
+
+**[Открыть все 21 курса с прямыми ссылками на обучение](courses/README.md)** — читаемые страницы курса, язык, длительность (если указана), условия награды и ссылка на официальный сайт. Технические JSON-файлы остаются доступными отдельно для проверяемости.
 
 ## Browse by direction / Каталог по направлениям
 
@@ -23,7 +27,7 @@ Each must have a specific issuer, eligibility steps, source evidence and transpa
 
 ## Verified records
 
-[Browse the verified index](verified/README.md) · [Editorial policy](../docs/CATALOG_POLICY.md) · [Schema](schema/course.schema.json)
+[Простой каталог с кнопками «Открыть курс»](courses/README.md) · [Browse the verified index](verified/README.md) · [Editorial policy](../docs/CATALOG_POLICY.md) · [Schema](schema/course.schema.json)
 
 Each result has its actual type and official conditions: free CS50 certificates, OpenLearn participation records and digital badges, source-backed CPD points, and freeCodeCamp certifications with required exams. CPD points are not academic credit. Course navigation uses a [versioned taxonomy](navigation/taxonomy.json) and [placement mapping](navigation/placements.json); source-backed record data remains unchanged.
 

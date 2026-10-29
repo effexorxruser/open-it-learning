@@ -17,6 +17,7 @@ This roadmap covers the **public course library**, ready-to-use learning materia
 
 ## 02 · Useful discovery
 
+- [x] Add [human-readable course pages and provider-direct links](../catalog/courses/README.md) for every verified course, with a reproducible generator and Wiki directory.
 - [x] Publish [IT directions and specializations](../catalog/navigation/README.md) with course cross-listings, a versioned classification and a reserved ERP/1C branch.
 - [ ] Extend topics to networking and new fields as independently verified courses become available.
 - [ ] Filter by official outcome type: certificate, badge, diploma, award, record, voucher or other benefit.

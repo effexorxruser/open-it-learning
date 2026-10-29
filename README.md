@@ -2,7 +2,7 @@
 
 Free IT courses with documented official outcomes, plus reusable tools for learning and research.
 
-[Catalog](catalog/README.md) · [IT directions / Отрасли IT](catalog/navigation/README.md) · [Learning paths](catalog/navigation/learning-paths.md) · [Prompts](prompts/README.md) · [Skills](skills/README.md) · [Wiki](https://github.com/effexorxruser/open-it-learning/wiki) · [Contribute](CONTRIBUTING.md)
+[Курсы — прямые ссылки](catalog/courses/README.md) · [Catalog](catalog/README.md) · [IT directions / Отрасли IT](catalog/navigation/README.md) · [Learning paths](catalog/navigation/learning-paths.md) · [Prompts](prompts/README.md) · [Skills](skills/README.md) · [Wiki](https://github.com/effexorxruser/open-it-learning/wiki) · [Contribute](CONTRIBUTING.md)
 
 **Languages:** English · [Русский](#русский) · [Українська](#українська) · [简体中文](#简体中文)
 
@@ -12,7 +12,7 @@ Free IT courses with documented official outcomes, plus reusable tools for learn
 
 The catalog accepts free IT courses with a documented, obtainable official outcome: a certificate, badge, diploma, award, participation record or course-linked benefit. Learning is free; any separate outcome or exam fee must be disclosed.
 
-1. Browse the [catalog](catalog/README.md) and check the provider's official sources and conditions.
+1. [Open the human-friendly course list](catalog/courses/README.md), choose **Start course** to go directly to the official provider, or read the award requirements on the course page. Browse by [IT direction](catalog/navigation/README.md) if you prefer a specialty.
 2. Use the [course verification prompt](prompts/verify-course.md) or [Course Verifier skill](skills/course-verifier/SKILL.md) to research a candidate.
 3. [Suggest a course](https://github.com/effexorxruser/open-it-learning/issues/new/choose) with official links, short excerpts, the check date, costs and eligibility. Incomplete claims remain under review.
 
@@ -22,6 +22,7 @@ Read the [catalog policy](docs/CATALOG_POLICY.md) for admission and evidence req
 
 ## Explore
 
+- [21 courses with official direct links](catalog/courses/README.md) — start learning without opening JSON files.
 - [Browse by IT direction](catalog/navigation/README.md) — six broad domains, 14 specializations, cross-listed courses.
 - [Learning paths](catalog/navigation/learning-paths.md) — six curated sequences, not formal prerequisites.
 - [Prompts](prompts/README.md) — course verification and learning paths.
@@ -45,7 +46,7 @@ Open IT Learning — публичный каталог бесплатных IT-�
 
 ### Найти и проверить
 
-[Направления IT](catalog/navigation/README.md) · [Маршруты обучения](catalog/navigation/learning-paths.md) · [Связанные курсы](catalog/navigation/relationships.md)
+[Все 21 курс — прямые ссылки](catalog/courses/README.md) · [Направления IT](catalog/navigation/README.md) · [Маршруты обучения](catalog/navigation/learning-paths.md) · [Связанные курсы](catalog/navigation/relationships.md)
 
 1. Откройте [каталог](catalog/README.md) и изучите официальные источники и условия курса.
 2. Используйте [промпт проверки на русском](prompts/verify-course.ru.md) или [Course Verifier](skills/course-verifier/SKILL.md) для исследования кандидата.
@@ -72,7 +73,7 @@ Open IT Learning — публічний каталог безкоштовних 
 
 ### Знайти та перевірити
 
-[Напрями IT](catalog/navigation/README.md) · [Навчальні маршрути](catalog/navigation/learning-paths.md)
+[Усі 21 курс — прямі посилання](catalog/courses/README.md) · [Напрями IT](catalog/navigation/README.md) · [Навчальні маршрути](catalog/navigation/learning-paths.md)
 
 1. Відкрийте [каталог](catalog/README.md) і прочитайте офіційні джерела та умови курсу.
 2. Скористайтеся [промптом перевірки англійською](prompts/verify-course.md) або [Course Verifier](skills/course-verifier/SKILL.md) для дослідження кандидата.
@@ -99,7 +100,7 @@ Open IT Learning 是免费 IT 课程的公共目录，关注官方学习成果�
 
 ### 查找与核实
 
-[IT 领域分类](catalog/navigation/README.md) · [推荐学习路径](catalog/navigation/learning-paths.md)
+[21 门课程的官方直达链接](catalog/courses/README.md) · [IT 领域分类](catalog/navigation/README.md) · [推荐学习路径](catalog/navigation/learning-paths.md)
 
 1. 打开[课程目录](catalog/README.md)，阅读提供方的官方来源与课程条件。
 2. 使用[英文核实提示词](prompts/verify-course.md)或 [Course Verifier](skills/course-verifier/SKILL.md) 调查候选课程。

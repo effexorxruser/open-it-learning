@@ -11,6 +11,7 @@
 | Раздел | Что узнаете |
 | :--- | :--- |
 | [Каталог курсов](https://github.com/effexorxruser/open-it-learning/wiki/Catalog) | Как устроена подборка и где найти 21 проверенный курс |
+| [Все 21 курса — прямые ссылки](https://github.com/effexorxruser/open-it-learning/wiki/Courses) | Открыть обучение у провайдера и посмотреть условия наград |
 | [Направления IT](https://github.com/effexorxruser/open-it-learning/wiki/IT-Directions) | Иерархия областей, специализации и учебные маршруты |
 | [Официальные достижения](https://github.com/effexorxruser/open-it-learning/wiki/Achievements) | Чем отличаются сертификаты, бейджи, дипломы, грамоты и бонусы |
 | [Проверка курса](https://github.com/effexorxruser/open-it-learning/wiki/Verification) | Какие доказательства обязательны и как принимается решение |
