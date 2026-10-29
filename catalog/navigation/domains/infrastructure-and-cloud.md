@@ -1,6 +1,6 @@
 # Инфраструктура и облака / Infrastructure and cloud
 
-[← All IT directions](../README.md) · [All verified courses](../../verified/README.md) · [Learning paths](../learning-paths.md)
+[← All IT directions](../README.md) · [Все курсы — прямые ссылки](../../courses/README.md) · [Learning paths](../learning-paths.md)
 
 Linux, системное администрирование и облачные технологии.
 
