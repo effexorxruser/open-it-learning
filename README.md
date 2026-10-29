@@ -1,15 +1,4 @@
-```text
-  ___  ___  ___ _  _
- / _ \| _ \| __| \| |
-| (_) |  _/| _|| .` |
- \___/|_|  |___|_|\_|
-
- IT LEARNING
- free courses
- official outcomes
-```
-
-# Open IT Learning
+![Open IT Learning — EN · RU · UK · ZH-CN](assets/open-it-learning-banner.svg)
 
 Free IT courses with documented official outcomes, plus reusable tools for learning and research.
 

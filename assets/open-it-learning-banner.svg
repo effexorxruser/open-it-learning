@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2172 724" role="img" aria-labelledby="title desc">
+  <title id="title">Open IT Learning</title>
+  <desc id="desc">Minimal dark banner for Open IT Learning. The title appears in cream and muted terracotta, followed by EN, RU, UK and ZH-CN language codes.</desc>
+  <defs>
+    <radialGradient id="surface" cx="26%" cy="50%" r="94%">
+      <stop offset="0" stop-color="#1f1c19"/>
+      <stop offset="0.62" stop-color="#171513"/>
+      <stop offset="1" stop-color="#121111"/>
+    </radialGradient>
+    <linearGradient id="warmPanel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#24201d"/>
+      <stop offset="1" stop-color="#1a1817"/>
+    </linearGradient>
+    <linearGradient id="tint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d46d4e" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#d46d4e" stop-opacity=".015"/>
+    </linearGradient>
+  </defs>
+  <rect width="2172" height="724" fill="url(#surface)"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M97 169h95" stroke="#cf6b4c" stroke-width="3"/>
+    <path d="M208 169h962" stroke="#6e6760" stroke-width="1.4" opacity=".62"/>
+  </g>
+  <g opacity=".62">
+    <path d="M1778 132 1975 91Q1988 88 1988 103V531Q1988 544 1975 538L1778 466Z" fill="#201c19" stroke="#77716b" stroke-width="1.5"/>
+    <path d="M1932 176 2073 136Q2083 134 2083 146V507Q2083 519 2073 516L1932 476Z" fill="url(#warmPanel)" stroke="#645e58" stroke-width="1.4" opacity=".75"/>
+    <path d="M1632 171 1881 244Q1897 249 1897 264V508Q1897 528 1881 523L1632 437Z" fill="#1e1b19" stroke="#8a786d" stroke-width="1.8" opacity=".70"/>
+  </g>
+  <path d="M1442 179Q1442 158 1462 165L1714 253Q1732 259 1732 281V524Q1732 544 1714 538L1462 448Q1442 441 1442 422Z" fill="url(#warmPanel)" stroke="#d46d4e" stroke-width="2.8"/>
+  <path d="M1442 179Q1442 158 1462 165L1714 253Q1732 259 1732 281V524Q1732 544 1714 538L1462 448Q1442 441 1442 422Z" fill="url(#tint)"/>
+  <g font-family="Inter, 'Helvetica Neue', Arial, sans-serif" letter-spacing="-8" font-weight="750" font-size="168">
+    <text x="92" y="389" fill="#f5f0e7">Open IT</text>
+    <text x="759" y="389" fill="#ce694c">Learning</text>
+  </g>
+  <text x="98" y="487" fill="#e8e2da" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="41" font-weight="300" letter-spacing="7">EN</text>
+  <circle cx="231" cy="473" r="5" fill="#cf6b4c"/>
+  <text x="289" y="487" fill="#e8e2da" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="41" font-weight="300" letter-spacing="7">RU</text>
+  <circle cx="427" cy="473" r="5" fill="#cf6b4c"/>
+  <text x="484" y="487" fill="#e8e2da" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="41" font-weight="300" letter-spacing="7">UK</text>
+  <circle cx="623" cy="473" r="5" fill="#cf6b4c"/>
+  <text x="682" y="487" fill="#e8e2da" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="41" font-weight="300" letter-spacing="7">ZH-CN</text>
+</svg>
