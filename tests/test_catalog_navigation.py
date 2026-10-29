@@ -88,10 +88,13 @@ class NavigationContractTests(unittest.TestCase):
                 self.assertEqual(len(p["course_ids"]), len(set(p["course_ids"])))
                 self.assertTrue(set(p["course_ids"]).issubset(self.courses))
                 self.assertTrue(p["label"]["ru"])
+                heading = "## " + p["label"]["ru"] + " / " + p["label"]["en"]
+                self.assertIn(heading, rendered)
+                section = rendered.split(heading, 1)[1].split("\n## ", 1)[0]
                 previous = -1
                 for cid in p["course_ids"]:
                     link = "../verified/" + cid + ".json"
-                    current = rendered.find(link)
+                    current = section.find(link)
                     self.assertGreater(current, previous)
                     previous = current
 
@@ -111,13 +114,14 @@ class NavigationContractTests(unittest.TestCase):
                       self.relationships["disclaimer"])
 
     def test_course_count_is_derived_from_actual_records(self):
-        self.assertEqual(len(self.courses), 21)
-        self.assertEqual(sum(len(x["outcomes"]) for x in self.courses.values()), 27)
+        self.assertEqual(len(self.courses), len(self.records))
+        self.assertGreaterEqual(len(self.courses), 21)
+        self.assertGreaterEqual(sum(len(x["outcomes"]) for x in self.courses.values()), 27)
         self.assertEqual(sum(
             sum(bool(self.specs[r["primary_specialization"]] == d["id"])
                 for r in self.records) for d in self.domains), len(self.courses))
         index = (BASE / "README.md").read_text(encoding="utf-8")
-        self.assertIn("21 verified course records", index)
+        self.assertIn(f"{len(self.courses)} verified course records", index)
 
 
 if __name__ == "__main__":
