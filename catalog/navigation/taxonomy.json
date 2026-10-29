@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "domains": [
+    {
+      "id": "software-development",
+      "label": {
+        "en": "Software development",
+        "ru": "Разработка ПО"
+      },
+      "description": {
+        "en": "Programming languages, applications, web interfaces and software engineering.",
+        "ru": "Языки программирования, приложения, веб-интерфейсы и инженерия ПО."
+      },
+      "specializations": [
+        {
+          "id": "programming-fundamentals",
+          "label": {
+            "en": "Programming fundamentals",
+            "ru": "Основы программирования"
+          }
+        },
+        {
+          "id": "web-development",
+          "label": {
+            "en": "Web development",
+            "ru": "Веб-разработка"
+          }
+        },
+        {
+          "id": "software-engineering",
+          "label": {
+            "en": "Software engineering",
+            "ru": "Программная инженерия"
+          }
+        }
+      ]
+    },
+    {
+      "id": "data-and-ai",
+      "label": {
+        "en": "Data and artificial intelligence",
+        "ru": "Данные и искусственный интеллект"
+      },
+      "description": {
+        "en": "SQL, databases, analytics and machine learning.",
+        "ru": "SQL, базы данных, аналитика и машинное обучение."
+      },
+      "specializations": [
+        {
+          "id": "databases-and-sql",
+          "label": {
+            "en": "Databases and SQL",
+            "ru": "Базы данных и SQL"
+          }
+        },
+        {
+          "id": "data-science",
+          "label": {
+            "en": "Data science and analytics",
+            "ru": "Аналитика и Data Science"
+          }
+        },
+        {
+          "id": "artificial-intelligence",
+          "label": {
+            "en": "Artificial intelligence and ML",
+            "ru": "ИИ и машинное обучение"
+          }
+        }
+      ]
+    },
+    {
+      "id": "security-and-privacy",
+      "label": {
+        "en": "Cybersecurity and privacy",
+        "ru": "Кибербезопасность и приватность"
+      },
+      "description": {
+        "en": "Cybersecurity foundations, digital safety and privacy.",
+        "ru": "Основы защиты информации, цифровой безопасности и приватности."
+      },
+      "specializations": [
+        {
+          "id": "cybersecurity-fundamentals",
+          "label": {
+            "en": "Cybersecurity fundamentals",
+            "ru": "Основы кибербезопасности"
+          }
+        },
+        {
+          "id": "digital-safety",
+          "label": {
+            "en": "Digital safety and privacy",
+            "ru": "Цифровая безопасность и приватность"
+          }
+        }
+      ]
+    },
+    {
+      "id": "infrastructure-and-cloud",
+      "label": {
+        "en": "Infrastructure and cloud",
+        "ru": "Инфраструктура и облака"
+      },
+      "description": {
+        "en": "Linux, system administration, and cloud foundations.",
+        "ru": "Linux, системное администрирование и облачные технологии."
+      },
+      "specializations": [
+        {
+          "id": "systems-administration",
+          "label": {
+            "en": "Systems administration",
+            "ru": "Системное администрирование"
+          }
+        },
+        {
+          "id": "cloud-fundamentals",
+          "label": {
+            "en": "Cloud fundamentals",
+            "ru": "Основы облачных технологий"
+          }
+        }
+      ]
+    },
+    {
+      "id": "enterprise-it",
+      "label": {
+        "en": "Enterprise IT and business automation",
+        "ru": "Корпоративные системы и автоматизация бизнеса"
+      },
+      "description": {
+        "en": "ERP, 1C, enterprise workflows and business applications. Currently no verified course.",
+        "ru": "ERP, 1С, корпоративные процессы и бизнес-приложения. Пока нет подтверждённых курсов."
+      },
+      "specializations": [
+        {
+          "id": "erp-and-1c",
+          "label": {
+            "en": "ERP and 1C",
+            "ru": "ERP и 1С"
+          }
+        },
+        {
+          "id": "business-process-automation",
+          "label": {
+            "en": "Business process automation",
+            "ru": "Автоматизация бизнес-процессов"
+          }
+        }
+      ]
+    },
+    {
+      "id": "digital-foundations",
+      "label": {
+        "en": "Digital and computing fundamentals",
+        "ru": "Цифровая грамотность и основы IT"
+      },
+      "description": {
+        "en": "Introductory computing concepts and practical digital skills.",
+        "ru": "Общее устройство вычислительных систем и повседневные цифровые навыки."
+      },
+      "specializations": [
+        {
+          "id": "computing-fundamentals",
+          "label": {
+            "en": "Computing fundamentals",
+            "ru": "Основы вычислительных систем"
+          }
+        },
+        {
+          "id": "digital-literacy",
+          "label": {
+            "en": "Digital literacy",
+            "ru": "Цифровая грамотность"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "records": [
+    {
+      "course_id": "cs50-ai",
+      "primary_specialization": "artificial-intelligence",
+      "additional_specializations": [
+        "programming-fundamentals"
+      ]
+    },
+    {
+      "course_id": "cs50-cybersecurity",
+      "primary_specialization": "cybersecurity-fundamentals",
+      "additional_specializations": []
+    },
+    {
+      "course_id": "cs50-python",
+      "primary_specialization": "programming-fundamentals",
+      "additional_specializations": []
+    },
+    {
+      "course_id": "cs50-sql",
+      "primary_specialization": "databases-and-sql",
+      "additional_specializations": []
+    },
+    {
+      "course_id": "cs50-web",
+      "primary_specialization": "web-development",
+      "additional_specializations": [
+        "programming-fundamentals"
+      ]
+    },
+    {
+      "course_id": "cs50-x",
+      "primary_specialization": "programming-fundamentals",
+      "additional_specializations": [
+        "computing-fundamentals"
+      ]
+    },
+    {
+      "course_id": "freecodecamp-python-v9",
+      "primary_specialization": "programming-fundamentals",
+      "additional_specializations": []
+    },
+    {
+      "course_id": "freecodecamp-responsive-web-design-v9",
+      "primary_specialization": "web-development",
+      "additional_specializations": []
+    },
+    {
+      "course_id": "hp-life-ai-for-beginners",
+      "primary_specialization": "artificial-intelligence",
+      "additional_specializations": [
+        "digital-literacy"
+      ]
+    },
+    {
+      "course_id": "hp-life-cybersecurity-awareness",
+      "primary_specialization": "cybersecurity-fundamentals",
+      "additional_specializations": [
+        "digital-safety",
+        "digital-literacy"
+      ]
+    },
+    {
+      "course_id": "ibm-skillsbuild-ai-literacy",
+      "primary_specialization": "artificial-intelligence",
+      "additional_specializations": [
+        "digital-literacy"
+      ]
+    },
+    {
+      "course_id": "kaggle-intro-to-machine-learning",
+      "primary_specialization": "artificial-intelligence",
+      "additional_specializations": [
+        "data-science"
+      ]
+    },
+    {
+      "course_id": "microsoft-learn-describe-cloud-compute",
+      "primary_specialization": "cloud-fundamentals",
+      "additional_specializations": []
+    },
+    {
+      "course_id": "openlearn-cyber-security",
+      "primary_specialization": "cybersecurity-fundamentals",
+      "additional_specializations": [
+        "digital-safety"
+      ]
+    },
+    {
+      "course_id": "openlearn-digital-skills",
+      "primary_specialization": "digital-literacy",
+      "additional_specializations": [
+        "digital-safety"
+      ]
+    },
+    {
+      "course_id": "openlearn-introducing-computing",
+      "primary_specialization": "computing-fundamentals",
+      "additional_specializations": []
+    },
+    {
+      "course_id": "saylor-cs101-introduction-to-programming",
+      "primary_specialization": "programming-fundamentals",
+      "additional_specializations": []
+    },
+    {
+      "course_id": "saylor-cs302-software-engineering",
+      "primary_specialization": "software-engineering",
+      "additional_specializations": []
+    },
+    {
+      "course_id": "stepik-interactive-sql-63054",
+      "primary_specialization": "databases-and-sql",
+      "additional_specializations": [
+        "data-science"
+      ]
+    },
+    {
+      "course_id": "stepik-introduction-to-linux-73",
+      "primary_specialization": "systems-administration",
+      "additional_specializations": []
+    },
+    {
+      "course_id": "stepik-yandex-cpp-363",
+      "primary_specialization": "programming-fundamentals",
+      "additional_specializations": []
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "disclaimer": "Editorial related/alternative links; not formal course prerequisites.",
+  "relationships": [
+    {
+      "from": "cs50-python",
+      "to": "freecodecamp-python-v9",
+      "type": "alternative",
+      "note": {
+        "en": "Two different Python learning and assessment approaches.",
+        "ru": "Два подхода к изучению Python и оценке знаний."
+      }
+    },
+    {
+      "from": "cs50-x",
+      "to": "saylor-cs101-introduction-to-programming",
+      "type": "alternative",
+      "note": {
+        "en": "Different introduction-to-programming curricula and languages.",
+        "ru": "Разные вводные программы и языки обучения."
+      }
+    },
+    {
+      "from": "cs50-sql",
+      "to": "stepik-interactive-sql-63054",
+      "type": "related",
+      "note": {
+        "en": "Both teach SQL, with different teaching styles and languages.",
+        "ru": "Оба курса посвящены SQL, но отличаются подачей и языком."
+      }
+    },
+    {
+      "from": "ibm-skillsbuild-ai-literacy",
+      "to": "hp-life-ai-for-beginners",
+      "type": "related",
+      "note": {
+        "en": "Short AI awareness learning and issuer badge pathway.",
+        "ru": "Краткое знакомство с ИИ и маршрут к бейджу."
+      }
+    },
+    {
+      "from": "cs50-cybersecurity",
+      "to": "openlearn-cyber-security",
+      "type": "related",
+      "note": {
+        "en": "Broad cybersecurity introductions with different assessments.",
+        "ru": "Вводные курсы по ИБ с разными проверками знаний."
+      }
+    },
+    {
+      "from": "stepik-introduction-to-linux-73",
+      "to": "microsoft-learn-describe-cloud-compute",
+      "type": "related",
+      "note": {
+        "en": "Infrastructure topics connected conceptually; neither is a formal prerequisite.",
+        "ru": "Темы инфраструктуры концептуально связаны, но нет обязательной предпосылки."
+      }
+    },
+    {
+      "from": "cs50-web",
+      "to": "freecodecamp-responsive-web-design-v9",
+      "type": "related",
+      "note": {
+        "en": "Frontend layout skills complement an application-development course.",
+        "ru": "Вёрстка дополняет обучение разработке веб-приложений."
+      }
+    },
+    {
+      "from": "cs50-ai",
+      "to": "kaggle-intro-to-machine-learning",
+      "type": "related",
+      "note": {
+        "en": "Two perspectives on practical ML; prerequisite knowledge differs.",
+        "ru": "Разные подходы к ML, требования к предварительным знаниям различаются."
+      }
+    },
+    {
+      "from": "saylor-cs302-software-engineering",
+      "to": "cs50-web",
+      "type": "related",
+      "note": {
+        "en": "Engineering processes complement application building.",
+        "ru": "Процессы разработки дополняют создание приложений."
+      }
+    }
+  ]
+}
