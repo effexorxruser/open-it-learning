@@ -59,11 +59,15 @@ The issuer's course announcement identifies the current v9 certification as dist
 
 The proposal bundle's source-check timestamps remain intact. Newly added outcome/retake evidence has its own 29 October 2026 check timestamp.
 
+## Staged catalog files in Draft PR #4
+
+Following this source review, all ten records have been prepared as individual JSON files under `catalog/verified/` **on the research branch only**. Their `review` metadata records the independent AI-assisted primary-source review on 2026-10-29, with recheck due 2027-01-29. The ten original research proposals remain unapproved and without review fields. This does **not** constitute human course completion, recipient verification, or approval to merge. The maintainer must review the precise proposed diff before the records enter `main`.
+
 ## Final publication gate (pending)
 
 1. Confirm this exact diff and the distinction between badges, statements and CPD benefits.
 2. Re-run full JSON Schema validation and repository integrity CI.
-3. Obtain **maintainer approval** for the exact records and set genuine `review.status`, `reviewed_at` and `recheck_after` only at publication time.
-4. Then create one reviewed JSON record per course under `catalog/verified/`, update all index/count references in EN, RU, UK and ZH-CN, merge the reviewed PR, and manually run the Wiki publication workflow if Wiki sources change.
+3. Obtain **maintainer approval** of the exact ten staged record files, their independent AI source-review metadata and the outcome classifications. The staged `review` fields already document the separate source check; they do not assert human award-delivery verification.
+4. Once authorized, merge the Draft PR, confirm the verified index and multilingual counts, and manually run the Wiki publication workflow if Wiki sources change.
 
 **This report is an independent evidence review, not final publication authorization.** Do not promote unapproved records automatically.
