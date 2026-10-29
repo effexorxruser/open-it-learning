@@ -8,6 +8,12 @@
 
 ## Доступные заметки
 
+### freeCodeCamp · Responsive Web Design Certification (v9)
+
+[Проверка источников от 29 октября 2026 года](https://github.com/effexorxruser/open-it-learning/blob/main/journal/2026-10-29-freecodecamp-responsive-web-design.md)
+
+Официальные материалы подтверждают бесплатный курс, пять сертификационных проектов, экзамен и возможность получить сертификат после проверки результата. **Вердикт: первая проверенная запись** — с описанием условий, стоимости и ссылками на издателя.
+
 ### Cisco · Introduction to Cybersecurity
 
 [Заметка от 28 октября 2026 года](https://github.com/effexorxruser/open-it-learning/blob/main/journal/2026-10-28-cisco-introduction-to-cybersecurity.md)
