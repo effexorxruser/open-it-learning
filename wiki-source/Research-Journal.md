@@ -8,6 +8,12 @@
 
 ## Доступные заметки
 
+### Research Batch #001 · 10 курсов CS50, OpenLearn и freeCodeCamp
+
+[Отчёт и источники](https://github.com/effexorxruser/open-it-learning/blob/main/journal/research-batch-001/README.md) · [Независимое ревью](https://github.com/effexorxruser/open-it-learning/blob/main/journal/research-batch-001/editorial-review-2026-10-29.md)
+
+Найдены и проверены условия 14 типов результатов в десяти дополнительных курсах. У OpenLearn отдельно отражены цифровые бейджи, 24 CPD-балла и требования к тестам. Проверка основана на официальных источниках; фактическое получение наград не тестировалось.
+
 ### freeCodeCamp · Responsive Web Design Certification (v9)
 
 [Проверка источников от 29 октября 2026 года](https://github.com/effexorxruser/open-it-learning/blob/main/journal/2026-10-29-freecodecamp-responsive-web-design.md)
