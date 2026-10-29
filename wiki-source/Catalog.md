@@ -6,7 +6,13 @@
 
 Open IT Learning собирает **бесплатные IT-курсы**, за которые можно получить определённый и официально подтверждённый результат: сертификат, цифровой бейдж, диплом, грамоту, награду, документ о прохождении или бонус, непосредственно связанный с курсом.
 
-[Открыть каталог в репозитории](https://github.com/effexorxruser/open-it-learning/tree/main/catalog) · [Навигация по отраслям IT](https://github.com/effexorxruser/open-it-learning/wiki/IT-Directions) · [Рекомендуемые маршруты](https://github.com/effexorxruser/open-it-learning/blob/main/catalog/navigation/learning-paths.md)
+**[Все 21 курса: прямые ссылки на обучение](https://github.com/effexorxruser/open-it-learning/wiki/Courses)** · [Читаемые карточки в репозитории](https://github.com/effexorxruser/open-it-learning/blob/main/catalog/courses/README.md) · [Каталог JSON](https://github.com/effexorxruser/open-it-learning/tree/main/catalog/verified) · [Навигация по отраслям IT](https://github.com/effexorxruser/open-it-learning/wiki/IT-Directions) · [Рекомендуемые маршруты](https://github.com/effexorxruser/open-it-learning/blob/main/catalog/navigation/learning-paths.md)
+
+## Как начать обучение
+
+Не нужно открывать технический JSON. В [удобном списке курсов](https://github.com/effexorxruser/open-it-learning/wiki/Courses) у каждой записи есть **«Открыть курс»** — прямая ссылка на официальную программу — и **«Подробнее»** с условиями получения сертификата, бейджа или другого результата.
+
+Например: [Введение в Linux (Stepik)](https://stepik.org/course/73/promo) · [CS50 Introduction to Computer Science](https://cs50.harvard.edu/x/) · [Intro to Machine Learning (Kaggle)](https://www.kaggle.com/learn/intro-to-machine-learning).
 
 ## Текущий статус
 

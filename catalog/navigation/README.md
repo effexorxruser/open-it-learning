@@ -1,8 +1,10 @@
 # Browse by IT direction / Каталог по направлениям IT
 
-[← Catalog](../README.md) · [All verified courses](../verified/README.md) · [Recommended learning paths](learning-paths.md) · [Related courses](relationships.md)
+[← Catalog](../README.md) · [Курсы и прямые ссылки](../courses/README.md) · [JSON-реестр](../verified/README.md) · [Recommended learning paths](learning-paths.md) · [Related courses](relationships.md)
 
 **21 verified course records · 27 official outcomes**. The taxonomy is a navigational classification, **not** a new certification claim. Each course has exactly one primary specialization and may be cross-listed in several additional specializations without duplicating its JSON record.
+
+**[Начать обучение: список курсов с прямыми ссылками](../courses/README.md)**
 
 **Структура:** направление IT → специализация → курсы. Дополнительные рубрики — связи между областями, а не копии карточек.
 
