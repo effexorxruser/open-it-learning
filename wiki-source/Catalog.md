@@ -10,7 +10,7 @@ Open IT Learning собирает **бесплатные IT-курсы**, за �
 
 ## Текущий статус
 
-**Первая проверенная запись:** [freeCodeCamp Responsive Web Design Certification (v9)](https://github.com/effexorxruser/open-it-learning/blob/main/catalog/verified/freecodecamp-responsive-web-design-v9.json). Бесплатное обучение и сертификат платформы после пяти проектов, экзамена и проверки результата. [Исходные доказательства и ограничения](https://github.com/effexorxruser/open-it-learning/blob/main/journal/2026-10-29-freecodecamp-responsive-web-design.md). Другие предложенные курсы остаются на проверке.
+**Проверено 11 курсов с 15 раздельно описанными результатами:** шесть программ CS50 (бесплатный сертификат CS50), три курса OpenLearn (подтверждения участия, два бесплатных бейджа и 24 CPD-балла на двух курсах) и две текущие сертификации freeCodeCamp (после экзамена). [Открыть индекс](https://github.com/effexorxruser/open-it-learning/blob/main/catalog/verified/README.md) и [исследование Batch #001](https://github.com/effexorxruser/open-it-learning/blob/main/journal/research-batch-001/README.md). Cisco Introduction to Cybersecurity остаётся на проверке.
 
 ## Что будет в карточке курса
 
