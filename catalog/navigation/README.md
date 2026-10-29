@@ -20,6 +20,7 @@
 - [Learning paths / Маршруты обучения](learning-paths.md) — ordered editorial recommendations, **not issuer-defined prerequisites**.
 - [Related and alternative courses / Связанные курсы](relationships.md) — curated cross-links, not duplicate cards.
 - [Machine-readable taxonomy](taxonomy.json) · [Course placements](placements.json) · [Learning paths data](learning-paths.json) · [Course links](relationships.json).
+- [Navigation architecture and contribution rules](../../docs/NAVIGATION_ARCHITECTURE.md) — safe classification, cross-listings and extensibility.
 
 ### Quality and publication boundary
 
