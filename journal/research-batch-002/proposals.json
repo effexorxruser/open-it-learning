@@ -1,0 +1,801 @@
+{
+  "batch_id": "research-batch-002",
+  "research_checked_at": "2026-10-29T15:07:58.637Z",
+  "status": "research_proposals_awaiting_independent_review",
+  "catalog_publication_approved": false,
+  "method": "Primary issuer pages and official platform certificate documentation, independent editorial approval pending",
+  "candidate_count": 10,
+  "records": [
+    {
+      "id": "digital-lesson-1c-rapid-app-development",
+      "title": "Быстрая разработка приложений",
+      "provider": "Урок цифры / АНО «Цифровая экономика», материалы фирмы «1С»",
+      "official_url": "https://console.datalesson.ru/lessons/fast-app-development",
+      "category": [
+        "low-code",
+        "business-automation",
+        "software-development",
+        "1c"
+      ],
+      "level": "introductory",
+      "languages": [
+        "ru"
+      ],
+      "duration_hours": null,
+      "learning": {
+        "free": true,
+        "conditions": "Открытые бесплатные видеоматериалы и онлайн-тренажёр проекта «Урок цифры», подготовленные фирмой «1С»; программа преимущественно рассчитана на школьников. Для тренажёра нужно выбрать уровень и заполнить анкету участника. Урок относится к архивному сезону 2021/2022; доступность прохождения тренажёра и генерации сертификата без авторизованного теста не подтверждалась.",
+        "cost": 0,
+        "currency": null
+      },
+      "outcomes": [
+        {
+          "kind": "recognition",
+          "type": "participation_record",
+          "name": "Электронный сертификат «Урок цифры» — Быстрая разработка приложений",
+          "issuer": "АНО «Цифровая экономика» / «Урок цифры»",
+          "obtainable": true,
+          "requirements": "Посмотреть обучающую видеолекцию, выбрать школьный уровень (1–4, 5–8 или 9–11 классы), заполнить анкету и успешно завершить интерактивный тренажёр по сборке low-code-приложения на основе технического задания; после прохождения сохранить электронный сертификат. Сертификат участия/прохождения, не квалификация «1С:Профессионал».",
+          "cost_to_obtain": 0,
+          "currency": null,
+          "official_evidence_url": "https://console.datalesson.ru/lessons/fast-app-development",
+          "individual_verification_url": null
+        }
+      ],
+      "evidence": [
+        {
+          "claim": "learning.free",
+          "source_url": "https://console.datalesson.ru/lessons/fast-app-development",
+          "short_quote": "Пройти урок",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Материалы и тренажёр размещены в общедоступном разделе образовательного проекта; отсутствует обязательная оплата на официальной странице."
+        },
+        {
+          "claim": "provider",
+          "source_url": "https://console.datalesson.ru/lessons/fast-app-development/parents",
+          "short_quote": "Материалы урока созданы фирмой «1С»",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Фирма 1С указана автором учебных материалов; издатель сертификата — проект «Урок цифры», а не программа 1С:Профессионал."
+        },
+        {
+          "claim": "outcomes[0].obtainable",
+          "source_url": "https://console.datalesson.ru/lessons/fast-app-development",
+          "short_quote": "После урока не забудь получить сертификат!",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Официальная страница именно этого урока подтверждает электронный документ после завершения."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://console.datalesson.ru/lessons/fast-app-development/parents",
+          "short_quote": "Получите электронный сертификат об успешном прохождении тренажера",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Награда связана с успешным завершением low-code тренажёра; родительская инструкция перечисляет шаги."
+        },
+        {
+          "claim": "outcomes[0].cost_to_obtain",
+          "source_url": "https://console.datalesson.ru/lessons/fast-app-development",
+          "short_quote": "Получи сертификат за прохождение",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Публичный бесплатный урок рекламирует сертификат без отдельного платежа; работоспособность старого генератора не проверялась."
+        }
+      ]
+    },
+    {
+      "id": "stepik-python-generation-beginner",
+      "title": "«Поколение Python»: курс для начинающих",
+      "provider": "Авторы курса / Stepik",
+      "official_url": "https://stepik.org/course/58852/promo",
+      "category": [
+        "python",
+        "programming"
+      ],
+      "level": "beginner",
+      "languages": [
+        "ru"
+      ],
+      "duration_hours": null,
+      "learning": {
+        "free": true,
+        "conditions": "Бесплатный русскоязычный курс Stepik. Зарегистрируйтесь на платформе и решайте оцениваемые задания. Восемь учебных модулей, текстовая теория и практические задачи. Сертификат заявлен на официальной странице курса. Конкретный порог баллов устанавливается авторами и должен быть дополнительно проверен на странице прогресса курса перед выпуском в verified.",
+        "cost": 0,
+        "currency": null
+      },
+      "outcomes": [
+        {
+          "kind": "recognition",
+          "type": "completion_certificate",
+          "name": "Сертификат о прохождении — «Поколение Python»: курс для начинающих",
+          "issuer": "Stepik",
+          "obtainable": true,
+          "requirements": "Зарегистрироваться на Stepik, записаться на конкретный бесплатный курс, выполнить оцениваемые задания и набрать число баллов, установленное авторами именно этого курса. В справке Stepik указано, что сертификаты доступны на курсе только при достижении порога; точное числовое значение порога для этой программы не подтверждено без входа и просмотра страницы оценивания. Указываемый результат не является государственным дипломом.",
+          "cost_to_obtain": 0,
+          "currency": null,
+          "official_evidence_url": "https://stepik.org/course/58852/promo",
+          "individual_verification_url": null
+        }
+      ],
+      "evidence": [
+        {
+          "claim": "learning.free",
+          "source_url": "https://stepik.org/course/58852/promo",
+          "short_quote": "Бесплатно",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Официальная промостраница этого курса одновременно указывает бесплатную цену и название программы."
+        },
+        {
+          "claim": "outcomes[0].obtainable",
+          "source_url": "https://stepik.org/course/58852/promo",
+          "short_quote": "Сертификат Stepik",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Курсоспецифичная промостраница содержит блок выдаваемого сертификата."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://help.stepik.org/article/54735",
+          "short_quote": "набравшие необходимое количество баллов",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Платформа подтверждает необходимость набрать баллы, настроенные автором курса; числовой порог пока недоступен."
+        },
+        {
+          "claim": "outcomes[0].cost_to_obtain",
+          "source_url": "https://help.stepik.org/article/54825",
+          "short_quote": "бонус платформы, который даётся бесплатно",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Stepik явно говорит, что для бесплатных курсов подключённый сертификат является бесплатным бонусом."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://stepik.org/course/58852/promo",
+          "short_quote": "Сертификат",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Само наличие сертификата подтверждено на странице курса, но точный порог ещё требует редакционной проверки."
+        }
+      ]
+    },
+    {
+      "id": "stepik-selenium-python-testing",
+      "title": "Автоматизация тестирования с помощью Selenium и Python",
+      "provider": "Авторы курса / Stepik",
+      "official_url": "https://stepik.org/course/575/promo",
+      "category": [
+        "quality-assurance",
+        "test-automation",
+        "python"
+      ],
+      "level": "intermediate",
+      "languages": [
+        "ru"
+      ],
+      "duration_hours": null,
+      "learning": {
+        "free": true,
+        "conditions": "Бесплатный русскоязычный курс Stepik. Зарегистрируйтесь на платформе и решайте оцениваемые задания. Практические задания по Selenium и Python; предполагаются базовые навыки Python и ручного тестирования. Сертификат заявлен на официальной странице курса. Конкретный порог баллов устанавливается авторами и должен быть дополнительно проверен на странице прогресса курса перед выпуском в verified.",
+        "cost": 0,
+        "currency": null
+      },
+      "outcomes": [
+        {
+          "kind": "recognition",
+          "type": "completion_certificate",
+          "name": "Сертификат о прохождении — Автоматизация тестирования с помощью Selenium и Python",
+          "issuer": "Stepik",
+          "obtainable": true,
+          "requirements": "Зарегистрироваться на Stepik, записаться на конкретный бесплатный курс, выполнить оцениваемые задания и набрать число баллов, установленное авторами именно этого курса. В справке Stepik указано, что сертификаты доступны на курсе только при достижении порога; точное числовое значение порога для этой программы не подтверждено без входа и просмотра страницы оценивания. Указываемый результат не является государственным дипломом.",
+          "cost_to_obtain": 0,
+          "currency": null,
+          "official_evidence_url": "https://stepik.org/course/575/promo",
+          "individual_verification_url": null
+        }
+      ],
+      "evidence": [
+        {
+          "claim": "learning.free",
+          "source_url": "https://stepik.org/course/575/promo",
+          "short_quote": "Бесплатно",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Официальная промостраница этого курса одновременно указывает бесплатную цену и название программы."
+        },
+        {
+          "claim": "outcomes[0].obtainable",
+          "source_url": "https://stepik.org/course/575/promo",
+          "short_quote": "Сертификат Stepik",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Курсоспецифичная промостраница содержит блок выдаваемого сертификата."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://help.stepik.org/article/54735",
+          "short_quote": "набравшие необходимое количество баллов",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Платформа подтверждает необходимость набрать баллы, настроенные автором курса; числовой порог пока недоступен."
+        },
+        {
+          "claim": "outcomes[0].cost_to_obtain",
+          "source_url": "https://help.stepik.org/article/54825",
+          "short_quote": "бонус платформы, который даётся бесплатно",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Stepik явно говорит, что для бесплатных курсов подключённый сертификат является бесплатным бонусом."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://stepik.org/course/575/promo",
+          "short_quote": "Сертификат",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Само наличие сертификата подтверждено на странице курса, но точный порог ещё требует редакционной проверки."
+        }
+      ]
+    },
+    {
+      "id": "stepik-intro-data-science-machine-learning",
+      "title": "Введение в Data Science и машинное обучение",
+      "provider": "Институт биоинформатики / Stepik",
+      "official_url": "https://stepik.org/course/4852/promo",
+      "category": [
+        "data-science",
+        "machine-learning",
+        "python"
+      ],
+      "level": "beginner",
+      "languages": [
+        "ru"
+      ],
+      "duration_hours": null,
+      "learning": {
+        "free": true,
+        "conditions": "Бесплатный русскоязычный курс Stepik. Зарегистрируйтесь на платформе и решайте оцениваемые задания. Требуются базовые знания статистики и Python для практических задач. Сертификат заявлен на официальной странице курса. Конкретный порог баллов устанавливается авторами и должен быть дополнительно проверен на странице прогресса курса перед выпуском в verified.",
+        "cost": 0,
+        "currency": null
+      },
+      "outcomes": [
+        {
+          "kind": "recognition",
+          "type": "completion_certificate",
+          "name": "Сертификат о прохождении — Введение в Data Science и машинное обучение",
+          "issuer": "Институт биоинформатики",
+          "obtainable": true,
+          "requirements": "Зарегистрироваться на Stepik, записаться на конкретный бесплатный курс, выполнить оцениваемые задания и набрать число баллов, установленное авторами именно этого курса. В справке Stepik указано, что сертификаты доступны на курсе только при достижении порога; точное числовое значение порога для этой программы не подтверждено без входа и просмотра страницы оценивания. Указываемый результат не является государственным дипломом.",
+          "cost_to_obtain": 0,
+          "currency": null,
+          "official_evidence_url": "https://stepik.org/course/4852/promo",
+          "individual_verification_url": null
+        }
+      ],
+      "evidence": [
+        {
+          "claim": "learning.free",
+          "source_url": "https://stepik.org/course/4852/promo",
+          "short_quote": "Бесплатно",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Официальная промостраница этого курса одновременно указывает бесплатную цену и название программы."
+        },
+        {
+          "claim": "outcomes[0].obtainable",
+          "source_url": "https://stepik.org/course/4852/promo",
+          "short_quote": "Институт биоинформатики",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Курсоспецифичная промостраница содержит блок выдаваемого сертификата."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://help.stepik.org/article/54735",
+          "short_quote": "набравшие необходимое количество баллов",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Платформа подтверждает необходимость набрать баллы, настроенные автором курса; числовой порог пока недоступен."
+        },
+        {
+          "claim": "outcomes[0].cost_to_obtain",
+          "source_url": "https://help.stepik.org/article/54825",
+          "short_quote": "бонус платформы, который даётся бесплатно",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Stepik явно говорит, что для бесплатных курсов подключённый сертификат является бесплатным бонусом."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://stepik.org/course/4852/promo",
+          "short_quote": "Сертификат",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Само наличие сертификата подтверждено на странице курса, но точный порог ещё требует редакционной проверки."
+        }
+      ]
+    },
+    {
+      "id": "hp-life-cybersecurity-awareness",
+      "title": "Introduction to Cybersecurity Awareness",
+      "provider": "HP LIFE / HP Foundation",
+      "official_url": "https://www.life-global.org/en/course/346-introduction-to-cybersecurity-awareness",
+      "category": [
+        "cybersecurity",
+        "digital-literacy"
+      ],
+      "level": "introductory",
+      "languages": [
+        "en"
+      ],
+      "duration_hours": null,
+      "learning": {
+        "free": true,
+        "conditions": "HP LIFE publishes the named self-paced course free of charge. Create an HP LIFE account, enroll and finish the entire course to receive the free provider-issued completion certificate; no paid certification exam is described.",
+        "cost": 0,
+        "currency": null
+      },
+      "outcomes": [
+        {
+          "kind": "recognition",
+          "type": "completion_certificate",
+          "name": "HP LIFE Certificate of Completion — Introduction to Cybersecurity Awareness",
+          "issuer": "HP LIFE / HP Foundation",
+          "obtainable": true,
+          "requirements": "Create an HP LIFE account, enroll in the named free course, complete its learning content and any course-completion requirements. The issuer's specific course page explicitly offers a certificate on completion. No professional accreditation or extra fee is claimed.",
+          "cost_to_obtain": 0,
+          "currency": null,
+          "official_evidence_url": "https://www.life-global.org/en/course/346-introduction-to-cybersecurity-awareness",
+          "individual_verification_url": null
+        }
+      ],
+      "evidence": [
+        {
+          "claim": "learning.free",
+          "source_url": "https://www.life-global.org/en/",
+          "short_quote": "Learn critical skills free of charge",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "The issuer's official HP LIFE program declares free learning for its courses."
+        },
+        {
+          "claim": "outcomes[0].obtainable",
+          "source_url": "https://www.life-global.org/en/course/346-introduction-to-cybersecurity-awareness",
+          "short_quote": "Certificate available on completion",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Named course promises a completion certificate for this course."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://www.life-global.org/en/course/346-introduction-to-cybersecurity-awareness",
+          "short_quote": "certificate of completion for every course you finish",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Provider ties issuance to completing a course, not merely viewing a sample."
+        },
+        {
+          "claim": "outcomes[0].cost_to_obtain",
+          "source_url": "https://www.life-global.org/en/",
+          "short_quote": "Get a free Certificate of Completion",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Official program page explicitly states completion certificates cost nothing."
+        },
+        {
+          "claim": "title",
+          "source_url": "https://www.life-global.org/en/course/346-introduction-to-cybersecurity-awareness",
+          "short_quote": "Identify typical threats to online data and information.",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "The excerpt identifies the objectives or description of the named program, not another course."
+        }
+      ]
+    },
+    {
+      "id": "hp-life-data-science-analytics",
+      "title": "Data Science & Analytics",
+      "provider": "HP LIFE / HP Foundation",
+      "official_url": "https://www.life-global.org/en/course/344-data-science-and-analytics",
+      "category": [
+        "data-analytics",
+        "artificial-intelligence",
+        "digital-business"
+      ],
+      "level": "introductory",
+      "languages": [
+        "en"
+      ],
+      "duration_hours": null,
+      "learning": {
+        "free": true,
+        "conditions": "HP LIFE publishes the named self-paced course free of charge. Create an HP LIFE account, enroll and finish the entire course to receive the free provider-issued completion certificate; no paid certification exam is described.",
+        "cost": 0,
+        "currency": null
+      },
+      "outcomes": [
+        {
+          "kind": "recognition",
+          "type": "completion_certificate",
+          "name": "HP LIFE Certificate of Completion — Data Science & Analytics",
+          "issuer": "HP LIFE / HP Foundation",
+          "obtainable": true,
+          "requirements": "Create an HP LIFE account, enroll in the named free course, complete its learning content and any course-completion requirements. The issuer's specific course page explicitly offers a certificate on completion. No professional accreditation or extra fee is claimed.",
+          "cost_to_obtain": 0,
+          "currency": null,
+          "official_evidence_url": "https://www.life-global.org/en/course/344-data-science-and-analytics",
+          "individual_verification_url": null
+        }
+      ],
+      "evidence": [
+        {
+          "claim": "learning.free",
+          "source_url": "https://www.life-global.org/en/",
+          "short_quote": "Learn critical skills free of charge",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "The issuer's official HP LIFE program declares free learning for its courses."
+        },
+        {
+          "claim": "outcomes[0].obtainable",
+          "source_url": "https://www.life-global.org/en/course/344-data-science-and-analytics",
+          "short_quote": "Certificate available on completion",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Named course promises a completion certificate for this course."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://www.life-global.org/en/course/344-data-science-and-analytics",
+          "short_quote": "certificate of completion for every course you finish",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Provider ties issuance to completing a course, not merely viewing a sample."
+        },
+        {
+          "claim": "outcomes[0].cost_to_obtain",
+          "source_url": "https://www.life-global.org/en/",
+          "short_quote": "Get a free Certificate of Completion",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Official program page explicitly states completion certificates cost nothing."
+        },
+        {
+          "claim": "title",
+          "source_url": "https://www.life-global.org/en/course/344-data-science-and-analytics",
+          "short_quote": "Define machine learning and artificial intelligence",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "The excerpt identifies the objectives or description of the named program, not another course."
+        }
+      ]
+    },
+    {
+      "id": "saylor-cs105-introduction-python",
+      "title": "CS105: Introduction to Python",
+      "provider": "Saylor University",
+      "official_url": "https://learn.saylor.org/course/cs105",
+      "category": [
+        "python",
+        "programming"
+      ],
+      "level": "beginner",
+      "languages": [
+        "en"
+      ],
+      "duration_hours": 41,
+      "learning": {
+        "free": true,
+        "conditions": "Free, self-paced access to all course materials. Create a free Saylor account and enroll to complete assessments; the separate Certificate Final Exam is also free. Academic-credit or other independently proctored options are not part of this record.",
+        "cost": 0,
+        "currency": null
+      },
+      "outcomes": [
+        {
+          "kind": "recognition",
+          "type": "completion_certificate",
+          "name": "Saylor University Course Completion Certificate — CS105: Introduction to Python",
+          "issuer": "Saylor University",
+          "obtainable": true,
+          "requirements": "Sign up for a free Saylor account, enroll, and achieve at least 70% on the course Certificate Final Exam. The syllabus limits the exam to three attempts with at least 14 days between attempts. Quizzes/unit assessments prepare the learner but do not affect the certificate grade. The certificate lists 4.1 CEUs; it is not an accredited degree or evidence of transferable academic credit.",
+          "cost_to_obtain": 0,
+          "currency": null,
+          "official_evidence_url": "https://learn.saylor.org/mod/page/view.php?id=94217",
+          "individual_verification_url": null
+        }
+      ],
+      "evidence": [
+        {
+          "claim": "learning.free",
+          "source_url": "https://learn.saylor.org/mod/page/view.php?id=94217",
+          "short_quote": "All course materials are free to access",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "This specific syllabus states learning materials do not cost money."
+        },
+        {
+          "claim": "outcomes[0].obtainable",
+          "source_url": "https://learn.saylor.org/course/cs105",
+          "short_quote": "Free Certificate",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Canonical course index names the free official certificate."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://learn.saylor.org/mod/page/view.php?id=94217",
+          "short_quote": "70% or higher on the final exam",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Explicit final assessment passing score for this exact course."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://learn.saylor.org/mod/page/view.php?id=94217",
+          "short_quote": "maximum of three times",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Course-specific three-attempt limit."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://learn.saylor.org/mod/page/view.php?id=94217",
+          "short_quote": "14-day waiting period",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Course-specific interval between exam attempts."
+        },
+        {
+          "claim": "outcomes[0].cost_to_obtain",
+          "source_url": "https://learn.saylor.org/mod/page/view.php?id=94217",
+          "short_quote": "free final exam which will award you a course completion certificate",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Explicit zero cost of issuance and final examination."
+        }
+      ]
+    },
+    {
+      "id": "saylor-cs260-cryptography-network-security",
+      "title": "CS260: Introduction to Cryptography and Network Security",
+      "provider": "Saylor University",
+      "official_url": "https://learn.saylor.org/course/cs260",
+      "category": [
+        "cybersecurity",
+        "cryptography",
+        "network-security"
+      ],
+      "level": "intermediate",
+      "languages": [
+        "en"
+      ],
+      "duration_hours": 50,
+      "learning": {
+        "free": true,
+        "conditions": "Free, self-paced access to all course materials. Create a free Saylor account and enroll to complete assessments; the separate Certificate Final Exam is also free. Academic-credit or other independently proctored options are not part of this record.",
+        "cost": 0,
+        "currency": null
+      },
+      "outcomes": [
+        {
+          "kind": "recognition",
+          "type": "completion_certificate",
+          "name": "Saylor University Course Completion Certificate — CS260: Introduction to Cryptography and Network Security",
+          "issuer": "Saylor University",
+          "obtainable": true,
+          "requirements": "Sign up for a free Saylor account, enroll, and achieve at least 70% on the course Certificate Final Exam. The syllabus limits the exam to three attempts with at least 14 days between attempts. Quizzes/unit assessments prepare the learner but do not affect the certificate grade. The certificate lists 5.0 CEUs; it is not an accredited degree or evidence of transferable academic credit.",
+          "cost_to_obtain": 0,
+          "currency": null,
+          "official_evidence_url": "https://learn.saylor.org/mod/page/view.php?id=73818",
+          "individual_verification_url": null
+        }
+      ],
+      "evidence": [
+        {
+          "claim": "learning.free",
+          "source_url": "https://learn.saylor.org/mod/page/view.php?id=73818",
+          "short_quote": "All course materials are free to access",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "This specific syllabus states learning materials do not cost money."
+        },
+        {
+          "claim": "outcomes[0].obtainable",
+          "source_url": "https://learn.saylor.org/course/cs260",
+          "short_quote": "Free Certificate",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Canonical course index names the free official certificate."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://learn.saylor.org/mod/page/view.php?id=73818",
+          "short_quote": "70% or higher on the final exam",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Explicit final assessment passing score for this exact course."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://learn.saylor.org/mod/page/view.php?id=73818",
+          "short_quote": "maximum of three times",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Course-specific three-attempt limit."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://learn.saylor.org/mod/page/view.php?id=73818",
+          "short_quote": "14-day waiting period",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Course-specific interval between exam attempts."
+        },
+        {
+          "claim": "outcomes[0].cost_to_obtain",
+          "source_url": "https://learn.saylor.org/mod/page/view.php?id=73818",
+          "short_quote": "free final exam which will award you a course completion certificate",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Explicit zero cost of issuance and final examination."
+        }
+      ]
+    },
+    {
+      "id": "ibm-skillsbuild-ai-literacy",
+      "title": "AI Literacy (Earn a digital credential!)",
+      "provider": "IBM SkillsBuild",
+      "official_url": "https://skills.yourlearning.ibm.com/activity/PLAN-1C903152880C",
+      "category": [
+        "artificial-intelligence",
+        "ai-literacy",
+        "responsible-ai"
+      ],
+      "level": "foundational",
+      "languages": [
+        "en"
+      ],
+      "duration_hours": 4,
+      "learning": {
+        "free": true,
+        "conditions": "IBM SkillsBuild offers the AI Literacy learning plan at no charge to registered learners. The issuer's badge listing distinguishes adult learners (18+) from its high-school learner/educator route. Completion of prescribed modules and scored quizzes is required; badge issued through IBM SkillsBuild / Credly.",
+        "cost": 0,
+        "currency": null
+      },
+      "outcomes": [
+        {
+          "kind": "recognition",
+          "type": "digital_badge",
+          "name": "AI Literacy — IBM SkillsBuild digital credential",
+          "issuer": "IBM SkillsBuild",
+          "obtainable": true,
+          "requirements": "Register for an IBM SkillsBuild account appropriate for your learner category, complete all the prescribed AI Literacy modules, and score at least 80% on each end-of-module quiz. IBM lists separate access routes for adult learners aged 18+ and school learners/educators. This is a digital badge, not a professional certification exam.",
+          "cost_to_obtain": 0,
+          "currency": null,
+          "official_evidence_url": "https://www.credly.com/org/ibm-skillsbuild/badge/ai-literacy",
+          "individual_verification_url": null
+        }
+      ],
+      "evidence": [
+        {
+          "claim": "learning.free",
+          "source_url": "https://www.credly.com/org/ibm-skillsbuild/badge/ai-literacy",
+          "short_quote": "Cost Free",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "The course-specific IBM SkillsBuild badge metadata lists a free learning result."
+        },
+        {
+          "claim": "outcomes[0].obtainable",
+          "source_url": "https://skillsbuild.org/learning-catalog?topic=ai",
+          "short_quote": "AI Literacy (Earn a digital credential!)",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "The issuer's official catalog explicitly links a badge-bearing AI Literacy learning plan."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://www.credly.com/org/ibm-skillsbuild/badge/ai-literacy",
+          "short_quote": "Pass the end-of-module quizzes with a score of 80% or higher",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Issuer's published badge earning criteria specify exact score."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://www.credly.com/org/ibm-skillsbuild/badge/ai-literacy",
+          "short_quote": "Complete AI Literacy, a prescribed set of modules",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Badge criteria require completion of all specified modules."
+        },
+        {
+          "claim": "outcomes[0].cost_to_obtain",
+          "source_url": "https://www.credly.com/org/ibm-skillsbuild/badge/ai-literacy",
+          "short_quote": "Cost Free",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Public IBM SkillsBuild badge definition explicitly lists free cost."
+        }
+      ]
+    },
+    {
+      "id": "salesforce-trailhead-data-modeling",
+      "title": "Data Modeling",
+      "provider": "Salesforce Trailhead",
+      "official_url": "https://trailhead.salesforce.com/content/learn/modules/data_modeling",
+      "category": [
+        "crm",
+        "salesforce-administration",
+        "data-modeling"
+      ],
+      "level": "foundational",
+      "languages": [
+        "en"
+      ],
+      "duration_hours": 0.75,
+      "learning": {
+        "free": true,
+        "conditions": "Salesforce Trailhead provides this self-paced learning module free of charge with a learner account. Completing the module's three hands-on/knowledge challenge units earns a named Trailhead badge and platform points, not a separately paid professional Salesforce certification.",
+        "cost": 0,
+        "currency": null
+      },
+      "outcomes": [
+        {
+          "kind": "recognition",
+          "type": "digital_badge",
+          "name": "Data Modeling — Salesforce Trailhead badge",
+          "issuer": "Salesforce Trailhead",
+          "obtainable": true,
+          "requirements": "Log in or create a free Trailblazer account, complete the three units 'Optimize Customer Data with Standard and Custom Objects', 'Create Object Relationships' and 'Work with Schema Builder', and pass each required unit challenge. Salesforce lists 1,500 Trailhead points across this roughly 45-minute module. This learning badge does not equal a Salesforce Certified credential.",
+          "cost_to_obtain": 0,
+          "currency": null,
+          "official_evidence_url": "https://trailhead.salesforce.com/content/learn/modules/data_modeling",
+          "individual_verification_url": null
+        }
+      ],
+      "evidence": [
+        {
+          "claim": "learning.free",
+          "source_url": "https://trailhead.salesforce.com/",
+          "short_quote": "Real-world practice, 100% free",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Issuer explicitly declares free Trailhead hands-on learning."
+        },
+        {
+          "claim": "outcomes[0].obtainable",
+          "source_url": "https://trailhead.salesforce.com/content/learn/modules/data_modeling",
+          "short_quote": "Badge",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "Named Data Modeling module is labeled as badge-bearing by Trailhead."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://trailhead.salesforce.com/content/learn/modules/data_modeling",
+          "short_quote": "Optimize Customer Data with Standard and Custom Objects",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "The module lists the first named required unit."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://trailhead.salesforce.com/content/learn/modules/data_modeling",
+          "short_quote": "Create Object Relationships",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "The module lists the relationship modeling unit."
+        },
+        {
+          "claim": "outcomes[0].requirements",
+          "source_url": "https://trailhead.salesforce.com/content/learn/modules/data_modeling",
+          "short_quote": "Work with Schema Builder",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "The module lists the third unit."
+        },
+        {
+          "claim": "outcomes[0].cost_to_obtain",
+          "source_url": "https://trailhead.salesforce.com/",
+          "short_quote": "Learn for free with hands-on training on Trailhead",
+          "checked_at": "2026-10-29T15:07:58.637Z",
+          "review_note": "The same badge-bearing module is part of free Trailhead training with no separate badge issuance fee."
+        }
+      ]
+    }
+  ],
+  "editorial_decisions": {
+    "digital-lesson-1c-rapid-app-development": {
+      "status": "ready_for_independent_source_review",
+      "reason": "Historical 1C-authored lesson, public issuance rules corroborated; confirm archive trainer/certificate remains operational."
+    },
+    "stepik-python-generation-beginner": {
+      "status": "under_review",
+      "reason": "Course-specific numeric certificate point threshold was not publicly confirmed; platform-level rules alone are insufficient for a fully verified label."
+    },
+    "stepik-selenium-python-testing": {
+      "status": "under_review",
+      "reason": "Course-specific numeric certificate point threshold was not publicly confirmed; platform-level rules alone are insufficient for a fully verified label."
+    },
+    "stepik-intro-data-science-machine-learning": {
+      "status": "under_review",
+      "reason": "Course-specific numeric certificate point threshold was not publicly confirmed; platform-level rules alone are insufficient for a fully verified label."
+    },
+    "hp-life-cybersecurity-awareness": {
+      "status": "ready_for_independent_source_review",
+      "reason": "Course-specific official outcome and requirements cited; independent review and publication authorization still required."
+    },
+    "hp-life-data-science-analytics": {
+      "status": "ready_for_independent_source_review",
+      "reason": "Course-specific official outcome and requirements cited; independent review and publication authorization still required."
+    },
+    "saylor-cs105-introduction-python": {
+      "status": "ready_for_independent_source_review",
+      "reason": "Course-specific official outcome and requirements cited; independent review and publication authorization still required."
+    },
+    "saylor-cs260-cryptography-network-security": {
+      "status": "ready_for_independent_source_review",
+      "reason": "Course-specific official outcome and requirements cited; independent review and publication authorization still required."
+    },
+    "ibm-skillsbuild-ai-literacy": {
+      "status": "ready_for_independent_source_review",
+      "reason": "Course-specific official outcome and requirements cited; independent review and publication authorization still required."
+    },
+    "salesforce-trailhead-data-modeling": {
+      "status": "ready_for_independent_source_review",
+      "reason": "Course-specific official outcome and requirements cited; independent review and publication authorization still required."
+    }
+  }
+}
