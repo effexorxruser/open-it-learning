@@ -14,3 +14,5 @@ A research note can describe a course whose **specific award or bonus and its co
 - [2026-10-28 · Cisco Introduction to Cybersecurity: what the evidence does and doesn't show](2026-10-28-cisco-introduction-to-cybersecurity.md)
 
 - [Research Batch #001 — ten source-checked proposals awaiting editorial review](research-batch-001/README.md)
+
+- [Research Batch #002 — 10 draft cards across seven platforms, including Russian-language 1C, Linux, SQL and C++](research-batch-002/README.md) — research only; not yet verified for publication.
