@@ -10,7 +10,7 @@ Open IT Learning собирает **бесплатные IT-курсы**, за �
 
 ## Текущий статус
 
-**Проверенных записей пока нет.** Это не означает, что подходящих курсов не существует. Пока не опубликовано ни одной записи, прошедшей полную проверку условий получения награды.
+**Первая проверенная запись:** [freeCodeCamp Responsive Web Design Certification (v9)](https://github.com/effexorxruser/open-it-learning/blob/main/catalog/verified/freecodecamp-responsive-web-design-v9.json). Бесплатное обучение и сертификат платформы после пяти проектов, экзамена и проверки результата. [Исходные доказательства и ограничения](https://github.com/effexorxruser/open-it-learning/blob/main/journal/2026-10-29-freecodecamp-responsive-web-design.md). Другие предложенные курсы остаются на проверке.
 
 ## Что будет в карточке курса
 
